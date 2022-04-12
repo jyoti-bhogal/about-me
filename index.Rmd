@@ -1,0 +1,21 @@
+---
+title: "Jyoti Bhogal"
+image: "DSC_0189.JPG"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/jyoti-bhogal-a20705163/"
+  - label: Twitter
+    url: "https://twitter.com/JyotiBhogal7"
+  - label: GitHub
+    url: "https://github.com/jyoti-bhogal"
+  - label: Email
+    url: "mailto:bhogaljyoti1@gmail.com"
+output:
+  postcards::jolla
+---
+
+I am a Statistician based in India. I graduated from the [Open Life Science cohort 4 program (OLS-4)](https://openlifesci.org/ols-4/projects-participants/) for the project on [Building RSE Asia Association](https://rse-asia.github.io/RSE_Asia/).
+
+Currently I am working on a project titled [Building Pathways for Onbaording to RSE Asia" in collaboration with (OLS-5)](https://openlifesci.org/ols-5/projects-participants/).
+
+
