@@ -11,7 +11,7 @@ links:
   - label: Email
     url: "mailto:bhogaljyoti1@gmail.com"
 output:
-  postcards::jolla
+  postcards::"trestles"
 ---
 
 I am a Statistician based in India. I graduated from the [Open Life Science cohort 4 program (OLS-4)](https://openlifesci.org/ols-4/projects-participants/) for the project on [Building RSE Asia Association](https://rse-asia.github.io/RSE_Asia/).
