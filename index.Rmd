@@ -4,8 +4,6 @@ image: "20230312_074014~3.jpg"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/jyoti-bhogal-a20705163/"
-  - label: Twitter
-    url: "https://twitter.com/JyotiBhogal7"
   - label: GitHub
     url: "https://github.com/jyoti-bhogal"
   - label: Email
