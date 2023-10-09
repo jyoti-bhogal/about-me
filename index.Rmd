@@ -1,6 +1,6 @@
 ---
 title: "Jyoti Bhogal"
-image: "DSC_0189.JPG"
+image: "20230312_074014~3.jpg"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/jyoti-bhogal-a20705163/"
