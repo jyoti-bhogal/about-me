@@ -14,6 +14,6 @@ output:
 
 I am a Statistician based in India. I graduated from the [Open Life Science cohort 4 program (OLS-4)](https://openlifesci.org/ols-4/projects-participants/) for the project on [Building RSE Asia Association](https://rse-asia.github.io/RSE_Asia/).
  
-Followed by working on a project titled [Building Pathways for Onbaording to RSE Asia" in collaboration with (OLS-5)](https://openlifesci.org/ols-5/projects-participants/).
+Post which I worked on a project titled [Building Pathways for Onbaording to RSE Asia" in collaboration with (OLS-5)](https://openlifesci.org/ols-5/projects-participants/).
 
 
