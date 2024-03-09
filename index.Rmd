@@ -1,19 +1,30 @@
 ---
-title: "Jyoti Bhogal"
-image: "20230312_074014~3.jpg"
+title: "Hi I'm Jyoti"
+image: "Jyoti_Bhogal_Photograph.jpg"
 links:
   - label: LinkedIn
-    url: "https://www.linkedin.com/in/jyoti-bhogal-a20705163/"
+    url: "https://www.linkedin.com/in/jyoti-bhogal-a20705163/ target = '_blank' "
   - label: GitHub
-    url: "https://github.com/jyoti-bhogal"
+    url: "https://github.com/jyoti-bhogal target = '_blank'"
   - label: Email
     url: "mailto:bhogaljyoti1@gmail.com"
 output:
-  postcards::"trestles"
+  postcards::trestles
+site: distill::distill_website
 ---
-
-I am a Statistician based in India. I graduated from the [Open Life Science cohort 4 program (OLS-4)](https://openlifesci.org/ols-4/projects-participants/) for the project on [Building RSE Asia Association](https://rse-asia.github.io/RSE_Asia/).
  
-Post which I worked on a project titled [Building Pathways for Onbaording to RSE Asia" in collaboration with (OLS-5)](https://openlifesci.org/ols-5/projects-participants/).
+## Bio
+
+Jyoti is a trained Statistician, a Software Quality Engineer, and a Data Modeler. She can help you solve Statistical and Data Analytics problems using tools like R language, Python language, JavaScript, and MS Excel. She has been working in Clinical Sciences since 2020; and has developed expertise in principles of good software development life cycle, and Clinical Trials R&D cycle.
+She is an open source enthusiast, and is keen on giving the young minds the exposure to the unconventional yet essential roles in tech.
 
 
+## Experience
+
+**Deloitte Consulting India Pvt. Ltd.** | Consulting Analyst | April 2022 - Present
+
+**Cytel Statistical Software & Services Pvt. Ltd.** | Software Quality Engineer I - Statistician | September 2020 - March 2022
+
+
+
+## Education
