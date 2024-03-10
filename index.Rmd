@@ -1,5 +1,5 @@
 ---
-title: "Hi I'm Jyoti"
+title: "Hi, I'm Jyoti"
 image: "Jyoti_Bhogal_Photograph.jpg"
 links:
   - label: LinkedIn

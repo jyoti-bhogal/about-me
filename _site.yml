@@ -1,12 +1,15 @@
 name: "."
-title: "Hi, I'm Jyoti"
+title: ""
 description: |
   Hi, I'm Jyoti
 output_dir: "docs"
+theme: jyoti-bhogal-theme.css
 navbar:
   right:
     - text: "Home"
       href: index.html
     - text: "About"
       href: about.html
+    - text: "Blog"
+      href: blog.html  ## Edit here Jyoti when you figure out how to add blogs
 output: distill::distill_article
