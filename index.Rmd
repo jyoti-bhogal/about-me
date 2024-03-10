@@ -1,13 +1,16 @@
 ---
 title: "Hi, I'm Jyoti"
-image: "Jyoti_Bhogal_Photograph.jpg"
+image: "images/Jyoti_Bhogal_Photograph.jpg"
 links:
   - label: LinkedIn
     url: "https://www.linkedin.com/in/jyoti-bhogal-a20705163/ target = '_blank' "
   - label: GitHub
     url: "https://github.com/jyoti-bhogal target = '_blank'"
+  - label: Twitter
+    url: "https://x.com/Jyoti_Bhogal1?t=sxOWrOe7Vmzrr9rpEjGPrQ&s=09  target ='_blank'"
   - label: Email
     url: "mailto:bhogaljyoti1@gmail.com"
+  
 output:
   postcards::trestles
 site: distill::distill_website

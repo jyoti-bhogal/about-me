@@ -8,7 +8,3 @@ description: |
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-Please checkout my blogpost on [PuneFOSS 2.0: A Dive into Open Source Insights and Initiatives](https://jyotibhogal.hashnode.dev/punefoss-20-a-dive-into-open-source-insights-and-initiatives)
-
-
-https://jyotibhogal.hashnode.dev/punefoss-20-a-dive-into-open-source-insights-and-initiatives
