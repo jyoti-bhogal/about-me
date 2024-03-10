@@ -107,7 +107,7 @@ d-article h1 {
 /*For the buttons with URLs, for example twitter, github, etc*/
 
 
-/*Note: This change is not yet visible anywhere, FIGURE OUT which URL*/
+/*Note: This change is visible in browser, when you hover on any button or hyperlink*/
 /*change url color */
 a {
   color: #009FB7;
