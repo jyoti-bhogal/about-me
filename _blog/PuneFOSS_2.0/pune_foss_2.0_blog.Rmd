@@ -6,7 +6,7 @@ author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
 url: https://jyoti-bhogal.github.io/about-me/
-preview: open_source_banner.jfif
+preview: open_source_label.jpg
 date: 02-08-2024
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
@@ -19,12 +19,13 @@ output:
   
   
 ```{r setup, include=FALSE}
-knitr::include_graphics("open_source_banner.jfif")
+#knitr::include_graphics("open_source_label.jpg") ## FIGURE OUT why does this give error
 ```
 
+![Open Source](open_source_label.jpg)
 
 ## Introduction
-Recently, I had the privilege of attending PuneFOSS 2.0, a one-day conference hosted by the FOSS United community at College of Engineering Pune, India on 24th Feb 2024. The conference had an impressive lineup of speakers, including industry experts like Vishal Arya, Rahul Kulkarni, Rohaan Goswami, Faeka Ansari, Mohammed Ali Chherwalla, Pranay Narang, Praveen Kumar, and Siddarth Jha, culminating in a thought-provoking panel discussion. This blogpost highlights some key insights shared during the event.
+Recently, I had the privilege of attending PuneFOSS 2.0, a one-day conference hosted by the FOSS United community at College of Engineering Pune, India on 24th Feb 2024. The conference had an impressive lineup of speakers, including industry experts like [Vishal Arya](https://www.linkedin.com/in/wisharya/), [Rahul Kulkarni](https://www.linkedin.com/in/rahul10100/), [Rohaan Goswami](https://www.linkedin.com/in/rohaangoswami/), [Faeka Ansari](https://www.linkedin.com/in/faeka/), [Mohammed Ali Chherwalla](https://www.linkedin.com/in/mohammed-ali-chherawalla/), [Pranay Narang](https://www.linkedin.com/in/pranay-narang/), [Praveen Kumar](https://www.linkedin.com/in/praveen-kumar-d-06b545168/), and [Siddharth Jha](https://www.linkedin.com/in/clearlysid/), culminating in a thought-provoking panel discussion. This blog highlights some key insights shared during the event.
 
 ## What is FOSS?
 FOSS, an acronym for Free and Open Source Software, embodies a software development philosophy centered on freedom and openness. The term 'Free' denotes users' liberty to run, alter, and share the software, while 'Open Source' signifies that the software's source code is available for users to inspect, modify, and contribute to its progress. FOSS promotes collaboration, transparency, user empowerment, and frequently leads to the creation of more secure and sustainable software projects. Notable instances include Linux, Blender, Chromium, Kubernetes, and Mozilla Firefox.
@@ -32,9 +33,9 @@ FOSS, an acronym for Free and Open Source Software, embodies a software developm
 ## Why FOSS?
 FOSS provides users with the liberty to utilize, adapt, and share software based on their preferences. This empowerment extends to both individuals and organizations, granting them control over their tools. The accessibility of the source code enables users to examine the inner workings of the software. FOSS promotes a collaborative model in software development, with a global community of diverse developers contributing to the creation of stronger, more secure, and innovative software. Users retain the freedom to tailor FOSS to meet their specific needs.
 
-Quote from Mohammed Ali Chherawalla’s talk on ‘Building an Open Source Culture in Companies’ during PuneFOSS 2.0 on 24th Feb 2024, describing that Open source is not just about making code public
 
-Source: Mohammed Ali Chherawalla’s talk on ‘Building an Open Source Culture in Companies’ during PuneFOSS 2.0 on 24th Feb 2024.
+![Quote from Mohammed Ali Chherawalla’s talk on ‘Building an Open Source Culture in Companies’ during PuneFOSS 2.0 on 24th Feb 2024, describing that Open source is not just about making code public](MAC_talk_wednesday_solutions.jpg)
+
 
 ## Open Source in Government
 Rahul Kulkarni shared his experiences through his talk on ‘How open source encounters shaped my career’. He highlighted that one should choose open source or enterprise solutions based on the problem to be solved. I particularly liked the insights he gave about the necessity of using open source solutions for building digital platforms to be used by the Government of a country for large scale initiatives which require reaching out to each and every citizen. For example, the digital systems of government issued identity cards in India for various purposes like the AADHAAR UIDAI system. The rationale for the same being that this approach reduces the vendor buy-in, and independence from the roadmaps & timelines of the Enterprise software companies. He explained the importance of Data Empowerment and Protection Architecture (DEPA), which is a secure consent-based data sharing framework to accelerate financial inclusion. Rahul highly recommeded the book ‘The Cathedral and the Bazaar’ by Eric S. Raymond, in which the author explores the contrasting approaches of closed, centralized development (the cathedral) and open, decentralized collaboration (the bazaar) in the world of software development.
@@ -51,7 +52,9 @@ The panel discussion delved into critical questions, such as the interpretation 
 ## Addressing Disparity in Github Accounts vs Contributors
 One significant challenge discussed was the vast difference between the number of Github accounts and active contributors in India. The panel suggested initiatives like Code4GovtTech as a countrywide Indian alternative to the global GSoC, and highlighted the role of Consent Manager in India, encouraging attendees to explore its documentation for further insights.
 
-Picture of Jyoti Bhogal, the author of this blog, standing next to the Conference Poster at the PuneFOSS 2.0 event
+
+
+![Picture of Jyoti Bhogal, the author of this blog, standing next to the Conference Poster at the PuneFOSS 2.0 event](Jyoti_Bhogal_PuneFOSS 2.0.jpg)
 
 ## Conclusion
 PuneFOSS 2.0 was a melting pot of ideas, experiences, and discussions surrounding the open source community.The event not only showcased the diversity of expertise but also addressed pertinent issues, fostering a collaborative spirit in the pursuit of advancing open source initiatives in India. Check out this page to know more details of event or watch the livestream here.
