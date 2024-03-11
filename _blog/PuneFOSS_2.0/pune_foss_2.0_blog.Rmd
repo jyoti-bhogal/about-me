@@ -7,11 +7,11 @@ author:
     url: https://jyoti-bhogal.github.io/about-me/
 url: https://jyoti-bhogal.github.io/about-me/
 preview: open_source_label.jpg
-date: 02-08-2024
+date: 03-08-2024
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Open Source, Community Building, FOSS, FOSS United, Open Science, Experience Blog]
+categories:   [Open Source, Community Building, FOSS, FOSS United, Open Science, Experience Blog]
 output:
   distill::distill_article:
     self_contained: false
@@ -21,6 +21,7 @@ output:
 ```{r setup, include=FALSE}
 #knitr::include_graphics("open_source_label.jpg") ## FIGURE OUT why does this give error
 ```
+
 
 ![Open Source](open_source_label.jpg)
 

@@ -1,0 +1,83 @@
+---
+title: "CO2 Chronicles: Navigating SDGs with Data Visuals"
+description: |
+  Data Insights for Sustainable Development Goals
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: banner_climate_action.jpg
+date:  12-09-2023
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [ Data visualization, R, Open Science, Open Data, Earth Observation Data, NASA, Geospatial, Maps, Sustainable Development Goal, Climate Action] 
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+#knitr::include_graphics("open_source_label.jpg") ## FIGURE OUT why does this give error
+```
+ 
+ Introduction
+To foster a sustainable lifestyle globally, the United Nations has established the Sustainable Development Goals (SDGs), a comprehensive framework consisting of 17 targets set to be achieved by 2030. Each goal is accompanied by specific indicators crucial for determining progress and success.
+
+Goal 13: Climate Action
+Within this framework, Goal 13: Climate Action emerges as a pivotal objective for urgently addressing climate change and its far-reaching impacts. Goal 13 is gauged through two vital indicators:
+
+1. The number of countries reporting nationally determined contributions, long-term strategies, national adaptation plans, and adaptation communications to the United Nations Framework Convention on Climate Change secretariat.
+
+2. Total greenhouse gas (GHG) emissions per year.
+
+Focus on Indicator 2
+This blog post centers its analysis on Indicator 2, delving into the critical assessment of total GHG emissions per year.
+
+Greenhouse Gases Overview
+The primary greenhouse gases (GHGs) encompass carbon dioxide (CO2), methane, nitrous oxide, ozone, chlorofluorocarbons, and water vapour. With CO2 constituting approximately 76% of total GHGs (source: Inventory of U.S. Greenhouse Gas Emissions and Sinks 1990-2015, EPA, 2017), my analysis will hone in on the dynamics of carbon dioxide.
+
+Data Source and Collection
+For this analysis, I leveraged the NASA Earth Observation data, a publicly accessible resource catering to a diverse audience, including students, citizen scientists, researchers, academicians, and industries. Using Terminal commands, I downloaded 2616 data files. Each of these files represents a day from January 1, 2015, to February 28, 2022. These files store records of the Assimilated Dry-Air Column Average CO2 Daily Mean, indexed by latitude and longitude, and are formatted in a .netCDF file. The data download steps drew inspiration from a comprehensive Medium article by Haolin Xiong.
+
+Data Analysis in RStudio
+Having secured the data, I imported it into RStudio for further analysis. The variable of interest was graphically represented for each of the 2616 files, with a tailored colour palette to enhance colour contrast between higher and lower values. For those curious about the analytical intricacies, the code is accessible from my Github repository ‘jyoti-bhogal/data_visualization’.
+
+Essential R packages for this analysis:
+
+install.packages("hdf5r")
+install.packages("rgdal")
+install.packages("markovchain")
+install.packages("hdf5")
+install.packages("rhdf5")
+install.packages("leaflet")
+install.packages(c("sf", "rnaturalearth", "rnaturalearthdata")) install.packages(c("stringr","stringi"))
+install.packages("ncdf4")
+
+Here's a snippet of the code:
+
+geospatial_plot <- function(file_path) {
+nc_data <- nc_open(file_path)
+....
+plot(r,ylab = "Latitude", xlab = "Longitude", main = paste(title,"for",'\n',month,year),col = pal(50))
+#To store the international boundaries into a object of class 'sf', which is 'simple feature'
+world <- ne_countries(scale = "medium", returnclass = "sf")
+#To add the international boundaries on the previous plot
+plot(st_geometry(world), add = TRUE, border = "black")
+}
+
+Visualising CO2 Changes
+The resultant maps offer a vivid representation of the evolving values of the Assimilated Dry-Air Column Average CO2 Daily Mean. These visual cues paint a detailed picture of how CO2 emissions have dynamically evolved across diverse geographical regions. Please look closely at the numerical range in the index at the right of the graphs. Notice how the average value changes from ~390 ppm in 2015 to ~418 ppm in 2022.
+
+
+
+
+
+Watch the whole video at Daily Global CO2 Assimilation from January 2015 through February 2022.
+
+Understanding Seasonal Fluctuations
+Diving into the intricacies of annual CO2 fluctuations, we uncover the profound impact of seasonal cycles in photosynthesis. From the Northern Hemisphere spring, where plant growth absorbs CO2, to the autumn, marked by plant decomposition releasing CO2, a symphony of natural processes influences atmospheric CO2 levels. A parallel, albeit milder, pattern plays out in the Southern Hemisphere during opposing seasons.
+
+Goal 13 and Future Targets
+The Goal 13 of SDGs envisions a 43% reduction in GHG emissions by 2030 starting from 2010, culminating in net-zero emissions by 2050. The above graphs as well as sources reveal CO2 levels of approximately 390 ppm in 2010 and 419 ppm in 2023 (Source: Carbon Dioxide | Vital Signs – Climate Change). Indicator 2, reflecting on total GHG emissions, seems to fall short of anticipated targets. Addressing this shortfall requires not only governmental policies but also individual contributions. Transitioning to green fuel vehicles, re-assessing agricultural practices like Stubble burning, increasing vegetation cover, and embracing recycling and reuse initiatives stand as actionable steps towards a sustainable future.
+ 
