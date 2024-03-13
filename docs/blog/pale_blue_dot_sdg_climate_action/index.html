@@ -131,7 +131,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["banner_climate_action.jpg","pale_blue_dot_sdg_climate_action_files/anchor-4.2.2/anchor.min.js","pale_blue_dot_sdg_climate_action_files/bowser-1.9.3/bowser.min.js","pale_blue_dot_sdg_climate_action_files/distill-2.2.21/template.v2.js","pale_blue_dot_sdg_climate_action_files/header-attrs-2.25/header-attrs.js","pale_blue_dot_sdg_climate_action_files/jquery-3.6.0/jquery-3.6.0.js","pale_blue_dot_sdg_climate_action_files/jquery-3.6.0/jquery-3.6.0.min.js","pale_blue_dot_sdg_climate_action_files/jquery-3.6.0/jquery-3.6.0.min.map","pale_blue_dot_sdg_climate_action_files/popper-2.6.0/popper.min.js","pale_blue_dot_sdg_climate_action_files/tippy-6.2.7/tippy-bundle.umd.min.js","pale_blue_dot_sdg_climate_action_files/tippy-6.2.7/tippy-light-border.css","pale_blue_dot_sdg_climate_action_files/tippy-6.2.7/tippy.css","pale_blue_dot_sdg_climate_action_files/tippy-6.2.7/tippy.umd.min.js","pale_blue_dot_sdg_climate_action_files/webcomponents-2.0.0/webcomponents.js"]}
+  {"type":"character","attributes":{},"value":["banner_climate_action.jpg","feb_2022_global_map.png","geospatial_plot_function.png","jan_2015_global_map.png","packages.png","pale_blue_dot_sdg_climate_action_files/anchor-4.2.2/anchor.min.js","pale_blue_dot_sdg_climate_action_files/bowser-1.9.3/bowser.min.js","pale_blue_dot_sdg_climate_action_files/distill-2.2.21/template.v2.js","pale_blue_dot_sdg_climate_action_files/header-attrs-2.25/header-attrs.js","pale_blue_dot_sdg_climate_action_files/jquery-3.6.0/jquery-3.6.0.js","pale_blue_dot_sdg_climate_action_files/jquery-3.6.0/jquery-3.6.0.min.js","pale_blue_dot_sdg_climate_action_files/jquery-3.6.0/jquery-3.6.0.min.map","pale_blue_dot_sdg_climate_action_files/popper-2.6.0/popper.min.js","pale_blue_dot_sdg_climate_action_files/tippy-6.2.7/tippy-bundle.umd.min.js","pale_blue_dot_sdg_climate_action_files/tippy-6.2.7/tippy-light-border.css","pale_blue_dot_sdg_climate_action_files/tippy-6.2.7/tippy.css","pale_blue_dot_sdg_climate_action_files/tippy-6.2.7/tippy.umd.min.js","pale_blue_dot_sdg_climate_action_files/webcomponents-2.0.0/webcomponents.js"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2567,48 +2567,45 @@ d-appendix d-footnote-list a.footnote-backlink {
 </div>
 
 <div class="d-article">
-<p>Introduction
-To foster a sustainable lifestyle globally, the United Nations has established the Sustainable Development Goals (SDGs), a comprehensive framework consisting of 17 targets set to be achieved by 2030. Each goal is accompanied by specific indicators crucial for determining progress and success.</p>
-<p>Goal 13: Climate Action
-Within this framework, Goal 13: Climate Action emerges as a pivotal objective for urgently addressing climate change and its far-reaching impacts. Goal 13 is gauged through two vital indicators:</p>
+<h2 id="introduction">Introduction</h2>
+<p>To foster a sustainable lifestyle globally, the United Nations has established the Sustainable Development Goals (SDGs), a comprehensive framework consisting of 17 targets set to be achieved by 2030. Each goal is accompanied by specific indicators crucial for determining progress and success.</p>
+<h2 id="goal-13-climate-action">Goal 13: Climate Action</h2>
+<p>Within this framework, Goal 13: Climate Action emerges as a pivotal objective for urgently addressing climate change and its far-reaching impacts. Goal 13 is gauged through two vital indicators:</p>
 <ol type="1">
 <li><p>The number of countries reporting nationally determined contributions, long-term strategies, national adaptation plans, and adaptation communications to the United Nations Framework Convention on Climate Change secretariat.</p></li>
 <li><p>Total greenhouse gas (GHG) emissions per year.</p></li>
 </ol>
-<p>Focus on Indicator 2
-This blog post centers its analysis on Indicator 2, delving into the critical assessment of total GHG emissions per year.</p>
-<p>Greenhouse Gases Overview
-The primary greenhouse gases (GHGs) encompass carbon dioxide (CO2), methane, nitrous oxide, ozone, chlorofluorocarbons, and water vapour. With CO2 constituting approximately 76% of total GHGs (source: Inventory of U.S. Greenhouse Gas Emissions and Sinks 1990-2015, EPA, 2017), my analysis will hone in on the dynamics of carbon dioxide.</p>
-<p>Data Source and Collection
-For this analysis, I leveraged the NASA Earth Observation data, a publicly accessible resource catering to a diverse audience, including students, citizen scientists, researchers, academicians, and industries. Using Terminal commands, I downloaded 2616 data files. Each of these files represents a day from January 1, 2015, to February 28, 2022. These files store records of the Assimilated Dry-Air Column Average CO2 Daily Mean, indexed by latitude and longitude, and are formatted in a .netCDF file. The data download steps drew inspiration from a comprehensive Medium article by Haolin Xiong.</p>
-<p>Data Analysis in RStudio
-Having secured the data, I imported it into RStudio for further analysis. The variable of interest was graphically represented for each of the 2616 files, with a tailored colour palette to enhance colour contrast between higher and lower values. For those curious about the analytical intricacies, the code is accessible from my Github repository ‘jyoti-bhogal/data_visualization’.</p>
-<p>Essential R packages for this analysis:</p>
-<p>install.packages(“hdf5r”)
-install.packages(“rgdal”)
-install.packages(“markovchain”)
-install.packages(“hdf5”)
-install.packages(“rhdf5”)
-install.packages(“leaflet”)
-install.packages(c(“sf”, “rnaturalearth”, “rnaturalearthdata”)) install.packages(c(“stringr”,“stringi”))
-install.packages(“ncdf4”)</p>
-<p>Here’s a snippet of the code:</p>
-<p>geospatial_plot &lt;- function(file_path) {
-nc_data &lt;- nc_open(file_path)
-….
-plot(r,ylab = “Latitude”, xlab = “Longitude”, main = paste(title,“for”,‘’,month,year),col = pal(50))
-#To store the international boundaries into a object of class ‘sf’, which is ‘simple feature’
-world &lt;- ne_countries(scale = “medium”, returnclass = “sf”)
-#To add the international boundaries on the previous plot
-plot(st_geometry(world), add = TRUE, border = “black”)
-}</p>
-<p>Visualising CO2 Changes
-The resultant maps offer a vivid representation of the evolving values of the Assimilated Dry-Air Column Average CO2 Daily Mean. These visual cues paint a detailed picture of how CO2 emissions have dynamically evolved across diverse geographical regions. Please look closely at the numerical range in the index at the right of the graphs. Notice how the average value changes from ~390 ppm in 2015 to ~418 ppm in 2022.</p>
-<p>Watch the whole video at Daily Global CO2 Assimilation from January 2015 through February 2022.</p>
-<p>Understanding Seasonal Fluctuations
-Diving into the intricacies of annual CO2 fluctuations, we uncover the profound impact of seasonal cycles in photosynthesis. From the Northern Hemisphere spring, where plant growth absorbs CO2, to the autumn, marked by plant decomposition releasing CO2, a symphony of natural processes influences atmospheric CO2 levels. A parallel, albeit milder, pattern plays out in the Southern Hemisphere during opposing seasons.</p>
-<p>Goal 13 and Future Targets
-The Goal 13 of SDGs envisions a 43% reduction in GHG emissions by 2030 starting from 2010, culminating in net-zero emissions by 2050. The above graphs as well as sources reveal CO2 levels of approximately 390 ppm in 2010 and 419 ppm in 2023 (Source: Carbon Dioxide | Vital Signs – Climate Change). Indicator 2, reflecting on total GHG emissions, seems to fall short of anticipated targets. Addressing this shortfall requires not only governmental policies but also individual contributions. Transitioning to green fuel vehicles, re-assessing agricultural practices like Stubble burning, increasing vegetation cover, and embracing recycling and reuse initiatives stand as actionable steps towards a sustainable future.</p>
+<h3 id="focus-on-indicator-2">Focus on Indicator 2</h3>
+<p>This blog post centers its analysis on Indicator 2, delving into the critical assessment of total GHG emissions per year.</p>
+<h3 id="greenhouse-gases-overview">Greenhouse Gases Overview</h3>
+<p>The primary greenhouse gases (GHGs) encompass carbon dioxide (CO<sub>2</sub>), methane, nitrous oxide, ozone, chlorofluorocarbons, and water vapour. With CO<sub>2</sub> constituting approximately 76% of total GHGs (source: Inventory of U.S. Greenhouse Gas Emissions and Sinks 1990-2015, EPA, 2017), my analysis will hone in on the dynamics of carbon dioxide.</p>
+<h2 id="data-source-and-collection">Data Source and Collection</h2>
+<p>For this analysis, I leveraged the NASA Earth Observation data, a publicly accessible resource catering to a diverse audience, including students, citizen scientists, researchers, academicians, and industries. Using Terminal commands, I downloaded 2616 data files. Each of these files represents a day from January 1, 2015, to February 28, 2022. These files store records of the Assimilated Dry-Air Column Average CO<sub>2</sub> Daily Mean, indexed by latitude and longitude, and are formatted in a .netCDF file. The data download steps drew inspiration from a comprehensive Medium article by Haolin Xiong.</p>
+<h2 id="data-analysis-in-rstudio">Data Analysis in RStudio</h2>
+<p>Having secured the data, I imported it into RStudio for further analysis. The variable of interest was graphically represented for each of the 2616 files, with a tailored colour palette to enhance colour contrast between higher and lower values. For those curious about the analytical intricacies, the code is accessible from <a href="https://github.com/jyoti-bhogal/data_visualization">my Github repository</a>.</p>
+<figure>
+<img src="packages.png" alt="Essential R packages for this analysis" />
+<figcaption aria-hidden="true">Essential R packages for this analysis</figcaption>
+</figure>
+<figure>
+<img src="geospatial_plot_function.png" alt="Here’s a snippet of the code" />
+<figcaption aria-hidden="true">Here’s a snippet of the code</figcaption>
+</figure>
+<h2 id="visualising-co2-changes">Visualising CO<sub>2</sub> Changes</h2>
+<p>The resultant maps offer a vivid representation of the evolving values of the Assimilated Dry-Air Column Average CO<sub>2</sub> Daily Mean. These visual cues paint a detailed picture of how CO<sub>2</sub> emissions have dynamically evolved across diverse geographical regions. Please look closely at the numerical range in the index at the right of the graphs. Notice how the average value changes from ~390 ppm in 2015 to ~418 ppm in 2022.</p>
+<figure>
+<img src="jan_2015_global_map.png" alt="Jan 2015: Average CO2 Levels" />
+<figcaption aria-hidden="true">Jan 2015: Average CO<sub>2</sub> Levels</figcaption>
+</figure>
+<figure>
+<img src="feb_2022_global_map.png" alt="Feb 2022: Average CO2 Levels" />
+<figcaption aria-hidden="true">Feb 2022: Average CO<sub>2</sub> Levels</figcaption>
+</figure>
+<p>Watch the whole video at <a href="https://youtu.be/Jtxx52XOx7I">Daily Global CO<sub>2</sub> Assimilation from January 2015 through February 2022</a>.</p>
+<h2 id="understanding-seasonal-fluctuations">Understanding Seasonal Fluctuations</h2>
+<p>Diving into the intricacies of annual CO<sub>2</sub> fluctuations, we uncover the profound impact of seasonal cycles in photosynthesis. From the Northern Hemisphere spring, where plant growth absorbs CO<sub>2</sub>, to the autumn, marked by plant decomposition releasing CO<sub>2</sub>, a symphony of natural processes influences atmospheric CO<sub>2</sub> levels. A parallel, albeit milder, pattern plays out in the Southern Hemisphere during opposing seasons.</p>
+<h2 id="goal-13-and-future-targets">Goal 13 and Future Targets</h2>
+<p>The Goal 13 of SDGs envisions a 43% reduction in GHG emissions by 2030 starting from 2010, culminating in net-zero emissions by 2050. The above graphs as well as sources reveal CO<sub>2</sub> levels of approximately 390 ppm in 2010 and 419 ppm in 2023 (Source: Carbon Dioxide | Vital Signs – Climate Change). Indicator 2, reflecting on total GHG emissions, seems to fall short of anticipated targets. Addressing this shortfall requires not only governmental policies but also individual contributions. Transitioning to green fuel vehicles, re-assessing agricultural practices like Stubble burning, increasing vegetation cover, and embracing recycling and reuse initiatives stand as actionable steps towards a sustainable future.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
