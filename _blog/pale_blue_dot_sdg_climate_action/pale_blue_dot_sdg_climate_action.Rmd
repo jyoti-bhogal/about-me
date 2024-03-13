@@ -1,6 +1,6 @@
 ---
 title: "How Can Data Visualization Help in Achieving Climate Action Sustainable Developemnt Goal?"
-description: |
+description: 
   Data Insights for Sustainable Development Goals
 author:
   - name: Jyoti Bhogal
