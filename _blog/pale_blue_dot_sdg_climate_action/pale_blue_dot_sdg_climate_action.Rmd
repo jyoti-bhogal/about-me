@@ -24,11 +24,10 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ```
 
-<a href="`r rmarkdown::metadata$url`">
 ```{r}
 knitr::include_graphics("banner_climate_action.jpg")
 ```
-</a>
+
  
 ## Introduction
 To foster a sustainable lifestyle globally, the United Nations has established the Sustainable Development Goals (SDGs), a comprehensive framework consisting of 17 targets set to be achieved by 2030. Each goal is accompanied by specific indicators crucial for determining progress and success.
