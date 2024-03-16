@@ -11,15 +11,24 @@ date:  12-09-2023
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [ Data visualization, R, Open Science, Open Data, Earth Observation Data, NASA, Geospatial, Maps, Sustainable Development Goal, Climate Action] 
+categories: [Data visualization, R, Open Science, Open Data, Earth Observation Data, NASA, Geospatial, Maps, Sustainable Development Goal, Climate Action] 
 output:
   distill::distill_article:
     self_contained: false
 ---
 
 ```{r setup, include=FALSE}
-#knitr::include_graphics("open_source_label.jpg") ## FIGURE OUT why does this give error
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+
 ```
+
+<a href="`r rmarkdown::metadata$url`">
+```{r}
+knitr::include_graphics("banner_climate_action.jpg")
+```
+</a>
  
 ## Introduction
 To foster a sustainable lifestyle globally, the United Nations has established the Sustainable Development Goals (SDGs), a comprehensive framework consisting of 17 targets set to be achieved by 2030. Each goal is accompanied by specific indicators crucial for determining progress and success.
@@ -35,21 +44,29 @@ Within this framework, Goal 13: Climate Action emerges as a pivotal objective fo
 This blog post centers its analysis on Indicator 2, delving into the critical assessment of total GHG emissions per year.
 
 ### Greenhouse Gases Overview
-The primary greenhouse gases (GHGs) encompass carbon dioxide (CO~2~), methane, nitrous oxide, ozone, chlorofluorocarbons, and water vapour. With CO~2~ constituting approximately 76% of total GHGs (source: Inventory of U.S. Greenhouse Gas Emissions and Sinks 1990-2015, EPA, 2017), my analysis will hone in on the dynamics of carbon dioxide.
+The primary greenhouse gases (GHGs) encompass carbon dioxide (CO~2~), methane, nitrous oxide, ozone, chlorofluorocarbons, and water vapour. With CO~2~ constituting approximately 76% of total GHGs (Source: [Inventory of U.S. Greenhouse Gas Emissions and Sinks 1990-2015, EPA, 2017](https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks)), my analysis will hone in on the dynamics of carbon dioxide.
 
 ## Data Source and Collection
-For this analysis, I leveraged the NASA Earth Observation data, a publicly accessible resource catering to a diverse audience, including students, citizen scientists, researchers, academicians, and industries. Using Terminal commands, I downloaded 2616 data files. Each of these files represents a day from January 1, 2015, to February 28, 2022. These files store records of the Assimilated Dry-Air Column Average CO~2~ Daily Mean, indexed by latitude and longitude, and are formatted in a .netCDF file. The data download steps drew inspiration from a comprehensive Medium article by Haolin Xiong.
+For this analysis, I leveraged the NASA Earth Observation data, a publicly accessible resource catering to a diverse audience, including students, citizen scientists, researchers, academicians, and industries. Using Terminal commands, I downloaded 2616 data files. Each of these files represents a day from January 1, 2015, to February 28, 2022. These files store records of the Assimilated Dry-Air Column Average CO~2~ Daily Mean, indexed by latitude and longitude, and are formatted in a .netCDF file. The data download steps drew inspiration from a comprehensive [Medium article by Haolin Xiong](https://medium.com/@xhl272703370/tutorial-on-how-to-download-multiple-earthdata-urls-78c96df4c1c7).
 
 ## Data Analysis in RStudio
-Having secured the data, I imported it into RStudio for further analysis. The variable of interest was graphically represented for each of the 2616 files, with a tailored colour palette to enhance colour contrast between higher and lower values. For those curious about the analytical intricacies, the code is accessible from [my Github repository](https://github.com/jyoti-bhogal/data_visualization).
+We used the 2616 .netCDF files, one file representing one day. Each file has the daily average value of CO2 stored in grid points formed by the 576 longitude and 361 latitude points. We extracted the data for CO2 present in the form of a matrix of dimension 576 rows and 361 columns. From this matrix, we computed the global average, global north average, and global south average value of CO2, for each day. Thus we created three different time series for these average values from 1 Jan 2015 to 28 Feb 2022. To go a step ahead, we  also converted the CO2 gridded data into a raster object to create a world map.
+
 
 ![Essential R packages for this analysis](packages.png)
 
 ![Here's a snippet of the code](geospatial_plot_function.png)
 
+### Data Plotting:
+To create interactive time series plots in R, we used the ‘dygraph’ package. The interactive plot is such that, when the user points the cursor on the plot area, they can see the (x,y) coordinates, which are the date and average values from the three time series, respectively. The plot also has a time range selector at the bottom, using which the user can zoom in to see the time series values for a particular time period of interest. Besides, we used the raster object to look at the daily values of CO2 in each geographical region. Two such plots are given below. The working code is accessible from the [Github repository jyoti-bhogal/data_visualization](https://github.com/jyoti-bhogal/data_visualization/blob/main/Geospatial_plot_function.R). 
+
 
 ## Visualising CO~2~ Changes
 The resultant maps offer a vivid representation of the evolving values of the Assimilated Dry-Air Column Average CO~2~ Daily Mean. These visual cues paint a detailed picture of how CO~2~ emissions have dynamically evolved across diverse geographical regions. Please look closely at the numerical range in the index at the right of the graphs. Notice how the average value changes from ~390 ppm in 2015 to ~418 ppm in 2022.
+
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/4ShS9WI-gic?si=a90oUEi1MNf60GfM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ![Jan 2015: Average CO~2~ Levels](jan_2015_global_map.png)
@@ -57,11 +74,19 @@ The resultant maps offer a vivid representation of the evolving values of the As
 ![Feb 2022: Average CO~2~ Levels](feb_2022_global_map.png)
 
 
-Watch the whole video at [Daily Global CO~2~ Assimilation from January 2015 through February 2022](https://youtu.be/Jtxx52XOx7I).
 
-## Understanding Seasonal Fluctuations
-Diving into the intricacies of annual CO~2~ fluctuations, we uncover the profound impact of seasonal cycles in photosynthesis. From the Northern Hemisphere spring, where plant growth absorbs CO~2~, to the autumn, marked by plant decomposition releasing CO~2~, a symphony of natural processes influences atmospheric CO~2~ levels. A parallel, albeit milder, pattern plays out in the Southern Hemisphere during opposing seasons.
+
+
 
 ## Goal 13 and Future Targets
-The Goal 13 of SDGs envisions a 43% reduction in GHG emissions by 2030 starting from 2010, culminating in net-zero emissions by 2050. The above graphs as well as sources reveal CO~2~ levels of approximately 390 ppm in 2010 and 419 ppm in 2023 (Source: Carbon Dioxide | Vital Signs – Climate Change). Indicator 2, reflecting on total GHG emissions, seems to fall short of anticipated targets. Addressing this shortfall requires not only governmental policies but also individual contributions. Transitioning to green fuel vehicles, re-assessing agricultural practices like Stubble burning, increasing vegetation cover, and embracing recycling and reuse initiatives stand as actionable steps towards a sustainable future.
+The Goal 13 of SDGs envisions a 43% reduction in GHG emissions by 2030 starting from 2010, culminating in net-zero emissions by 2050. The above graphs as well as sources reveal CO~2~ levels of approximately 390 ppm in 2010 and 419 ppm in 2023 (Source: [Carbon Dioxide | Vital Signs – Climate Change](https://climate.nasa.gov/vital-signs/carbon-dioxide/#:~:text=Although%20total%20CO2%20is,photosynthesis%20on%20a%20massive%20scale.)),i.e., a 7.5% increase as opposed to the 43% targeted decrease. Indicator 2, reflecting on total GHG emissions, seems to fall short of anticipated targets. Addressing this shortfall requires not only governmental policies but also individual contributions. Transitioning to green fuel vehicles, re-assessing agricultural practices like Stubble burning, increasing vegetation cover, and embracing recycling and reuse initiatives stand as actionable steps towards a sustainable future.
+
+
+## Some Fun Insight:  Seasonal Fluctuations
+Diving into the intricacies of annual CO~2~ fluctuations, we uncover the profound impact of seasonal cycles in photosynthesis. From the Northern Hemisphere spring, where plant growth absorbs CO~2~, to the autumn, marked by plant decomposition releasing CO~2~, a symphony of natural processes influences atmospheric CO~2~ levels. A parallel, albeit milder, pattern plays out in the Southern Hemisphere during opposing seasons.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Jtxx52XOx7I?si=wOEqck4N_nilDQdO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
  
