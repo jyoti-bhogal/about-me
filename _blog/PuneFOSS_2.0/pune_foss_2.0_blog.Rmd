@@ -1,7 +1,7 @@
 ---
 title: "PuneFOSS 2.0: A Dive into Open Source Insights and Initiatives"
 description: |
-  In February 2024, I got the opportunity to participate in FOSS United's one day conferene PuneFOSS 2.0. With this blog, the reader wil come to know about FOSS in general, the talks at the conference, and my views.
+  In February 2024, I got the opportunity to participate in FOSS United's one day conference PuneFOSS 2.0. With this blog, the reader will come to know about FOSS in general, the talks at the conference, and my views.
 author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
