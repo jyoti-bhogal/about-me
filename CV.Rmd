@@ -1,0 +1,32 @@
+---
+title: "About Jyoti"
+image: "images/Jyoti_Bhogal_Photograph.jpg"
+description:
+  
+output:
+  postcards::trestles
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Work Experience
+Analyst, Deloitte Consulting India Pvt. Ltd.
+April 2022 - Present
+
+- Sanofi Research & Development Data Office
+
+- CognitiveSpark
+
+# Volunteer Work
+
+# Academic Projects
+
+# Education 
+
+# Technical Skills
+
+# Certifications
+
+# Awards
