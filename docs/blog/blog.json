@@ -1,5 +1,30 @@
 [
   {
+    "path": "blog/2024-10-26_pycon_india_2024/",
+    "title": "Jyoti's experience of PyCon India 2024",
+    "description": "Insights from the annual 4-day Python conference",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2024-10-26",
+    "categories": [
+      "Python",
+      "Conference",
+      "Talk",
+      "India",
+      "Open Science",
+      "Bengaluru",
+      "Lightning Talk"
+    ],
+    "contents": "\nIntroduction\nLightning Talks\nWorkshops\nKeynotes\nDevSprints\n\n\n\n",
+    "preview": {},
+    "last_modified": "2024-10-26T23:19:27+05:30",
+    "input_file": "pycon_india_2024_blog.knit.md"
+  },
+  {
     "path": "blog/PuneFOSS_2.0/",
     "title": "PuneFOSS 2.0: A Dive into Open Source Insights and Initiatives",
     "description": "In February 2024, I got the opportunity to participate in FOSS United's one day conference PuneFOSS 2.0. With this blog, the reader will come to know about FOSS in general, the talks at the conference, and my views.",
