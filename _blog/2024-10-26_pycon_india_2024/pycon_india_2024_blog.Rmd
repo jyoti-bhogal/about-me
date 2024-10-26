@@ -1,5 +1,5 @@
 ---
-title: "Jyoti's experience of PyCon India 2024?"
+title: "Jyoti's experience of PyCon India 2024"
 description: 
  Insights from the annual 4-day Python conference
 author:
@@ -11,7 +11,7 @@ date:  10-26-2024
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Python, Conference, Talk, India, Open Science] 
+categories: [Python, Conference, Talk, India, Open Science, Bengaluru, Lightning Talk] 
 output:
   distill::distill_article:
     self_contained: false
