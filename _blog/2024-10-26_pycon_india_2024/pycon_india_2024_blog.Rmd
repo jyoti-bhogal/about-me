@@ -1,5 +1,5 @@
 ---
-title: "Jyoti's experience of PyCon India 2024?"
+title: "Jyoti's experience of PyCon India 2024"
 description: 
  Insights from the annual 4-day Python conference
 author:
