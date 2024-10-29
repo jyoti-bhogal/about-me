@@ -6,7 +6,7 @@ author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
 url: https://jyoti-bhogal.github.io/about-me/
-#preview: banner_climate_action.jpg
+preview: cover_image_Jyoti_conf_banner.jpg
 date:  10-26-2024
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
