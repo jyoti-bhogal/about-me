@@ -11,7 +11,7 @@ date:  10-26-2024
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Python, Conference, Talk, India, Open Science, Bengaluru, Lightning Talk] 
+categories: [Python, Conference, Talk, India, Open Science, Bengaluru, Lightning Talk, Accessibility, Open Source] 
 output:
   distill::distill_article:
     self_contained: false
@@ -46,7 +46,9 @@ The conference featured four insightful keynotes:
 3. [Mars Bar Lee](https://www.linkedin.com/in/mars-lee/) explored *"How Open-Source Opened My Opportunities,"* highlighting how contributions to open-source projects can extend beyond code, such as her technical illustrations for NumPy.  
 4. [James Powell](https://www.linkedin.com/in/dontusethiscode/) delivered a creative talk, *"How Many Oranges?"*
 
-Each keynote brought valuable perspectives, and Mars Bar Lee’s emphasis on non-code contributions was particularly inspiring.
+Each keynote brought valuable perspectives, and Mars Bar Lee’s emphasis on non-code contributions was particularly interesting. I got to meet Mars in-person, after having met online previously for a workshop on importance of alt text with images for improving digital accessibility.
+
+![Mars, me, Unicorn, and NumPy comics](Mars_Jyoti_Unicorn_NumPy_Comics.jpg)
 
 ## Workshops 
 
