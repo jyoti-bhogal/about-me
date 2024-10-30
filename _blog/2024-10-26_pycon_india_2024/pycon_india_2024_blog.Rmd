@@ -1,7 +1,7 @@
 ---
 title: "Insights from My Experience at PyCon India 2024"
 description: 
- Insights from the annual 4-day Python conference
+ My experience at the four-day annual Python conference.
 author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
