@@ -109,8 +109,14 @@ d-article h1 {
 
 /*Note: This change is visible in browser, when you hover on any button or hyperlink*/
 /*change url color */
-a {
+/*a {
   color: #009FB7;
+}*/
+
+/* Set a constant color for all hyperlink text */
+a {
+  color: #2C4CE9; /* or any color you prefer */
+  text-decoration: underline; /* optional: adds underline for emphasis */
 }
 
 /*Note: The following change is visible when you hover on text with hyperlink or just direct links given in the pages*/
