@@ -48,7 +48,7 @@ The conference featured four insightful keynotes:
 
 Each keynote brought valuable perspectives, and Mars Bar Lee’s emphasis on non-code contributions was particularly interesting. I got to meet Mars in-person, after having met online previously for a workshop on importance of alt text with images for improving digital accessibility.
 
-![Mars, me, Unicorn, and NumPy comics](Mars_Jyoti_Unicorn_NumPy_Comics.jpg)
+![L-R: Mars, Unicorn, me, and NumPy comics](Mars_Jyoti_Unicorn_NumPy_Comics.jpg)
 
 ## Workshops 
 
