@@ -90,7 +90,7 @@ At the end of the talk, there were quite a few engaging questions. One of the co
 
 This fills me with more enthusiasm about taking the study further and coming up with insights in due course of time.
 
-🔑**Talk Resources:**
+🔑 **Talk Resources:**
 
 1. Bhogal, J. (2025, March 3). Building Bridges: Advancing Research Software Engineering and Open Science in Asia. Zenodo. [https://doi.org/10.5281/zenodo.15180196](https://doi.org/10.5281/zenodo.15180196)  ![CC BY](cc_by_logo.png) 
 
@@ -98,11 +98,11 @@ This fills me with more enthusiasm about taking the study further and coming up 
 ## Get In Touch:
 
 **Email:** [bhogaljyoti1@gmail.com](mailto:bhogaljyoti1@gmail.com)   
-**LinkedIn:** [http://www.linkedin.com/in/jyoti-bhogal](http://www.linkedin.com/in/jyoti-bhogal)  
-**GitHub:** [https://github.com/jyoti-bhogal](https://github.com/jyoti-bhogal)   
-**Website:** [https://jyoti-bhogal.github.io/about-me/index.html](https://jyoti-bhogal.github.io/about-me/index.html) 
-
+**LinkedIn:** [jyoti-bhogal](http://www.linkedin.com/in/jyoti-bhogal)  
+**GitHub:** [jyoti-bhogal](https://github.com/jyoti-bhogal)   
 **Mastodon:** [jyoti_bhogal](https://mastodon.social/@jyoti_bhogal)
+
 **Bluesky:** [jyoti-bhogal.bsky.social](https://bsky.app/profile/jyoti-bhogal.bsky.social)
 
+**Website:** https://jyoti-bhogal.github.io/about-me/index.html
 
