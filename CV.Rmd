@@ -11,22 +11,198 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-# Work Experience
-Analyst, Deloitte Consulting India Pvt. Ltd.
-April 2022 - Present
+**Phone no.:**\+91 8087635058/   
+\+91 9422047656  
+**EmailID:** [bhogaljyoti1@gmail.com](mailto:bhogaljyoti1@gmail.com)  
+**LinkedIn:** [jyoti-bhogal-a20705163](https://www.linkedin.com/in/jyoti-bhogal-a20705163/)  
+**Github:** [jyoti-bhogal](https://github.com/jyoti-bhogal)  
+**Time Zone:** IST (UTC+5:30 hours)  
 
-- Sanofi Research & Development Data Office
+# **RELEVANT WORK EXPERIENCE**
 
-- CognitiveSpark
+#### **SSI Fellow 2025, Software Sustainability Institute (SSI),** January 2025 \- Present
 
-# Volunteer Work
+* Adapting the [SSI surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys) to make them suitable for the Asian context  
+* Presenting the project idea and progress at the biannual APAN meetings  
+* Preparing a community network analysis graph  
+* **Software Tools:** GitHub, R/Python, VS Code
 
-# Academic Projects
 
-# Education 
+#### **Research Software Community Manager, Research Software Alliance (ReSA),** September 2024 \- Present (part-time)
 
-# Technical Skills
+* Jyoti worked on website technical support: Creation, maintenance, and documentation via Hugo framework, VS Code,  and GitHub.  
+* She provided admin for task force process including organisation, emails, and meeting minutes.  
+* She maintains the funding databases  
+* She supports ReSA’s stakeholder forums.  
+* She engaged with the ReSA community via social media (such as LinkedIn, Mastodon, Bluesky mailing list,  and Slack) by creating newsletters and posts about relevant worldwide Research Software events and conferences resulting in the LinkedIn, Bluesky, Slack, Mastodon, and Mailerlist engagement increase by 133%, 66%, 63%,  32%, 20%, .  
+* **Software Tools:** Hugo framework, VS Code (Terminal), GitHub.
 
-# Certifications
+####  **Deloitte Consulting India Pvt. Ltd., Pune —** *Analyst,* April 2022 \- September 2024  
 
-# Awards
+* *Sanofi Research & Development Data Office (June 2023 \- September 2024\)*  
+  * As a Data Governance Consultant for cross-functional Clinical R\&D domains, Jyoti laid down standards for a Data Governance Workflow and Policies, and created a centralised Data Catalog in the Informatica Cloud platform Cloud Data Governance and Catalog (CDGC).  
+  * Developed Conceptual Data models for 6+ transversal R\&D business functions.  
+  * Deeply involved in regular stakeholder communications (business and technical), decision-making, and strategizing.  
+  * **Software Tools:** Informatica Cloud (CDGC), MS Excel, MS Word.   
+* *CognitiveSpark for Clinical (April 2022 \- May 2023\)*  
+  * For Structured Content Authoring in the Regulatory domain of Life Sciences, Jyoti developed standardised templates for Clinical Trial Dossier components.  
+  * Estimated percentage reuse of content from Deloitte’s CognitiveSpark for Clinical (CSC) software asset, and also from within the Clinical Trial Dossier for partially automating the documentation process.  
+  * **Software Tools:** MS Excel, Workiva, MS Word. 
+
+#### **Cytel Statistical Software & Services Pvt. Ltd.,** Pune — *Software Quality Engineer I \- Statistician,* September 2020 \- March 2022
+
+* Jyoti simulated optimal Clinical Trial design to optimise trial cost or statistical power of testing the effectiveness of a drug formula.  
+* Delivered 6 major software releases which she finished on time and on budget with good statistical power.  
+* Wrote extensive R program codes to simulate, wrangle, and analyse subject/patient data. Used this output as a benchmark to test the Solara core engine C++ outputs.   
+* Performed automated and manual testing for software.  
+* Replicated and presented R Shiny App to determine optimal Sample Size in Clinical Trials, volunteered for weekly Statistics Chapter activities.
+* **Software Tools:** R programming language, MS Excel, Postman, Newman. 
+
+
+# **RELEVANT VOLUNTEER COMMUNITY EXPERIENCE**
+
+#### **Research Software Engineering (RSE) Asia Association, Volunteer  Lead,** September 2021 \- Present
+
+* RSE Asia is a non-profit organisation which works towards building the Research Software Engineer landscape in the Asian region. Jyoti played a crucial role in establishing the RSE Asia Association.  
+* She organised RSE Asia Community Calls, represented RSE Asia at Asia Pacific Advanced Network (APAN) meetings (APAN58 and APAN59)  
+* She co-Chaired the 3rd annual successfully running Research Software Engineering Asia Australia Unconference 2024 (RSEAA24), and is co-chairing and organising  the 4th edition annual conference RSAA25  
+* She has conducted a 6-month community conversation series on ‘Enabling Open Science Through Research Code’, which created openly available recordings, resource sheets, and summary blog posts of each episode. The average turnout of registrations was around 30% consistently.  
+* She manages the RSE Asia Association webpage and LinkedIn.
+
+
+#### **International Council of Research Software Engineering, Co-Observer,** 2022 \- Present
+
+* The International Council of RSE Associations (*the Council*) provides a formal open forum for established national and multinational RSE associations to talk and coordinate regularly, and thus sustain international collaboration.  
+* As an observer member of the council, Jyoti provides insights from Asia and fosters connections within the global RSE community.
+
+#### **Open Life Science (OLS) Graduate,** Open Science Project
+
+* OLS is a not-for-profit organisation dedicated to capacity building and diversifying leadership in research worldwide. It runs a mentorship program, now called the Open Seeds program.  
+* Cohort \-4 (OLS-4), September 2021 \- January 2022: Project Lead & Community Building Volunteer for 'Building the Research Software Engineering (RSE) Asia Association.' Organised RSE Asia Launch Event in collaboration with Hacktoberfest 2021\.  
+* Cohort-5 (OLS-5), February 2022 \- July 2022: Project Lead & Community Building Volunteer for 'Building Pathways for Onboarding to Research Software Engineering (RSE) Asia Association.', planned & created a working group for the RSE Asia Association.
+
+
+# **CONFERENCES**
+
+####               **FOSSASIA Summit 2025, Bangkok, Thailand  (in-person) | 13-15 March 2025**
+
+* FOSSASIA summit 2025 is by the FOSSASIA organisation to bring together an inspiring community across borders and ages to form a better future with Open Technologies and Information & Communication Technologies  
+* Jyoti presented a remote Lightning Talk at the RSE Worldwide session to share the status of the RSE Asia Association, participated in the R Development Hackathon to translate 30+ R programming language messages from English to Hindi using Weblate, and attended various other sessions.
+
+
+
+####           **SuperComputing Asia (SCA) 2025, Marina Bay Sands, Singapore (online) | 10-13 March 2025**
+
+* SuperComouting Asia 2025 is a gathering of the best HPC in Asia.  
+* Jyoti presented a remote talk on ‘Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association’ in the panel on ‘Diversity and Inclusivity’
+
+####               **APAN59, Yokohama, Japan (online) | 3-7 March 2025**
+
+* Jyoti presented a remote talk at the OSDWG session to on the topic ‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’, and also chaired the seesion
+
+####               **RSECon24, New Castle, UK (Online) | 3-5 September 2024**
+
+* RSECon24 is organised by the Society of Research Software Engineering (SocRSE), a charitable incorporated organisation based in the UK. It was run in a hybrid mode (London+Remote).  
+* Jyoti presented a remote Lightning Talk at the RSE Worldwide session to share the status of the RSE Asia Association, participated in the R Development Hackathon to translate 30+ R programming language messages from English to Hindi using Weblate, and attended various other sessions.
+
+#### **APAN58, Islamabad, Pakistan (Online)| 26-30 August 2024**
+
+* Asia Pacific Advanced Network is an organisation and also a network that connects the research and education networks of its member countries/economies and other research networks across the world. At APAN58, the 58th bi-annual meeting of APAN, Jyoti remotely presented the journey of the RSE Asia Association so far.
+
+#### **Confederation of Open Access Repositories  (COAR) Asia Meeting, Conference, New Delhi, India | 17 \- 18 April 2024**
+
+* COAR Asia is a special forum hosted by COAR in which members of the Asian open-access community can share information, meet each other, and build relationships. In the COAR Asia meeting, titled “The promise and practice of open science”, Jyoti represented RSE Asia and discussed the importance of Research Software Engineering to enhance Open Science practices.
+
+#### **Free and Open Source Software (FOSS) United Conference, Pune, India**
+
+* FOSS United is a non-profit foundation that aims at promoting & strengthening the Free and Open Source Software (FOSS) ecosystem in India.  
+* PuneFOSS 2.0 (24 February 2024): At the FOSS United Pune conference in February 2024, Jyoti attended a day full of interactive sessions on the importance of Free and Open Source Software ecosystem.  
+* PuneFOSS 2.1 (24 August 2024): Jyoti participated in a hands-on workshop titled ‘Dynamic Secrets: Unleashing the Thor’s Hammer of FOSS’, along with listening to other talks on open source software products like InstructLab and WebAssembly.
+
+#### **PyCon India 2023***,* **Hyderabad, India | 29 Sep \- 2  Oct 2023**
+
+* PyCon India is an annual conference run by the Python community in India.  
+* At PyCon India 2023, Jyoti participated in Python workshops on Data Munging with Python. Furthermore, she gave inputs in an Open Forum discussion on FOSS and Scientific Software Development.
+
+#### **PyData Global 2021***,* **Online | 28 \- 30 Oct 2021**
+
+* PyData is a community for developers and users of open-source data tools.  
+* At PyData Global 2021, Jyoti was selected as a PyData Global Impact Scholar. Amongst many other learnings, she enjoyed a sprint on the usability of the Python package *PyMC.* She continues to be an active member of the PyData community.
+
+#### **useR 2021, Virtual | 5 \- 9 July 2021**
+
+* useR\! is an annual conference, organised by R community volunteers, and supported by the R Foundation showcases applications and developments of R Software. At useR 2021, Jyoti volunteered as a Zoom Host and participated in various conference sessions on applications of R software, like the R quiz, Research Software Engineering, and many more.
+
+#### **R-Ladies Global, Rotating Curator**
+
+* R-Ladies is a worldwide organisation whose mission is to promote gender diversity in the R community. Jyoti managed the R-Ladies Twitter handle to encourage and maintain communications about the use of R Software language within the R-Ladies global community.
+
+                
+
+#                 **ACADEMIC PROJECTS**
+
+#### **Analysing Correlation between Geographical Regions via Ocean Surface Temperatures \-** *Summer Internship, Indian Institute of Science Education and Research, Pune, India*
+
+* Studied geospatial time series data to understand the correlation between Climate patterns at different geographical locations using the Ocean Surface temperature data.  
+
+#### **Analysis of Grammatical Facial Expressions**— *Masters Project*    
+
+* Developed an ML algorithm to comprehend facial expressions by using Statistical techniques like Principle Component Analysis (PCA), MANOVA, and LDA on UCI Machine Learning Repository data.  
+* Achieved 80-90% accuracy in classifying facial expressions.
+
+# **OPEN SCIENCE SKILLS**
+
+* Reproducibility  
+* FAIR Principles  
+* Research Data Management
+
+# **CERTIFICATES**
+
+* [Community Engagement Fundamentals Certified \- CSCCE](https://api.badgr.io/public/assertions/SHsdenPsRfCIphr4pvso3A?identity__email=bhogaljyoti1%40gmail.com)  
+* [AWS Certified Cloud Practitioner](https://www.credly.com/badges/2507ea14-96f2-41be-a35e-ba86f2741e57/linked_in?t=rokyrk)  
+* [AWS Machine Learning Foundation Course](https://confirm.udacity.com/7YXAHKKY)   
+* Graduate Aptitude Test in Engineering (Statistics) 2020 \- All India Rank 48  
+* Qualified Core Technical 3 – Probability and Mathematical Statistics (CS1-Actuarial Statistics) Level by Institute of Actuaries of India  
+* Qualified Actuarial Common Entrance Test (ACET) by Institute of Actuaries of India
+
+
+# **AWARDS**
+
+* [SSI Fellowship 2025](https://www.software.ac.uk/fellowship-programme/jyoti-bhogal)  
+* Pfizer Scholarship for Masters  
+* Meritorious Student Scholarship (based on B.Sc. University Ranking), Savitribai Phule Pune University  
+* INSPIRE (SHE) Scholarship, DST, Government of India  
+* Prizes in various Project, Poster, and Quiz competitions
+
+# **TECHNICAL SKILLS**
+
+* R (ggplot2, plotly, stringr, forecast, ts, survival)  
+* Python (pandas, NumPy, matplotlib, scikit-learn)  
+* SQL (Basic)  
+* Hugo  
+* Jupyter Notebook  
+* Github  
+* Bitbucket, Jira, Confluence  
+* MS Office  
+* Google Suite
+
+# **LANGUAGES**
+
+English, Hindi, German (Certificate Course)
+
+# **REFERENCES** 
+
+1. Yo Yehudi, Executive Director, Open Life Science,  Email: [yo@we-are-ols.org](mailto:yo@we-are-ols.org), Phone No.: \+44 7432149529  
+2. Malvika Sharan, Director of Strategy and Partnership, Open Life Science, Email: [malvikasharan@gmail.com](mailto:malvikasharan@gmail.com)  
+3. Rowland Mosbergen,  RCP Strategic Engagement and Planning Manager,  Walter and Eliza Hall Institute of Medical Research, Email: [rowland.h.mosbergen@gmail.com](mailto:rowland.h.mosbergen@gmail.com), Phone No.: \+61 423030626  
+4. Anelda van der Walt, Director & Trainer, Talarify, Email: [anelda@talarify.co.za](mailto:anelda@talarify.co.za) 
+
+# **EDUCATION**
+
+**Savitribai Phule Pune University (SPPU),** Pune, India — *M.Sc.(Statistics) |* July 2018 \- June 2020| CGPA: 9.25/10 | University Rank: 3
+
+**Savitribai Phule Pune University (SPPU),** Pune, India — *B.Sc.(Statistics) |* July 2014 \- June 2018 | Percentage: 96.83%
+
+**Maharashtra State Board of Secondary & Higher Secondary Education,** Pune, India — *12th Grade |* July 2012 \- June 2014 | Percentage: 86.46%
+
+**Central Board of Secondary Education,** New Delhi, India — *10th Grade |* July 2011 \- June 2012 | Percentage: 95.00% | GPA: 10/10

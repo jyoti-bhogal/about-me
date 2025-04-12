@@ -10,6 +10,8 @@ links:
     url: "https://x.com/Jyoti_Bhogal1?t=sxOWrOe7Vmzrr9rpEjGPrQ&s=09  target ='_blank'"
   - label: Email
     url: "mailto:bhogaljyoti1@gmail.com"
+  - label: Bluesky
+    url: "https://bsky.app/profile/jyoti-bhogal.bsky.social target ='_blank'"
   
 output:
   postcards::trestles
@@ -18,19 +20,8 @@ site: distill::distill_website
  
 ## Bio
 
+**Statistician | Software Community Manager | SSI Fellow 2025**
+
 Jyoti is a trained Statistician, a Software Quality Engineer, and a Data Modeler. She can help you solve Statistical and Data Analytics problems using tools like R language, Python language, JavaScript, and MS Excel. She has been working in Clinical Sciences since 2020; and has developed expertise in principles of good software development life cycle, and Clinical Trials R&D cycle.
 She is an open source enthusiast, and is keen on giving the young minds the exposure to the unconventional yet essential roles in tech.
 
-
-## Experience
-
-**Deloitte Consulting India Pvt. Ltd.** | Consulting Analyst | April 2022 - Present
-
-**Cytel Statistical Software & Services Pvt. Ltd.** | Software Quality Engineer I - Statistician | September 2020 - March 2022
-
-
-
-## Education
-**Savitribai Phule Pune University (SPPU), Pune** | M.Sc.(Statistics) | July 2018 - June 2020
-
-**Savitribai Phule Pune University (SPPU), Pune** | B.Sc.(Physics), B.Sc.(Statistics) | July 2018 - June 2020
