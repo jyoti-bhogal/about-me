@@ -1,17 +1,5 @@
 [
   {
-    "path": "blog/2024-11-30_jb_eostrc_ep_2/",
-    "title": "Enabling Open Science Through Research Code: Insights from Episode 2 - Enabling Reproducibility through Research Code",
-    "description": {},
-    "author": [],
-    "date": "2025-04-12",
-    "categories": [],
-    "contents": "\nFeatured Article\n<div style=\"border: 1px solid #ddd; padding: 1em; border-radius: 8px; margin-bottom: 1em; box-shadow: 2px 2px 8px rgba(0,0,0,0.1);\">\n  <a href=\"https://rse-asia.github.io/RSE_Asia/blog/2024-11-30-EOSTRC_ep_2/\" target=\"_blank\" style=\"text-decoration: none; color: inherit;\">\n    <h3 style=\"margin-top: 0;\">Enabling Open Science Through Research Code: Insights from Episode 2 - Enabling Reproducibility through Research Code<\/h3>\n    <img src=\"banner_episode_2.png\" alt=\"Article preview\" style=\"width: 100%; max-width: 600px; border-radius: 4px;\">\n    <p style=\"margin-top: 0.5em;\">This is a blog sharing insights from Episode 2 of the Community Conversation series 'Enabling Open Science Through Research Code'.<\/p>\n    <p style=\"font-weight: bold; color: #007acc;\">Read More →<\/p>\n  <\/a>\n<\/div>\n\n\n\n",
-    "preview": {},
-    "last_modified": "2025-04-12T22:51:05+05:30",
-    "input_file": "jb_blog_ep_2.knit.md"
-  },
-  {
     "path": "blog/2025-03-30_apan58_apan59_blog/",
     "title": "Research, Software, and Collaborations",
     "description": "During my talks at the APAN58 and APAN59 meetings, I had a chance to have interesting conversations and feedback, which I am sharing through this blog.",
@@ -34,6 +22,18 @@
     "preview": "blog/2025-03-30_apan58_apan59_blog/david-edelstein-N4DbvTUDikw-unsplash.jpg",
     "last_modified": "2025-04-12T20:19:57+05:30",
     "input_file": {}
+  },
+  {
+    "path": "blog/2024-11-30_jb_eostrc_ep_2/",
+    "title": "Enabling Open Science Through Research Code: Insights from Episode 2 - Enabling Reproducibility through Research Code",
+    "description": {},
+    "author": [],
+    "date": "2024-11-30",
+    "categories": [],
+    "contents": "\n\n\n\nEnabling Open Science Through Research Code: Insights from Episode 2 - Enabling Reproducibility through Research Code\n\n<img src=\"banner_episode_2.png\" alt=\"Article preview\" style=\"width: 100%; max-width: 600px; border-radius: 4px;\">\n<p style=\"margin-top: 0.5em;\">This is a blog sharing insights from Episode 2 of the Community Conversation series 'Enabling Open Science Through Research Code'.<\/p>\n<p style=\"font-weight: bold; color: #007acc;\">Read More →<\/p>\n\n\n\n\n\n",
+    "preview": {},
+    "last_modified": "2025-04-12T23:18:54+05:30",
+    "input_file": "jb_blog_ep_2.knit.md"
   },
   {
     "path": "blog/2024-10-31_jb_eostrc_ep_1/",
