@@ -58,7 +58,7 @@ At the end of the talk, I engaged with the audience by asking them their thought
 
 > “Looks interesting since I have heard about it for the very first time in this talk at APAN58 meeting.”
 
-> “It is necessary for research software engineering management. I heard that the company do not have enough > capacity for managing research software engineers. But they need software consistently. So, the public sectors > help with this.”
+> “It is necessary for research software engineering management. I heard that the company do not have enough capacity for managing research software engineers. But they need software consistently. So, the public sectors help with this.”
 
 For the question ‘What are your thoughts on how open science might help the researchers worldwide?’, some of the interesting anonymous responses were:
 
