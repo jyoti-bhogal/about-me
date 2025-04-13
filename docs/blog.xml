@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0">
+  <channel>
+    <title>Home</title>
+    <link>https://jyoti-bhogal.github.io</link>
+    <atom:link href="https://jyoti-bhogal.github.io/blog.xml" rel="self" type="application/rss+xml"/>
+    <description>Hi, I'm Jyoti
+</description>
+    <generator>Distill</generator>
+    <lastBuildDate>Thu, 10 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <item>
+      <title>Research, Software, and Collaborations</title>
+      <dc:creator>Jyoti Bhogal</dc:creator>
+      <link>https://jyoti-bhogal.github.io/blog/2025-03-30_apan58_apan59_blog</link>
+      <description>During my talks at the APAN58 and APAN59 meetings, I had a chance to have interesting conversations and feedback, which I am sharing through this blog.</description>
+      <category>Research Software</category>
+      <category>Conference</category>
+      <category>Talk</category>
+      <category>APAN</category>
+      <category>Open Science</category>
+      <category>Open Source</category>
+      <guid>https://jyoti-bhogal.github.io/blog/2025-03-30_apan58_apan59_blog</guid>
+      <pubDate>Thu, 10 Apr 2025 00:00:00 +0000</pubDate>
+      <media:content url="https://jyoti-bhogal.github.io/blog/2025-03-30_apan58_apan59_blog/david-edelstein-N4DbvTUDikw-unsplash.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>FOSSASIA Summit 2025: Experiencing a new culture</title>
+      <dc:creator>Jyoti Bhogal</dc:creator>
+      <link>https://jyoti-bhogal.github.io/blog/2025-04-05_fossasia_summit_2025</link>
+      <description>During my visit to the FOSSASIA Summit 2025, I had a chance to have interesting conversations and learnings. I  am sharing the same through this blog.</description>
+      <category>FOSS</category>
+      <category>Free and Open Source Software</category>
+      <category>Software</category>
+      <category>Conference</category>
+      <category>Talk</category>
+      <category>Research Software</category>
+      <category>Open Science</category>
+      <category>Open Source</category>
+      <guid>https://jyoti-bhogal.github.io/blog/2025-04-05_fossasia_summit_2025</guid>
+      <pubDate>Wed, 09 Apr 2025 00:00:00 +0000</pubDate>
+      <media:content url="https://jyoti-bhogal.github.io/blog/2025-04-05_fossasia_summit_2025/preview_wat_arun.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>Enabling Open Science Through Research Code: Insights from Episode 1 - Conversations with Researchers Who Code </title>
+      <dc:creator>Jyoti Bhogal, Mireille Grobbelaar, Anelda van der Walt, Saranjeet Kaur Bhogal</dc:creator>
+      <link>https://jyoti-bhogal.github.io/blog/2024-10-31_jb_eostrc_ep_1</link>
+      <description>This is a blog sharing insights from Episode 1 of the Community Conversation series 'Enabling Open Science Through Research Code'.</description>
+      <category>Research Software Engineering</category>
+      <category>Open Science</category>
+      <category>Coding</category>
+      <category>Community Building</category>
+      <category>Experience Blog</category>
+      <guid>https://jyoti-bhogal.github.io/blog/2024-10-31_jb_eostrc_ep_1</guid>
+      <pubDate>Tue, 29 Oct 2024 00:00:00 +0000</pubDate>
+      <media:content url="https://jyoti-bhogal.github.io/blog/2024-10-31_jb_eostrc_ep_1/Ep_1_banner.png" medium="image" type="image/png" width="2000" height="1600"/>
+    </item>
+    <item>
+      <title>Insights from My Experience at PyCon India 2024</title>
+      <dc:creator>Jyoti Bhogal</dc:creator>
+      <link>https://jyoti-bhogal.github.io/blog/2024-10-26_pycon_india_2024</link>
+      <description>Insights from the four-day annual Python conference.</description>
+      <category>Python</category>
+      <category>Conference</category>
+      <category>Talk</category>
+      <category>India</category>
+      <category>Open Science</category>
+      <category>Bengaluru</category>
+      <category>Lightning Talk</category>
+      <category>Accessibility</category>
+      <category>Open Source</category>
+      <guid>https://jyoti-bhogal.github.io/blog/2024-10-26_pycon_india_2024</guid>
+      <pubDate>Sat, 26 Oct 2024 00:00:00 +0000</pubDate>
+      <media:content url="https://jyoti-bhogal.github.io/blog/2024-10-26_pycon_india_2024/cover_image_Jyoti_conf_banner.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>PuneFOSS 2.0: A Dive into Open Source Insights and Initiatives</title>
+      <dc:creator>Jyoti Bhogal</dc:creator>
+      <link>https://jyoti-bhogal.github.io/blog/PuneFOSS_2.0</link>
+      <description>In February 2024, I got the opportunity to participate in FOSS United's one day conference PuneFOSS 2.0. With this blog, the reader will come to know about FOSS in general, the talks at the conference, and my views.</description>
+      <category>Open Source</category>
+      <category>Community Building</category>
+      <category>FOSS</category>
+      <category>FOSS United</category>
+      <category>Open Science</category>
+      <category>Experience Blog</category>
+      <guid>https://jyoti-bhogal.github.io/blog/PuneFOSS_2.0</guid>
+      <pubDate>Fri, 08 Mar 2024 00:00:00 +0000</pubDate>
+      <media:content url="https://jyoti-bhogal.github.io/blog/PuneFOSS_2.0/open_source_label.jpg" medium="image" type="image/jpeg"/>
+    </item>
+    <item>
+      <title>How Can Data Visualization Help in Achieving Climate Action Sustainable Developemnt Goal?</title>
+      <dc:creator>Jyoti Bhogal</dc:creator>
+      <link>https://jyoti-bhogal.github.io/blog/pale_blue_dot_sdg_climate_action</link>
+      <description>Data Insights for Sustainable Development Goals</description>
+      <category>Data visualization</category>
+      <category>R</category>
+      <category>Open Science</category>
+      <category>Open Data</category>
+      <category>Earth Observation Data</category>
+      <category>NASA</category>
+      <category>Geospatial</category>
+      <category>Maps</category>
+      <category>Sustainable Development Goal</category>
+      <category>Climate Action</category>
+      <guid>https://jyoti-bhogal.github.io/blog/pale_blue_dot_sdg_climate_action</guid>
+      <pubDate>Sat, 09 Dec 2023 00:00:00 +0000</pubDate>
+      <media:content url="https://jyoti-bhogal.github.io/blog/pale_blue_dot_sdg_climate_action/banner_climate_action.jpg" medium="image" type="image/jpeg"/>
+    </item>
+  </channel>
+</rss>
