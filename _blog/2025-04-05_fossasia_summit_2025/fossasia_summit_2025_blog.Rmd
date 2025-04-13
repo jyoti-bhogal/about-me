@@ -17,6 +17,12 @@ categories: [FOSS, Free and Open Source Software, Software, Conference, Talk, Re
 output:
   distill::distill_article:
     self_contained: false
+    
+# Add these for social media preview
+social:
+  image: https://jyoti-bhogal.github.io/blog/preview_wat_arun.jpg
+  twitter-card: summary_large_image
+  og-image: https://jyoti-bhogal.github.io/blog/preview_wat_arun.jpg    
 ---
 
 ```{r setup, include=FALSE}
