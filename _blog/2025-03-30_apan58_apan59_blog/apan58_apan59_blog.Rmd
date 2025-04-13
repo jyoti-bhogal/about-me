@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ```
 
-![Photo by [David Edelstein](https://unsplash.com/@jlhopes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)](david-edelstein-N4DbvTUDikw-unsplash.jpg) 
+![Mount Fuji, Japan. Photo by [David Edelstein](https://unsplash.com/@jlhopes?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/mount-fuji-japan-N4DbvTUDikw?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)](david-edelstein-N4DbvTUDikw-unsplash.jpg) 
   
 **What is the Asia-Pacific Advanced Network (APAN)?**
 
