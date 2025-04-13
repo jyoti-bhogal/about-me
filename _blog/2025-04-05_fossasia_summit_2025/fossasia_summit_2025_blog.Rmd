@@ -8,7 +8,7 @@ author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
 url: https://jyoti-bhogal.github.io/about-me/
-preview: images/preview_wat_arun.jpg
+preview: preview_wat_arun.jpg
 date:  04-10-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
@@ -20,8 +20,8 @@ output:
     
 # Add these for social media preview
 social:
-  image: https://jyoti-bhogal.github.io/images/preview_wat_arun.jpg
-  twitter-card: summary_large_image
+  image: https://github.com/jyoti-bhogal/about-me/tree/main/images/preview_wat_arun.jpg
+  #twitter-card: summary_large_image
   og-image: https://jyoti-bhogal.github.io/blog/preview_wat_arun.jpg    
 ---
 
