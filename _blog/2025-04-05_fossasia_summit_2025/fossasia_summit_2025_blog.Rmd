@@ -20,9 +20,11 @@ output:
     
 # Add these for social media preview
 social:
-  image: https://github.com/jyoti-bhogal/about-me/tree/main/images/preview_wat_arun.jpg
+  image: https://github.com/jyoti-bhogal/about-me/blob/main/images/preview_wat_arun.jpg
   #twitter-card: summary_large_image
-  og-image: https://github.com/jyoti-bhogal/about-me/tree/main/images/preview_wat_arun.jpg  
+  og-image: https://github.com/jyoti-bhogal/about-me/blob/main/images/preview_wat_arun.jpg  
+  
+  
 ---
 
 ```{r setup, include=FALSE}
