@@ -1,6 +1,6 @@
 ---
-title: "FOSSASIA Summit 2025: Experiencing a new culture"
-subtitle: ""
+title: "FOSSASIA Summit 2025"
+subtitle: "Experiencing a new culture"
 description: 
  During my visit to the 
  FOSSASIA Summit 2025, I had a chance to have interesting conversations and learnings. I  am sharing the same through this blog.
@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ![*Wat Arun Ratchawararam Ratchawaramahawihan (Wat Arun temple), Bangkok, Thailand.*](preview_wat_arun.jpg)
 
-***Swa-dee-kah Bangkok\! 👋🙏…***
+***Swa-dee-kah Bangkok\! 👋🙏***
 
 ## 🧑‍💻 What is FOSS?
 
@@ -50,7 +50,9 @@ I had a chance to speak to Nancy Reyes, a representative from the  [A11y Accessi
 
 ![*Hardware items for digital accessibility awareness training*](hardware_and_software_accessibility.jpg)
 
-![*A picture with /[Nancy Reyes/](https://www.linkedin.com/in/nancyreyesfl/), from the /[A11y Accessibility Labs/](https://www.a11ylab.com/), speaking about the mission of the RSE Asia Association.*](rse_asia.jpg)  
+![A picture with Nancy Reyes from the A11y Accessibility Labs](rse_asia.jpg)
+*A picture with [Nancy Reyes](https://www.linkedin.com/in/nancyreyesfl/), from the [A11y Accessibility Labs](https://www.a11ylab.com/), speaking about the mission of the RSE Asia Association.*
+ 
 
 
 ## 🗓️ Day 2
@@ -65,7 +67,7 @@ Later that day, I came across the booth of [Grafana Labs](https://www.linkedin.c
 
 I held a ‘***Meet & Greet Spot***’ to speak to people about the field of Research Software Engineering, and discussed how it is a career path where one can combine their interest in implementing their research skills along with programming skills. I also shared about the past and the upcoming activities of the [Research Software Engineering (RSE) Asia Association](https://rse-asia.github.io/RSE_Asia/). Most people were curious to learn more about it, and also expressed a desire to join the future events held for the community.
 
-![*At the conference venue entrance door](jyoti_bhogal_fossasia_summit_2025_poster.jpg)
+![*At the conference venue entrance door*](jyoti_bhogal_fossasia_summit_2025_poster.jpg)
 
 ## 👥 Cultural Warmth
 
