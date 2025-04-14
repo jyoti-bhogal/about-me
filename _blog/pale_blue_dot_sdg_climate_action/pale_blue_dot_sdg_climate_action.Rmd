@@ -1,5 +1,5 @@
 ---
-title: "How Can Data Visualization Help in Achieving Climate Action Sustainable Developement Goal?"
+title: "How Can Data Visualisation Help in Achieving Climate Action Sustainable Development Goal?"
 description: 
   Data Insights for Sustainable Development Goals
 author:
@@ -11,7 +11,7 @@ date:  12-09-2023
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Data visualization, R, Open Science, Open Data, Earth Observation Data, NASA, Geospatial, Maps, Sustainable Development Goal, Climate Action] 
+categories: [Data visualisation, R, Open Science, Open Data, Earth Observation Data, NASA, Geospatial, Maps, Sustainable Development Goal, Climate Action] 
 output:
   distill::distill_article:
     self_contained: false
@@ -57,7 +57,7 @@ We used the 2616 .netCDF files, one file representing one day. Each file has the
 ![Here's a snippet of the code](geospatial_plot_function.png)
 
 ### Data Plotting:
-To create interactive time series plots in R, we used the ‘dygraph’ package. The interactive plot is such that, when the user points the cursor on the plot area, they can see the (x,y) coordinates, which are the date and average values from the three time series, respectively. The plot also has a time range selector at the bottom, using which the user can zoom in to see the time series values for a particular time period of interest. Besides, we used the raster object to look at the daily values of CO2 in each geographical region. Two such plots are given below. The working code is accessible from the [Github repository jyoti-bhogal/data_visualization](https://github.com/jyoti-bhogal/data_visualization/blob/main/Geospatial_plot_function.R). 
+To create interactive time series plots in R, we used the ‘dygraph’ package. The interactive plot is such that, when the user points the cursor on the plot area, they can see the (x,y) coordinates, which are the date and average values from the three time series, respectively. The plot also has a time range selector at the bottom, using which the user can zoom in to see the time series values for a particular time period of interest. Besides, we used the raster object to look at the daily values of CO2 in each geographical region. Two such plots are given below. The working code is accessible from the [Github repository jyoti-bhogal/data_visualisation](https://github.com/jyoti-bhogal/data_visualization/blob/main/Geospatial_plot_function.R). 
 
 
 ## Visualising CO~2~ Changes
