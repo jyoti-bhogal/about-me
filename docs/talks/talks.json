@@ -81,6 +81,33 @@
     "input_file": {}
   },
   {
+    "path": "talks/2024-09-02_rsecon24_rse_worldwide_session/",
+    "title": "RSE Worldwide Session 2024: RSE Asia Association",
+    "description": "A Lightning Talk on 'RSE Worldwide Session 2024: RSE Asia Association' at the RSECon24 online in September 2024.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2024-09-30",
+    "categories": [
+      "Research Software",
+      "Conference",
+      "Talk",
+      "Lightning Talk",
+      "Open Science",
+      "Open Source",
+      "RSE Asia"
+    ],
+    "contents": "\nMy Lightning Talk at RSECon24🔑 Talk Resources:\nSlides: Bhogal, J. (2024, September 2). RSECon24: RSE Worldwide Session 2024 - RSE Asia Association. Zenodo. https://doi.org/10.5281/zenodo.15211579\nRecording:\n\n\n\n\n",
+    "preview": "talks/2024-09-02_rsecon24_rse_worldwide_session/talk_preview.png",
+    "last_modified": "2025-04-14T19:05:57+05:30",
+    "input_file": "talk_rsecon24.knit.md",
+    "preview_width": 2861,
+    "preview_height": 1574
+  },
+  {
     "path": "talks/2025-03-30_apan58/",
     "title": "What is Research Software and Why Should we Think About its Sustainability?",
     "description": "A Presentation Talk on 'What is Research Software and Why Should we Think About its Sustainability?' at the Asia-Pacific Advanced Network's APAN58 meeting in August 2024.",
