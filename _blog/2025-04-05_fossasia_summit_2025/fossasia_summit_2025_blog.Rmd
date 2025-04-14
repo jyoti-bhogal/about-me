@@ -36,13 +36,13 @@ FOSS, an acronym for Free and Open Source Software, embodies a software developm
 
 ## 🧑‍💻🌏 What is FOSSASIA? 
 
-[FOSSASIA](https://fossasia.org/)  is an organisation developing Open Source software applications and Open Hardware together with a global community from its base in Asia. Their goal is to provide access to open technologies, science applications and knowledge that improve people's lives. They enable people to adapt and change technology according to their own ideas and needs, and validate science and knowledge through an Open Access approach. It was established in 2009 by [Hong Phuc Dang](https://www.linkedin.com/in/hongphucdang/) and [Mario Behling](https://www.linkedin.com/in/mariobehling/). They organise and participate in conferences, meetups and code camps. The annual FOSSASIA Summit is one of the top tech events in Asia. Other summits take place in Vietnam, Cambodia, Thailand and India. FOSSASIA also runs a number of coding programs, such as [Codeheat](https://codeheat.org/).
+[FOSSASIA](https://fossasia.org/)  is an organisation developing Open Source software applications and Open Hardware together with a global community from its base in Asia. Their goal is to provide access to open technologies, science applications and knowledge that improve people's lives. They enable people to adapt and change technology according to their own ideas and needs, and validate science and knowledge through an Open Access approach. It was established in 2009 by [Hong Phuc Dang](https://www.linkedin.com/in/hongphucdang/) and [Mario Behling](https://www.linkedin.com/in/mariobehling/). They organise and participate in conferences, meetups and code camps. The annual FOSSASIA Summit is one of the top tech events in Asia. FOSSASIA also runs a number of coding programs, such as [Codeheat](https://codeheat.org/).
 
 The [15th edition of FOSSASIA Summit](https://eventyay.com/e/4c0e0c27) was organised at True Digital Park, Bangkok, Thailand from 13th to 15th March 2025\.  It brought together individuals sharing talks on topics around Free and Open Source Software. The Summit had multiple parallel track sessions like talks, lightning talks, workshops, and more\! There were booths by various organisations creating and/or using Free and Open Source Software.  This was my first experience of attending FOSSASIA in-person in Thailand.
 
 ## 🗓️ Day 1
 
-The day started with a lot of fervour. Following the welcome session by Hong Phuc Dang, there were multiple parallel tracks of talks. One of the booths demonstrated ***Robot Jupiter*** (image below) \-  an interactive virtual education assistant\!. 
+The day started with a lot of fervour. Following the welcome session by Hong Phuc Dang, there were multiple parallel tracks of talks. One of the booths demonstrated ***Robot Jupiter*** (image below) \-  an interactive virtual education assistant\!
 
 ![*Robot Jupiter, virtual education assistant*](jupiter_robot_educational_assistant.jpg)
 
@@ -92,7 +92,7 @@ Here’s a glimpse of Bangkok through my eyes\!
 
 ## 📕 My takeaway … 
 
-FOSSASIA Summit 2025 was especially close to my heart because it rekindled in me the open source community’s spirit, zeal, and dedication towards contributing back to the software that we, knowingly or unknowingly, use on a day-to-day basis. As I left Thailand to return home, I carried so many so many learnings with me \- especially the power that the voice of a community has\!
+FOSSASIA Summit 2025 was especially close to my heart because it rekindled in me the spirit, zeal, and dedication towards contributing back to the software that we, knowingly or unknowingly, use on a day-to-day basis. As I left Thailand to return home, I carried so many learnings with me \- especially the power that the voice of a community has\!
 
 With that, I am concluding this blog until next time …
 
