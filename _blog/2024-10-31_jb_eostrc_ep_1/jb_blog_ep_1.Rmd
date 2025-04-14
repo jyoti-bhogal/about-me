@@ -1,16 +1,16 @@
 ---
-title: "Enabling Open Science Through Research Code: Insights from Episode 1 - Conversations with Researchers Who Code "
+title: "Enabling Open Science Through Research Code: Insights from Episode 1 - Conversations with Researchers Who Code"
 description: |
   This is a blog sharing insights from Episode 1 of the Community Conversation series 'Enabling Open Science Through Research Code'.
 author:
   - name: Jyoti Bhogal, Mireille Grobbelaar, Anelda van der Walt, Saranjeet Kaur Bhogal
     url: https://github.com/jyoti-bhogal
-url: https://rse-asia.github.io/RSE_Asia/
+url: https://github.com/jyoti-bhogal
 preview: Ep_1_banner.png
 date: 10-29-2024
-base_url: https://rse-asia.github.io/RSE_Asia/
+base_url: https://github.com/jyoti-bhogal
 twitter:
-  creator: "@RSE_Asia"
+  creator: "@Jyoti_Bhogal1"
 categories: [Research Software Engineering, Open Science, Coding, Community Building, Experience Blog]
 output:
   distill::distill_article:
