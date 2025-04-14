@@ -1,5 +1,33 @@
 [
   {
+    "path": "talks/2025-04-10_sca2025/",
+    "title": "Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association",
+    "description": "A Presentation Talk on 'Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association' at the SuperComputing Asia 2025 meeting online in March 2025.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-04-10",
+    "categories": [
+      "Research Software",
+      "Conference",
+      "Talk",
+      "Open Science",
+      "Open Source",
+      "DEI",
+      "HPC",
+      "WHPC"
+    ],
+    "contents": "\nMy Presentation Talk at SCA25🔑 Talk Resources:\nSlides: Bhogal, J. (2025, March 12). Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association. Zenodo. https://doi.org/10.5281/zenodo.15043541\nRecording: Coming soon!\n\n\n\n",
+    "preview": "talks/2025-04-10_sca2025/SCA2025_WHPC_Panel_Speaker_Images.png",
+    "last_modified": "2025-04-14T16:20:01+05:30",
+    "input_file": "talk_sca25.knit.md",
+    "preview_width": 2214,
+    "preview_height": 1340
+  },
+  {
     "path": "talks/2025-03-31_apan59/",
     "title": "Building Bridges: Advancing Research Software Engineering and Open Science in Asia",
     "description": "A Presentation Talk on 'Building Bridges: Advancing Research Software Engineering and Open Science in Asia' at the Asia-Pacific Advanced Network's APAN59 meeting online in March 2025.",
