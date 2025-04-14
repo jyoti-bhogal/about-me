@@ -102,8 +102,8 @@
     ],
     "contents": "\nMy Lightning Talk at RSECon24🔑 Talk Resources:\nSlides: Bhogal, J. (2024, September 2). RSECon24: RSE Worldwide Session 2024 - RSE Asia Association. Zenodo. https://doi.org/10.5281/zenodo.15211579\nRecording:\n\n\n\n\n",
     "preview": "talks/2024-09-02_rsecon24_rse_worldwide_session/talk_preview.png",
-    "last_modified": "2025-04-14T19:05:57+05:30",
-    "input_file": "talk_rsecon24.knit.md",
+    "last_modified": "2025-04-14T19:05:58+05:30",
+    "input_file": {},
     "preview_width": 2861,
     "preview_height": 1574
   },
@@ -129,8 +129,8 @@
     ],
     "contents": "\nPanel discussion at RSEAA24\n\n\n",
     "preview": "talks/2024-10-05_rseaa24_strategy_policy_panel/RSEAA24_panel.png",
-    "last_modified": "2025-04-14T19:19:37+05:30",
-    "input_file": "talk_rseaa24_panel.knit.md",
+    "last_modified": "2025-04-14T19:19:38+05:30",
+    "input_file": {},
     "preview_width": 1920,
     "preview_height": 1080
   },
@@ -181,7 +181,7 @@
     "contents": "\nMy Demo Talk at PythonPune February 2024 meetup🔑 Talk Resources:\nSlides: Bhogal, J. (2024, March 10). Geospatial Data Visualization: Tracking Sustainable Development Goals with Open Data and Open Source Software. Zenodo. https://doi.org/10.5281/zenodo.15211927\n\n\n\n",
     "preview": "talks/2024-03-10_pythonpune/Jyoti_Bhogal_PythonPune_February_2024_PuneMeetup.png",
     "last_modified": "2025-04-14T19:56:19+05:30",
-    "input_file": "talk_pythonpune_feb_2024.knit.md",
+    "input_file": {},
     "preview_width": 960,
     "preview_height": 540
   }

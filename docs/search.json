@@ -6,21 +6,21 @@
       "description": "Blogs by Jyoti Bhogal\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2025-04-14T13:00:43+05:30"
+      "last_modified": "2025-04-14T22:56:09+05:30"
     },
     {
       "path": "CV.html",
       "title": "About Jyoti",
       "author": [],
       "contents": "",
-      "last_modified": "2025-04-12T20:13:13+05:30"
+      "last_modified": "2025-04-14T22:55:46+05:30"
     },
     {
       "path": "index.html",
       "title": "Hi, I'm Jyoti",
       "author": [],
       "contents": "",
-      "last_modified": "2025-04-14T16:32:51+05:30"
+      "last_modified": "2025-04-14T22:54:46+05:30"
     },
     {
       "path": "talk.html",
@@ -28,7 +28,7 @@
       "description": "Talks at conferenced, events, meetup, and other programmes\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2025-04-14T16:32:19+05:30"
+      "last_modified": "2025-04-14T19:56:19+05:30"
     }
   ],
   "collections": ["blog/blog.json", "talks/talks.json"]
