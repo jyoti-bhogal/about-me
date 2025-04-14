@@ -6,4 +6,3 @@ twitter:
   creator: "@Jyoti_Bhogal1"
 listing: blog
 ---
-

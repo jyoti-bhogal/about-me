@@ -8,9 +8,12 @@ navbar:
   right:
     - text: "Home"
       href: index.html
-    - text: "Blog"
+    - text: "Blogs"
       href: blog.html  ## Edit here Jyoti when you figure out how to add blogs
+    - text: "Talks"
+      href: talk.html
     - text: "CV"
       href: CV.html
+    
 
 output: distill::distill_article
