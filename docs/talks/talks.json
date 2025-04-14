@@ -23,7 +23,7 @@
     "contents": "\nMy Presentation Talk at SCA25🔑 Talk Resources:\nSlides: Bhogal, J. (2025, March 12). Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association. Zenodo. https://doi.org/10.5281/zenodo.15043541\nRecording: Coming soon!\n\n\n\n",
     "preview": "talks/2025-04-10_sca2025/SCA2025_WHPC_Panel_Speaker_Images.png",
     "last_modified": "2025-04-14T16:20:01+05:30",
-    "input_file": "talk_sca25.knit.md",
+    "input_file": {},
     "preview_width": 2214,
     "preview_height": 1340
   },
@@ -48,8 +48,8 @@
     ],
     "contents": "\nMy Presentation Talk at APAN59🔑 Talk Resources:\nSlides: Bhogal, J. (2025, March 3). Building Bridges: Advancing Research Software Engineering and Open Science in Asia. Zenodo. https://doi.org/10.5281/zenodo.15180196\nRecording: Coming soon!\n\n\n\n",
     "preview": "talks/2025-03-31_apan59/APAN59_slide_main_page.png",
-    "last_modified": "2025-04-14T15:51:08+05:30",
-    "input_file": "talk_apan59_2025.knit.md",
+    "last_modified": "2025-04-14T16:03:24+05:30",
+    "input_file": {},
     "preview_width": 960,
     "preview_height": 540
   },
@@ -77,8 +77,8 @@
     ],
     "contents": "\nMy Lightning Talk at PyCon India 2024🔑 Talk Resources:\nSlides: Jyoti Bhogal, J. (2024, September 22). Accelerating India’s Open Science Journey with Python. Zenodo. https://doi.org/10.5281/zenodo.13826028\nRecording:\n\n\n\n\n",
     "preview": "talks/2024-10-26_pycon_india_2024/lit_talk_title.jpeg",
-    "last_modified": "2025-04-14T14:07:28+05:30",
-    "input_file": "talk_pycon_india_2024.knit.md"
+    "last_modified": "2025-04-14T16:32:09+05:30",
+    "input_file": {}
   },
   {
     "path": "talks/2025-03-30_apan58/",
@@ -101,8 +101,8 @@
     ],
     "contents": "\nMy Presentation Talk at APAN58🔑 Talk Resources:\nSlides: Jyoti Bhogal. (2024, August 27). What is Research Software and Why Should we Think About its Sustainability?. Zenodo.https://doi.org/10.5281/zenodo.13377699\nRecording: APAN58 : Asia Pacific Open and Sharing Data WG, 27th August 2024, Part 1 (Clip from 00:00 to 14:55)\n\n\n\n\n",
     "preview": "talks/2025-03-30_apan58/APAN58_talk_image_1_software_sustainability_methods.png",
-    "last_modified": "2025-04-14T14:31:03+05:30",
-    "input_file": "talk_apan58_2024.knit.md",
+    "last_modified": "2025-04-14T16:32:19+05:30",
+    "input_file": {},
     "preview_width": 1600,
     "preview_height": 730
   }
