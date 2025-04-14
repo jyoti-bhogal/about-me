@@ -25,5 +25,31 @@
     "preview": "talks/2024-10-26_pycon_india_2024/lit_talk_title.jpeg",
     "last_modified": "2025-04-14T14:07:28+05:30",
     "input_file": "talk_pycon_india_2024.knit.md"
+  },
+  {
+    "path": "talks/2025-03-30_apan58/",
+    "title": "What is Research Software and Why Should we Think About its Sustainability?",
+    "description": "A Presentation Talk on 'What is Research Software and Why Should we Think About its Sustainability?' at the Asia-Pacific Advanced Network's APAN58 meeting in August 2024.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2024-08-27",
+    "categories": [
+      "Research Software",
+      "Conference",
+      "Talk",
+      "APAN",
+      "Open Science",
+      "Open Source"
+    ],
+    "contents": "\nMy Presentation Talk at APAN58🔑 Talk Resources:\nSlides: Jyoti Bhogal. (2024, August 27). What is Research Software and Why Should we Think About its Sustainability?. Zenodo.https://doi.org/10.5281/zenodo.13377699\nRecording: APAN58 : Asia Pacific Open and Sharing Data WG, 27th August 2024, Part 1 (Clip from 00:00 to 14:55)\n\n\n\n\n",
+    "preview": "talks/2025-03-30_apan58/APAN58_talk_image_1_software_sustainability_methods.png",
+    "last_modified": "2025-04-14T14:31:03+05:30",
+    "input_file": "talk_apan58_2024.knit.md",
+    "preview_width": 1600,
+    "preview_height": 730
   }
 ]
