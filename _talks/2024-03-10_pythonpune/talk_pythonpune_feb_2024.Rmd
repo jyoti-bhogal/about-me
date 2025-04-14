@@ -1,0 +1,33 @@
+---
+title: "PythonPune: Geospatial Data Visualisation: Tracking Sustainable Development Goals 
+with Open Data and Open Source Software
+"
+description: |
+  A Demo Talk on 'Geospatial Data Visualization: Tracking Sustainable Development Goals with Open Data and Open Source Software' at the PythonPune monthly meetup in-person in February 2024.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: Jyoti_Bhogal_PythonPune_February_2024_PuneMeetup.png
+date: 03-15-2024
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [Python, Meetup, Talk, Open Science, Open Source] 
+output:
+  distill::distill_article:
+    self_contained: false
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+```
+
+![My Demo Talk at PythonPune February 2024 meetup](Jyoti_Bhogal_PythonPune_February_2024_PuneMeetup.png)
+
+🔑 **Talk Resources:** 
+
+1. **Slides:** Bhogal, J. (2024, March 10). Geospatial Data Visualization: Tracking Sustainable Development Goals with Open Data and Open Source Software. Zenodo. https://doi.org/10.5281/zenodo.15211927 

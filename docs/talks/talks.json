@@ -159,5 +159,30 @@
     "input_file": {},
     "preview_width": 1600,
     "preview_height": 730
+  },
+  {
+    "path": "talks/2024-03-10_pythonpune/",
+    "title": "PythonPune: Geospatial Data Visualisation: Tracking Sustainable Development Goals with Open Data and Open Source Software ",
+    "description": "A Demo Talk on 'Geospatial Data Visualization: Tracking Sustainable Development Goals with Open Data and Open Source Software' at the PythonPune monthly meetup in-person in February 2024.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2024-03-15",
+    "categories": [
+      "Python",
+      "Meetup",
+      "Talk",
+      "Open Science",
+      "Open Source"
+    ],
+    "contents": "\nMy Demo Talk at PythonPune February 2024 meetup🔑 Talk Resources:\nSlides: Bhogal, J. (2024, March 10). Geospatial Data Visualization: Tracking Sustainable Development Goals with Open Data and Open Source Software. Zenodo. https://doi.org/10.5281/zenodo.15211927\n\n\n\n",
+    "preview": "talks/2024-03-10_pythonpune/Jyoti_Bhogal_PythonPune_February_2024_PuneMeetup.png",
+    "last_modified": "2025-04-14T19:56:19+05:30",
+    "input_file": "talk_pythonpune_feb_2024.knit.md",
+    "preview_width": 960,
+    "preview_height": 540
   }
 ]
