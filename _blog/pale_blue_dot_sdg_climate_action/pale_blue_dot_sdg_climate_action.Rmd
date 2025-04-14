@@ -1,5 +1,5 @@
 ---
-title: "How Can Data Visualization Help in Achieving Climate Action Sustainable Developemnt Goal?"
+title: "How Can Data Visualization Help in Achieving Climate Action Sustainable Developement Goal?"
 description: 
   Data Insights for Sustainable Development Goals
 author:
