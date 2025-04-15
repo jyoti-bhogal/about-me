@@ -22,19 +22,26 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #### **SSI Fellow 2025, Software Sustainability Institute (SSI),** January 2025 \- Present
 
-* Adapting the [SSI surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys) to make them suitable for the Asian context  
-* Presenting the project idea and progress at the biannual APAN meetings  
-* Preparing a community network analysis graph  
+* Localising the [SSI surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys) to make them suitable for the Asian context  
+* Conducting research analysis  on the anonymised responses to the survey
+* Promoting the project and reporting the progress at the biannual APAN meetings
+* Conducting a qualitative and quantitative analysis to develop a community network analysis graph
 * **Software Tools:** GitHub, R/Python, VS Code
 
+#### **Research Software Engineering Contributor, Walter and Eliza Hall Institute of Medical Research (WEHI),** Nov’24 \- Present (Remote, Volunteer)
+* Exploring, analysing and visualising cancer genomics data using cBioportal as a free, open-source online database.
+* Studying various formats of multiomics data files commonly used in Bioinformatics – raw (.fastq), processed (.bam/.cram), summarised (.vcf) files.
+* Cross-team collaborations to prioritise the dependencies.
+* **Software Tools:** RStudio, GitHub
 
 #### **Research Software Community Manager, Research Software Alliance (ReSA),** September 2024 \- Present (part-time)
 
-* Jyoti worked on website technical support: Creation, maintenance, and documentation via Hugo framework, VS Code,  and GitHub.  
-* She provided admin for task force process including organisation, emails, and meeting minutes.  
-* She maintains the funding databases  
-* She supports ReSA’s stakeholder forums.  
-* She engaged with the ReSA community via social media (such as LinkedIn, Mastodon, Bluesky mailing list,  and Slack) by creating newsletters and posts about relevant worldwide Research Software events and conferences resulting in the LinkedIn, Bluesky, Slack, Mastodon, and Mailerlist engagement increase by 133%, 66%, 63%,  32%, 20%, .  
+* Provide technical support to maintain and update the organisational website
+* Manage the task force process, organisation, and internal communications
+* Study, maintain, and update the global funding database
+* Support stakeholder forums
+* Community engagement through social media (LinkedIn, Bluesky, Slack, Mastodon, Mailing list - with engagement rate increasing by 133%, 66%, 63%,  32%, 20% respectively)
+* Curate and create monthly newsletters, generate subscription  analytics and reports
 * **Software Tools:** Hugo framework, VS Code (Terminal), GitHub.
 
 ####  **Deloitte Consulting India Pvt. Ltd., Pune —** *Analyst,* April 2022 \- September 2024  
@@ -84,28 +91,33 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # **CONFERENCES**
 
-####               **FOSSASIA Summit 2025, Bangkok, Thailand  (in-person) | 13-15 March 2025**
+####               **FOSSASIA Summit 2025, Bangkok, Thailand | 13-15 March 2025**
 
 * FOSSASIA summit 2025 is by the FOSSASIA organisation to bring together an inspiring community across borders and ages to form a better future with Open Technologies and Information & Communication Technologies  
 * Jyoti presented a remote Lightning Talk at the RSE Worldwide session to share the status of the RSE Asia Association, participated in the R Development Hackathon to translate 30+ R programming language messages from English to Hindi using Weblate, and attended various other sessions.
 
 
 
-####           **SuperComputing Asia (SCA) 2025, Marina Bay Sands, Singapore (online) | 10-13 March 2025**
+####           **SuperComputing Asia (SCA) 2025, Online | 10-13 March 2025**
 
 * SuperComouting Asia 2025 is a gathering of the best HPC in Asia.  
 * Jyoti presented a remote talk on ‘Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association’ in the panel on ‘Diversity and Inclusivity’
 
-####               **APAN59, Yokohama, Japan (online) | 3-7 March 2025**
+####               **APAN59, Online | 3-7 March 2025**
 
 * Jyoti presented a remote talk at the OSDWG session to on the topic ‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’, and also chaired the seesion
 
-####               **RSECon24, New Castle, UK (Online) | 3-5 September 2024**
+#### **PyCon India 2024, Bengaluru, India | 12-15 Sep 2024**
+* PyCon India is an annual conference run by the Python community in India
+* At PyCon India 2024, Jyoti gave a lightning talk on ‘Accelerating India’s Open Science Journey with Python’. She also participated in workshops and a DevDay to learn to contribute to the NumPy open-source Python library
+
+
+####               **RSECon24, Online | 3-5 September 2024**
 
 * RSECon24 is organised by the Society of Research Software Engineering (SocRSE), a charitable incorporated organisation based in the UK. It was run in a hybrid mode (London+Remote).  
 * Jyoti presented a remote Lightning Talk at the RSE Worldwide session to share the status of the RSE Asia Association, participated in the R Development Hackathon to translate 30+ R programming language messages from English to Hindi using Weblate, and attended various other sessions.
 
-#### **APAN58, Islamabad, Pakistan (Online)| 26-30 August 2024**
+#### **APAN58, Online | 26-30 August 2024**
 
 * Asia Pacific Advanced Network is an organisation and also a network that connects the research and education networks of its member countries/economies and other research networks across the world. At APAN58, the 58th bi-annual meeting of APAN, Jyoti remotely presented the journey of the RSE Asia Association so far.
 
@@ -119,21 +131,21 @@ knitr::opts_chunk$set(echo = FALSE)
 * PuneFOSS 2.0 (24 February 2024): At the FOSS United Pune conference in February 2024, Jyoti attended a day full of interactive sessions on the importance of Free and Open Source Software ecosystem.  
 * PuneFOSS 2.1 (24 August 2024): Jyoti participated in a hands-on workshop titled ‘Dynamic Secrets: Unleashing the Thor’s Hammer of FOSS’, along with listening to other talks on open source software products like InstructLab and WebAssembly.
 
-#### **PyCon India 2023***,* **Hyderabad, India | 29 Sep \- 2  Oct 2023**
+#### **PyCon India 2023, Hyderabad, India | 29 Sep \- 2  Oct 2023**
 
 * PyCon India is an annual conference run by the Python community in India.  
 * At PyCon India 2023, Jyoti participated in Python workshops on Data Munging with Python. Furthermore, she gave inputs in an Open Forum discussion on FOSS and Scientific Software Development.
 
-#### **PyData Global 2021***,* **Online | 28 \- 30 Oct 2021**
+#### **PyData Global 2021, Online | 28 \- 30 Oct 2021**
 
 * PyData is a community for developers and users of open-source data tools.  
 * At PyData Global 2021, Jyoti was selected as a PyData Global Impact Scholar. Amongst many other learnings, she enjoyed a sprint on the usability of the Python package *PyMC.* She continues to be an active member of the PyData community.
 
-#### **useR 2021, Virtual | 5 \- 9 July 2021**
+#### **useR 2021, Online | 5 \- 9 July 2021**
 
 * useR\! is an annual conference, organised by R community volunteers, and supported by the R Foundation showcases applications and developments of R Software. At useR 2021, Jyoti volunteered as a Zoom Host and participated in various conference sessions on applications of R software, like the R quiz, Research Software Engineering, and many more.
 
-#### **R-Ladies Global, Rotating Curator**
+#### **R-Ladies Global, Rotating Curato, Online**
 
 * R-Ladies is a worldwide organisation whose mission is to promote gender diversity in the R community. Jyoti managed the R-Ladies Twitter handle to encourage and maintain communications about the use of R Software language within the R-Ladies global community.
 
