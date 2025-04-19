@@ -28,7 +28,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * Conducting a qualitative and quantitative analysis to develop a community network analysis graph
 * **Software Tools:** GitHub, R/Python, VS Code
 
-#### **Research Software Engineering Contributor, Walter and Eliza Hall Institute of Medical Research (WEHI),** Nov’24 \- Present (Remote, Volunteer)
+#### **Research Software Engineering Contributor, Walter and Eliza Hall Institute of Medical Research (WEHI),** November 2024 \- Present (Remote, Volunteer)
 * Exploring, analysing and visualising cancer genomics data using cBioportal as a free, open-source online database.
 * Studying various formats of multiomics data files commonly used in Bioinformatics – raw (.fastq), processed (.bam/.cram), summarised (.vcf) files.
 * Cross-team collaborations to prioritise the dependencies.
@@ -82,7 +82,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * The International Council of RSE Associations (*the Council*) provides a formal open forum for established national and multinational RSE associations to talk and coordinate regularly, and thus sustain international collaboration.  
 * As an observer member of the council, Jyoti provides insights from Asia and fosters connections within the global RSE community.
 
-#### **Open Life Science (OLS) Graduate,** Open Science Project
+#### **OLS (formerly Open Life Science) Graduate,** Open Science Project
 
 * OLS is a not-for-profit organisation dedicated to capacity building and diversifying leadership in research worldwide. It runs a mentorship program, now called the Open Seeds program.  
 * Cohort \-4 (OLS-4), September 2021 \- January 2022: Project Lead & Community Building Volunteer for 'Building the Research Software Engineering (RSE) Asia Association.' Organised RSE Asia Launch Event in collaboration with Hacktoberfest 2021\.  
@@ -204,8 +204,8 @@ English, Hindi, German (Certificate Course)
 
 # **REFERENCES** 
 
-1. Yo Yehudi, Executive Director, Open Life Science,  Email: [yo@we-are-ols.org](mailto:yo@we-are-ols.org), Phone No.: \+44 7432149529  
-2. Malvika Sharan, Director of Strategy and Partnership, Open Life Science, Email: [malvikasharan@gmail.com](mailto:malvikasharan@gmail.com)  
+1. Yo Yehudi, Executive Director, OLS,  Email: [yo@we-are-ols.org](mailto:yo@we-are-ols.org), Phone No.: \+44 7432149529  
+2. Malvika Sharan, Director of Strategy and Partnership, OLS, Email: [malvikasharan@gmail.com](mailto:malvikasharan@gmail.com)  
 3. Rowland Mosbergen,  RCP Strategic Engagement and Planning Manager,  Walter and Eliza Hall Institute of Medical Research, Email: [rowland.h.mosbergen@gmail.com](mailto:rowland.h.mosbergen@gmail.com), Phone No.: \+61 423030626  
 4. Anelda van der Walt, Director & Trainer, Talarify, Email: [anelda@talarify.co.za](mailto:anelda@talarify.co.za) 
 
