@@ -1,5 +1,33 @@
 [
   {
+    "path": "blog/2025-04-17_generatervis_blog_1/",
+    "title": "{generatervis}: R package to synthesise and visualise clinical data - Part 1",
+    "description": "I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data. This is the first blog in this series of blogs to share about the process from ideation to implementation.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-04-17",
+    "categories": [
+      "FOSS",
+      "Free and Open Source Software",
+      "Software",
+      "R",
+      "Package",
+      "Research Software",
+      "Open Science",
+      "Open Source",
+      "Clincial Data",
+      "Bioinformatics"
+    ],
+    "contents": "\n\nI have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data. This is the first blog in this series of blogs to share about the process from ideation to implementation.\n📈 Research Data Management (RDM): How to handle and organise your research data?\nData management is the process of collecting, storing, organising, and using data in a structured manner to ensure accuracy, completeness, and security. It involves all aspects of managing data throughout its lifecycle, from creation to deletion or archiving. Essentially, it’s about making sure data is accessible, reliable, and used effectively to support operations and decision-making. Data management becomes really difficult to achieve in a scenario where the research data is spread across multiple organisations, is multi-omics (genomics, transcriptomics, proteomics, and metabolomics) in nature, and is being published through different journals. To add more complexity to this, there are different versions/stages of the data files (raw, processed, summarised) throughout the data lifecycle, and ingesting the data into the essential workflows becomes all the more complex.\n🛠️ What’s the story behind REDMANE?\nREsearch Data Management and ANalysis Environment (REDMANE) is a data management and analysis platform that was introduced to resolve these complex issues.\nREDMANE resolves these issues by having the following features:\nLightweight and flexible ecosystem\nDoesn’t need organisational buy-in\nCheaper to run than full cloud solution\nEasily handles new data types\nFocused on importing information quickly and easily\nSingle Sign On\nCan handle cross-organisation data easily\n⚙️ A quick look at REDMANE’s structure\nREDMANE structure with common patient and sample ideas across different types of datasets🧬 So, what exactly is Whole Genome Sequencing (WGS)?\nWhole Genome Sequencing (WGS) data refers to the complete DNA sequence of an organism, including both coding and non-coding regions. It’s a comprehensive analysis of an organism’s genome, providing a detailed view of its genetic makeup. WGS is a powerful tool for genomics research, allowing scientists to identify genetic variations, study disease outbreaks, and more.\nSome of the use cases for WGS data are:\nMedical Genomics: Diagnosing rare diseases, identifying cancer drivers, and personalised medicine.\nEvolutionary Biology: Understanding species relationships and the evolution of life.\nAgriculture: Improving crop and livestock breeding programs.\nPublic Health: Tracking disease outbreaks and developing new diagnostics.\nWGS data in this R package is synthesised, instead of using real-world data so as to ensure that patient privacy is maintained and any potential security concerns are addressed while still making the data useful for research. As an example, sensitive data such as: medicare number, date of birth, location of residence, etc, are often included in clinical data. Therefore, the solution is to artificially or ‘synthetically’ generate clinical data that replicates real-world datasets.\n🌼 What does a WGS dataset really look like? Here’s a snapshot.\nWGS dataset concept diagram🔎 Curious how the WGS dataset ties into REDMANE? Let’s walk through it.\nREDMANE contains different types of datasets for the sample patient ID and the sample ID. One of these dataset types is WGS data. In this blog series, we will explore the process of file creation, dataset creation, and workflow creation for the WGS dataset.\nMaturity model to create and ingest data into REDMANEThe above diagram shows a maturity model for creating WGS data files and uploading them to the cBioportal. cBioportal is a widely used free, open-source online database useful to explore, analyse and visualise cancer genomics data.\n🛠️ Here’s a quick guide to creating WGS data files\nStep 1: Create empty files with the correct file names for the workflow.\nStep 2: Add minimal sample data to the empty files.\nStep 3: Add more sample data to the minimal files.\n🎯 Next steps\nSome of the potential next steps include\nTo create the workflow for WGS dataset files\nThe 4th step in the maturity model, i.e., uploading the WGS dataset into cBioportal\nFor other dataset types, like Tabular Circular data, Imaging Dataset, etc., implementing the process of creating the dataset and then uploading it to cBioportal\nVisualisation for WGS datasets\n\nP.S.: The project development is done using CI/CD. To know further, keep an eye on future blog posts in this series.\n🔑 Resources created\nA website to give a brief introduction and demo of the R package {gereratervis} is: https://clinical-informatics-collaborative.github.io/generatervis/\nThe work-in-progress source code for the R package is available at: https://github.com/Clinical-Informatics-Collaborative/generatervis\n💡References\nR Packages (2e) by Hadley Wickham and Jennifer Bryan, CC BY-NC-ND 4.0 License\nR package {Shinylive}\nGet In Touch:\nEmail: bhogaljyoti1@gmail.comLinkedIn: jyoti-bhogalGitHub: jyoti-bhogalMastodon: jyoti_bhogal\nBluesky: jyoti-bhogal.bsky.social\nWebsite: https://jyoti-bhogal.github.io/about-me/index.html\n\n\n\n",
+    "preview": "blog/2025-04-17_generatervis_blog_1/preview_bougainvillea.jpg",
+    "last_modified": "2025-04-21T13:46:48+05:30",
+    "input_file": "generatervis_blog_1.knit.md"
+  },
+  {
     "path": "blog/2025-03-30_apan58_apan59_blog/",
     "title": "Research, Software, and Collaborations",
     "description": "During my talks at the APAN58 and APAN59 meetings, I had a chance to have interesting conversations and feedback, which I am sharing through this blog.",
