@@ -1,5 +1,5 @@
 ---
-title: "{generatervis}: R package to synthesise, visualise clinical data, and create a Research Data Management workflow \- Part 2"
+title: "{generatervis}: R package to synthesise, visualise clinical data, and create a Research Data Management workflow - Part 2"
 subtitle: 
 description: 
  I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data. This is the second blog in this series of blogs to share about the process from ideation to implementation.
@@ -42,13 +42,7 @@ To implement the workflow mentioned in the maturity model, I divided the stages 
 
 ## 🪜Bringing the mental model to life, step by step
 
-![*Mental model flow chart for the developed solution.*](mental_model_flow_chart.jpg)
-
-
-The assumptions for this mental model are:
-
-1.   
-2. 
+![*Mental model flow chart for the solution being developed.*](mental_model_flow_chart.jpg)
 
 With these granular steps mentioned in the above mental map flow chart, I started to write an R function corresponding to each unique step.  
 For the first two steps, the function can be found here:
@@ -66,8 +60,11 @@ Steps to install the development version of the `generatervis` R package from Gi
    
 
 ```{r}  
+# Install remotes from CRAN if not already installed
+#install.packages("remotes")
+
 # install.packages("pak")  
-pak::pak("Clinical-Informatics-Collaborative/generatervis")  
+#remotes::install_github("Clinical-Informatics-Collaborative/generatervis")  
 ```
 
 2. Run the code.
@@ -84,16 +81,16 @@ The function returns nothing or NULL.
 
 Example code snippet to use [create_empty_fastq()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_empty_fastq.R) function:
 
-```{r}
+```{r, echo = TRUE}
 
 # Example 1  
 # Create an empty FASTQ file for patient ID "patient_123"  
-create_empty_fastq("patient_123")
+generatervis::create_empty_fastq("patient_123")
 
 # Example 2  
 #Create an empty FASTQ file for patient ID "patient_456" in a specific directory  
-dir_path <- # "path/to/your/directory"
-create_empty_fastq("patient_456", output_dir = dir_path)  
+dir_path <- "."  # "path/to/your/directory"
+generatervis::create_empty_fastq("patient_456", output_dir = dir_path)  
 ```
 
 ### 🧑‍💻 Using `rreads()`
@@ -109,16 +106,16 @@ The function returns a character vector containing the generated FASTQ lines.
 
 Example code snippet to use [rreads()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R) function:
 
-```{r}  
+```{r, echo = TRUE}  
 # Example 1  
 # Generate 5 random reads for patient ID "patient_123" with default read length  
-rreads("patient_123", n = 5)
+generatervis::rreads("patient_123", n = 5)
 
 # Note: default read length is 8.
 
 # Example 2  
 # Generate 10 random reads for patient ID "patient_456" with a read length of 10  
-rreads("patient_456", n = 10, read_length = 10)  
+generatervis::rreads("patient_456", n = 10, read_length = 10)  
 ```
 
 # 🎯 Next steps
