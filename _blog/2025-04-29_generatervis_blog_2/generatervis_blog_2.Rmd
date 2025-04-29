@@ -7,7 +7,7 @@ author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
 url: https://jyoti-bhogal.github.io/about-me/
-preview: preview_red_flowers.jpg
+preview: yellow_flowers.jpg
 date:  04-29-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
