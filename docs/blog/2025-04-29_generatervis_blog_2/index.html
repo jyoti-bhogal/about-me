@@ -2601,7 +2601,13 @@ For the first two steps, the function can be found here:</p>
 <li>Write the following steps in RStudio console or in an new .R file:</li>
 </ol>
 <div class="layout-chunk" data-layout="l-body">
-
+<div class="sourceCode">
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Install remotes from CRAN if not already installed</span></span>
+<span><span class='co'>#install.packages("remotes")</span></span>
+<span></span>
+<span><span class='co'># install.packages("pak")  </span></span>
+<span><span class='co'>#remotes::install_github("Clinical-Informatics-Collaborative/generatervis")  </span></span></code></pre>
+</div>
 </div>
 <ol start="2" type="1">
 <li>Run the code.</li>
@@ -2639,12 +2645,12 @@ For the first two steps, the function can be found here:</p>
 <span><span class='co'># Generate 5 random reads for patient ID "patient_123" with default read length  </span></span>
 <span><span class='fu'>generatervis</span><span class='fu'>::</span><span class='fu'><a href='https://clinical-informatics-collaborative.github.io/generatervis/reference/rreads.html'>rreads</a></span><span class='op'>(</span><span class='st'>"patient_123"</span>, n <span class='op'>=</span> <span class='fl'>5</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code> [1] &quot;@patient_123_read1&quot; &quot;GTACCTGG&quot;           &quot;+&quot;                 
- [4] &quot;IIIIIIII&quot;           &quot;@patient_123_read2&quot; &quot;CCCTGCGG&quot;          
+<pre><code> [1] &quot;@patient_123_read1&quot; &quot;TAAATACG&quot;           &quot;+&quot;                 
+ [4] &quot;IIIIIIII&quot;           &quot;@patient_123_read2&quot; &quot;AGGCGTCC&quot;          
  [7] &quot;+&quot;                  &quot;IIIIIIII&quot;           &quot;@patient_123_read3&quot;
-[10] &quot;GGCGTAGT&quot;           &quot;+&quot;                  &quot;IIIIIIII&quot;          
-[13] &quot;@patient_123_read4&quot; &quot;GCCATAAC&quot;           &quot;+&quot;                 
-[16] &quot;IIIIIIII&quot;           &quot;@patient_123_read5&quot; &quot;GCTCAAGT&quot;          
+[10] &quot;TGAAAGAC&quot;           &quot;+&quot;                  &quot;IIIIIIII&quot;          
+[13] &quot;@patient_123_read4&quot; &quot;CAAGTATT&quot;           &quot;+&quot;                 
+[16] &quot;IIIIIIII&quot;           &quot;@patient_123_read5&quot; &quot;GCACACGA&quot;          
 [19] &quot;+&quot;                  &quot;IIIIIIII&quot;          </code></pre>
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Note: default read length is 8.</span></span>
@@ -2653,19 +2659,19 @@ For the first two steps, the function can be found here:</p>
 <span><span class='co'># Generate 10 random reads for patient ID "patient_456" with a read length of 10  </span></span>
 <span><span class='fu'>generatervis</span><span class='fu'>::</span><span class='fu'><a href='https://clinical-informatics-collaborative.github.io/generatervis/reference/rreads.html'>rreads</a></span><span class='op'>(</span><span class='st'>"patient_456"</span>, n <span class='op'>=</span> <span class='fl'>10</span>, read_length <span class='op'>=</span> <span class='fl'>10</span><span class='op'>)</span>  </span></code></pre>
 </div>
-<pre><code> [1] &quot;@patient_456_read1&quot;  &quot;AGGCTTATCG&quot;          &quot;+&quot;                  
- [4] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read2&quot;  &quot;AATAAAAATC&quot;         
+<pre><code> [1] &quot;@patient_456_read1&quot;  &quot;TCCAAAGTAC&quot;          &quot;+&quot;                  
+ [4] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read2&quot;  &quot;AACCTCGCAT&quot;         
  [7] &quot;+&quot;                   &quot;IIIIIIIIII&quot;          &quot;@patient_456_read3&quot; 
-[10] &quot;CATCTTGAGG&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
-[13] &quot;@patient_456_read4&quot;  &quot;AACTGGTGGC&quot;          &quot;+&quot;                  
-[16] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read5&quot;  &quot;CAGACTCTTT&quot;         
+[10] &quot;ACCAAGTAAT&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
+[13] &quot;@patient_456_read4&quot;  &quot;CCACAGCGTA&quot;          &quot;+&quot;                  
+[16] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read5&quot;  &quot;TAGAACGCGT&quot;         
 [19] &quot;+&quot;                   &quot;IIIIIIIIII&quot;          &quot;@patient_456_read6&quot; 
-[22] &quot;GTTAGTCGGA&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
-[25] &quot;@patient_456_read7&quot;  &quot;TGTTTTGCCG&quot;          &quot;+&quot;                  
-[28] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read8&quot;  &quot;GAACCCGCAC&quot;         
+[22] &quot;GGCTACCGAG&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
+[25] &quot;@patient_456_read7&quot;  &quot;GGATACGCGG&quot;          &quot;+&quot;                  
+[28] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read8&quot;  &quot;AGTCGCTACA&quot;         
 [31] &quot;+&quot;                   &quot;IIIIIIIIII&quot;          &quot;@patient_456_read9&quot; 
-[34] &quot;TCTACCGACG&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
-[37] &quot;@patient_456_read10&quot; &quot;TTTAGTATAC&quot;          &quot;+&quot;                  
+[34] &quot;TAGATTCATT&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
+[37] &quot;@patient_456_read10&quot; &quot;GCACGCCTTT&quot;          &quot;+&quot;                  
 [40] &quot;IIIIIIIIII&quot;         </code></pre>
 </div>
 <h1 id="next-steps">🎯 Next steps</h1>

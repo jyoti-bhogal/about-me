@@ -59,7 +59,7 @@ Steps to install the development version of the `generatervis` R package from Gi
 1. Write the following steps in RStudio console or in an new .R file:  
    
 
-```{r}  
+```{r, echo = TRUE}  
 # Install remotes from CRAN if not already installed
 #install.packages("remotes")
 
