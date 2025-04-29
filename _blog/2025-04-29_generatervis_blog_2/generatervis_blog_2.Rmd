@@ -1,5 +1,5 @@
 ---
-title: "{generatervis}: R package to synthesise, visualise clinical data, and create a Research Data Management workflow - Part 2"
+title: "{generatervis}: R package to synthesise, visualise clinical data, and create a data workflow - Part 2"
 subtitle: 
 description: 
  I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data. This is the second blog in this series of blogs to share about the process from ideation to implementation.
