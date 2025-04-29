@@ -1,5 +1,5 @@
 ---
-title: "An R package to synthesise, visualise clinical data, and create a data workflow - Part 2"
+title: "{generatervis}: An R package to synthesise, visualise clinical data, and create a data workflow - Part 2"
 subtitle: 
 description: 
  I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data. This is the second blog in this series of blogs to share about the process from ideation to implementation.
@@ -32,7 +32,7 @@ This is the second blog in the series of blogs about my first open-source R pack
 
 ## 📝 Figuring out what we really need
 
-Over the past several weeks, I have been discussing with my cohort fellows and our mentor Rowland Mosbergen. The domain of Whole Genome Sequencing (WGS) is very vast, and the first lesson we have learnt is to ***narrow down the problem space*** we are trying to solve and ***create a roadmap*** for what we want to implement. Based on the requirements that we have gathered so far, I have created the following maturity model of a research data management workflow for creating and ingesting the WGS dataset into REDMANE.
+Over the past several weeks, I have been discussing with my cohort fellows and our mentor [Rowland Mosbergen](https://www.linkedin.com/in/rowlandm-gaicd/). The domain of Whole Genome Sequencing (WGS) is very vast, and the first lesson we have learnt is to ***narrow down the problem space*** we are trying to solve and ***create a roadmap*** for what we want to implement. Based on the requirements that we have gathered so far, I have created the following maturity model of a research data management workflow for creating and ingesting the WGS dataset into REDMANE.
 
 ![*Maturity model to create and ingest data into REDMANE*](maturity_model.png)
 
@@ -51,7 +51,7 @@ Once I created the flowchart, it became much easier for me to start implementing
 1. [create_empty_fastq()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_empty_fastq.R): A function to create empty .fastq files  
 2. [rreads():](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R) A function to generate a random sample for reads 
 
-### ⬇️Using the package {generatervis}:
+### ⬇️ Using the package {generatervis}:
 
 The development version of the {generatervis} R package can be installed from GitHub using:
 
@@ -111,7 +111,7 @@ P.S.: The project development is done using CI/CD. To know further, keep an eye 
 # 💡References
 
 1. [R Packages (2e)](https://r-pkgs.org/) by Hadley Wickham and Jennifer Bryan, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) License  
-2. For more reading about Bioconductor R packages for WGS data, see: [https://www.bioconductor.org/packages/release/BiocViews.html#___Software](https://www.bioconductor.org/packages/release/BiocViews.html#___Software) 
+2. For more reading about Bioconductor R packages for WGS data, see: https://www.bioconductor.org/packages/release/BiocViews.html#___Software
 
 
 ## Get In Touch:
