@@ -106,17 +106,33 @@ The function returns a character vector containing the generated FASTQ lines.
 
 Example code snippet to use [rreads()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R) function:
 
-```{r, echo = TRUE}  
+```{r, echo = TRUE, results='asis'}  
 # Example 1  
 # Generate 5 random reads for patient ID "patient_123" with default read length  
-generatervis::rreads("patient_123", n = 5)
-
+random_sample_1 <- generatervis::rreads("patient_123", n = 5)
 # Note: default read length is 8.
+```
 
+```{r,results='asis'}
+cat("```text\n")
+cat(paste(random_sample_1, collapse = "\n"))
+cat("\n```\n")
+```
+
+```{r, echo = TRUE}  
 # Example 2  
 # Generate 10 random reads for patient ID "patient_456" with a read length of 10  
-generatervis::rreads("patient_456", n = 10, read_length = 10)  
+random_sample_2 <- generatervis::rreads("patient_456", n = 10, read_length = 10)
 ```
+
+```{r,results='asis'}
+cat("```text\n")
+cat(paste(random_sample_2, collapse = "\n"))
+cat("\n```\n")
+```
+
+
+
 
 # 🎯 Next steps
 

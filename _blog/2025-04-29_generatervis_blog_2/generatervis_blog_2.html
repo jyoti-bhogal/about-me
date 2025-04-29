@@ -121,7 +121,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["generatervis_blog_2_files/anchor-4.2.2/anchor.min.js","generatervis_blog_2_files/bowser-1.9.3/bowser.min.js","generatervis_blog_2_files/distill-2.2.21/template.v2.js","generatervis_blog_2_files/header-attrs-2.28/header-attrs.js","generatervis_blog_2_files/jquery-3.6.0/jquery-3.6.0.js","generatervis_blog_2_files/jquery-3.6.0/jquery-3.6.0.min.js","generatervis_blog_2_files/jquery-3.6.0/jquery-3.6.0.min.map","generatervis_blog_2_files/popper-2.6.0/popper.min.js","generatervis_blog_2_files/tippy-6.2.7/tippy-bundle.umd.min.js","generatervis_blog_2_files/tippy-6.2.7/tippy-light-border.css","generatervis_blog_2_files/tippy-6.2.7/tippy.css","generatervis_blog_2_files/tippy-6.2.7/tippy.umd.min.js","generatervis_blog_2_files/webcomponents-2.0.0/webcomponents.js","maturity_model.png","mental_model_flow_chart.jpg","patient_123.fastq","patient_456.fastq","yellow_flowers.jpg"]}
+  {"type":"character","attributes":{},"value":["flowchart.jpg","generatervis_blog_2_files/anchor-4.2.2/anchor.min.js","generatervis_blog_2_files/bowser-1.9.3/bowser.min.js","generatervis_blog_2_files/distill-2.2.21/template.v2.js","generatervis_blog_2_files/header-attrs-2.28/header-attrs.js","generatervis_blog_2_files/jquery-3.6.0/jquery-3.6.0.js","generatervis_blog_2_files/jquery-3.6.0/jquery-3.6.0.min.js","generatervis_blog_2_files/jquery-3.6.0/jquery-3.6.0.min.map","generatervis_blog_2_files/popper-2.6.0/popper.min.js","generatervis_blog_2_files/tippy-6.2.7/tippy-bundle.umd.min.js","generatervis_blog_2_files/tippy-6.2.7/tippy-light-border.css","generatervis_blog_2_files/tippy-6.2.7/tippy.css","generatervis_blog_2_files/tippy-6.2.7/tippy.umd.min.js","generatervis_blog_2_files/webcomponents-2.0.0/webcomponents.js","maturity_model.png","patient_123.fastq","patient_456.fastq","yellow_flowers.jpg"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
   <!--/radix_placeholder_navigation_in_header-->
@@ -1632,36 +1632,80 @@ For the first two steps, the function can be found here:</p>
 <div class="sourceCode">
 <pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Example 1  </span></span>
 <span><span class='co'># Generate 5 random reads for patient ID "patient_123" with default read length  </span></span>
-<span><span class='fu'>generatervis</span><span class='fu'>::</span><span class='fu'><a href='https://clinical-informatics-collaborative.github.io/generatervis/reference/rreads.html'>rreads</a></span><span class='op'>(</span><span class='st'>"patient_123"</span>, n <span class='op'>=</span> <span class='fl'>5</span><span class='op'>)</span></span></code></pre>
+<span><span class='va'>random_sample_1</span> <span class='op'>&lt;-</span> <span class='fu'>generatervis</span><span class='fu'>::</span><span class='fu'><a href='https://clinical-informatics-collaborative.github.io/generatervis/reference/rreads.html'>rreads</a></span><span class='op'>(</span><span class='st'>"patient_123"</span>, n <span class='op'>=</span> <span class='fl'>5</span><span class='op'>)</span></span>
+<span><span class='co'># Note: default read length is 8.</span></span></code></pre>
 </div>
-<pre><code> [1] &quot;@patient_123_read1&quot; &quot;TAAATACG&quot;           &quot;+&quot;                 
- [4] &quot;IIIIIIII&quot;           &quot;@patient_123_read2&quot; &quot;AGGCGTCC&quot;          
- [7] &quot;+&quot;                  &quot;IIIIIIII&quot;           &quot;@patient_123_read3&quot;
-[10] &quot;TGAAAGAC&quot;           &quot;+&quot;                  &quot;IIIIIIII&quot;          
-[13] &quot;@patient_123_read4&quot; &quot;CAAGTATT&quot;           &quot;+&quot;                 
-[16] &quot;IIIIIIII&quot;           &quot;@patient_123_read5&quot; &quot;GCACACGA&quot;          
-[19] &quot;+&quot;                  &quot;IIIIIIII&quot;          </code></pre>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="text"><code>@patient_123_read1
+TATATACC
++
+IIIIIIII
+@patient_123_read2
+CATAACTA
++
+IIIIIIII
+@patient_123_read3
+AGCACGCA
++
+IIIIIIII
+@patient_123_read4
+CCCCACTG
++
+IIIIIIII
+@patient_123_read5
+TATAAGGC
++
+IIIIIIII</code></pre>
+</div>
+<div class="layout-chunk" data-layout="l-body">
 <div class="sourceCode">
-<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Note: default read length is 8.</span></span>
-<span></span>
-<span><span class='co'># Example 2  </span></span>
+<pre class="sourceCode r"><code class="sourceCode r"><span><span class='co'># Example 2  </span></span>
 <span><span class='co'># Generate 10 random reads for patient ID "patient_456" with a read length of 10  </span></span>
-<span><span class='fu'>generatervis</span><span class='fu'>::</span><span class='fu'><a href='https://clinical-informatics-collaborative.github.io/generatervis/reference/rreads.html'>rreads</a></span><span class='op'>(</span><span class='st'>"patient_456"</span>, n <span class='op'>=</span> <span class='fl'>10</span>, read_length <span class='op'>=</span> <span class='fl'>10</span><span class='op'>)</span>  </span></code></pre>
+<span><span class='va'>random_sample_2</span> <span class='op'>&lt;-</span> <span class='fu'>generatervis</span><span class='fu'>::</span><span class='fu'><a href='https://clinical-informatics-collaborative.github.io/generatervis/reference/rreads.html'>rreads</a></span><span class='op'>(</span><span class='st'>"patient_456"</span>, n <span class='op'>=</span> <span class='fl'>10</span>, read_length <span class='op'>=</span> <span class='fl'>10</span><span class='op'>)</span></span></code></pre>
 </div>
-<pre><code> [1] &quot;@patient_456_read1&quot;  &quot;TCCAAAGTAC&quot;          &quot;+&quot;                  
- [4] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read2&quot;  &quot;AACCTCGCAT&quot;         
- [7] &quot;+&quot;                   &quot;IIIIIIIIII&quot;          &quot;@patient_456_read3&quot; 
-[10] &quot;ACCAAGTAAT&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
-[13] &quot;@patient_456_read4&quot;  &quot;CCACAGCGTA&quot;          &quot;+&quot;                  
-[16] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read5&quot;  &quot;TAGAACGCGT&quot;         
-[19] &quot;+&quot;                   &quot;IIIIIIIIII&quot;          &quot;@patient_456_read6&quot; 
-[22] &quot;GGCTACCGAG&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
-[25] &quot;@patient_456_read7&quot;  &quot;GGATACGCGG&quot;          &quot;+&quot;                  
-[28] &quot;IIIIIIIIII&quot;          &quot;@patient_456_read8&quot;  &quot;AGTCGCTACA&quot;         
-[31] &quot;+&quot;                   &quot;IIIIIIIIII&quot;          &quot;@patient_456_read9&quot; 
-[34] &quot;TAGATTCATT&quot;          &quot;+&quot;                   &quot;IIIIIIIIII&quot;         
-[37] &quot;@patient_456_read10&quot; &quot;GCACGCCTTT&quot;          &quot;+&quot;                  
-[40] &quot;IIIIIIIIII&quot;         </code></pre>
+</div>
+<div class="layout-chunk" data-layout="l-body">
+<pre class="text"><code>@patient_456_read1
+TCATTTGGAC
++
+IIIIIIIIII
+@patient_456_read2
+GAACGCCGAG
++
+IIIIIIIIII
+@patient_456_read3
+TGCGGTGTCA
++
+IIIIIIIIII
+@patient_456_read4
+AAGTTACGCT
++
+IIIIIIIIII
+@patient_456_read5
+TCGAAAGGGG
++
+IIIIIIIIII
+@patient_456_read6
+GACGCATGAA
++
+IIIIIIIIII
+@patient_456_read7
+GAGCTTACCG
++
+IIIIIIIIII
+@patient_456_read8
+TTTCAATTGC
++
+IIIIIIIIII
+@patient_456_read9
+TGCGCCTCGC
++
+IIIIIIIIII
+@patient_456_read10
+CTCGGTGCAC
++
+IIIIIIIIII</code></pre>
 </div>
 <h1 id="next-steps">🎯 Next steps</h1>
 <p>Some of the potential next steps include:</p>
