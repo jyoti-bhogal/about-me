@@ -1,0 +1,153 @@
+---
+title: "{generatervis}: R package to synthesise, visualise clinical data, and create a Research Data Management workflow - Part 2"
+subtitle: 
+description: 
+ I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data. This is the second blog in this series of blogs to share about the process from ideation to implementation.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: preview_red_flowers.jpg
+date:  04-29-2025
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [FOSS, Free and Open Source Software, Software, R, Package, Research Software, Open Science, Open Source, Clincial Data, Bioinformatics] 
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+
+```
+
+![*Yellow Allamanda Cathartica flowers clicked by me.*](yellow_flowers.jpg) 
+
+I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data, followed by its Research Data Management workflow. This is the second blog in this series of blogs to share about the process from ideation to implementation.
+
+In this blog, I share the mental model/concept map for the package development. We will explore the steps for the process of R package development.
+
+## 📝 Figuring out what we really need
+
+I gathered that the requirement is to write programs that implement the following maturity model for research data management for a WGS dataset.  
+![*Maturity model to create and ingest data into REDMANE*](maturity_model.png)
+
+## 🧠 Mental model: How am I approaching this?
+
+To implement the workflow mentioned in the maturity model, I divided the stages of the model into further granular steps. These steps help to create a basic workflow from creating empty files in the WGS dataset up to uploading the file(s) to cBioportal, which is an open-source platform to explore and analyse large-scale cancer genomic datasets.
+
+## 🪜Bringing the mental model to life, step by step
+
+![*Mental model flow chart for the solution being developed.*](mental_model_flow_chart.jpg)
+
+With these granular steps mentioned in the above mental map flow chart, I started to write an R function corresponding to each unique step.  
+For the first two steps, the function can be found here:
+
+1. Function to create empty .fastq files: [create_empty_fastq.R](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_empty_fastq.R)  
+2. Function to generate a random sample for reads: [rreads.R](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R)
+
+### ⬇️Installation of {generatervis}:
+
+The steps to install the package developed so far are shown below. These are also available in the package [README file](https://github.com/Clinical-Informatics-Collaborative/generatervis/tree/main?tab=readme-ov-file#generatervis) and can be followed from there too.
+
+Steps to install the development version of the `generatervis` R package from GitHub:
+
+1. Write the following steps in RStudio console or in an new .R file:  
+   
+
+```{r}  
+# Install remotes from CRAN if not already installed
+#install.packages("remotes")
+
+# install.packages("pak")  
+#remotes::install_github("Clinical-Informatics-Collaborative/generatervis")  
+```
+
+2. Run the code.
+
+### 🧑‍💻 Using `create_empty_fastq()`
+
+The function `create_empty_fastq()` creates an empty FASTQ file with the specified patient ID. 
+
+The function has the following input parameters:  
+*patient_id*: A character vector representing the patient IDs.  
+*output_dir*: A character string specifying the directory where the FASTQ file will be saved. Default is the current working directory.
+
+The function returns nothing or NULL.
+
+Example code snippet to use [create_empty_fastq()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_empty_fastq.R) function:
+
+```{r, echo = TRUE}
+
+# Example 1  
+# Create an empty FASTQ file for patient ID "patient_123"  
+generatervis::create_empty_fastq("patient_123")
+
+# Example 2  
+#Create an empty FASTQ file for patient ID "patient_456" in a specific directory  
+dir_path <- "."  # "path/to/your/directory"
+generatervis::create_empty_fastq("patient_456", output_dir = dir_path)  
+```
+
+### 🧑‍💻 Using `rreads()`
+
+The function `rreads()` generates a specified number of random reads in FASTQ format.
+
+The function has the following input parameters:  
+*patient_id*: A character string representing the patient ID.  
+*n*: An integer specifying the number of reads to generate.  
+*read_length*: An integer specifying the length of each read. Default is 8.
+
+The function returns a character vector containing the generated FASTQ lines.
+
+Example code snippet to use [rreads()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R) function:
+
+```{r, echo = TRUE}  
+# Example 1  
+# Generate 5 random reads for patient ID "patient_123" with default read length  
+generatervis::rreads("patient_123", n = 5)
+
+# Note: default read length is 8.
+
+# Example 2  
+# Generate 10 random reads for patient ID "patient_456" with a read length of 10  
+generatervis::rreads("patient_456", n = 10, read_length = 10)  
+```
+
+# 🎯 Next steps
+
+Some of the potential next steps include:
+
+1. Implement steps 3-9 of the mental model for the workflow for WGS dataset files.  
+2. For other dataset types, like Tabular Circular data, Imaging Dataset, etc., implementing the process of creating the dataset and then uploading it to cBioportal
+
+P.S.: The project development is done using CI/CD. To know further, keep an eye on future blog posts in this series.
+
+# 🔑 Resources created
+
+1. A website to give a brief introduction and demo of the R package {generatervis} is: [https://clinical-informatics-collaborative.github.io/generatervis/](https://clinical-informatics-collaborative.github.io/generatervis/)   
+2. Function to create empty .fastq files: [create_empty_fastq.R](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_empty_fastq.R)  
+3. Function to generate a random sample for reads: [rreads.R](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R)
+
+# 💡References
+
+1. [R Packages (2e)](https://r-pkgs.org/) by Hadley Wickham and Jennifer Bryan, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) License  
+2. R package [{Shinylive}](https://cloud.r-project.org/web/packages/shinylive/readme/README.html#:~:text=The%20goal%20of%20the%20%7Bshinylive,WebAssembly%20via%20the%20webR%20project)  
+3. For more reading about Bioconductor R packages for WGS data, see: [https://www.bioconductor.org/packages/release/BiocViews.html\#\_\_\_Software](https://www.bioconductor.org/packages/release/BiocViews.html#___Software) 
+
+
+## Get In Touch:
+
+**Email:** [bhogaljyoti1@gmail.com](mailto:bhogaljyoti1@gmail.com)   
+**LinkedIn:** [jyoti-bhogal](http://www.linkedin.com/in/jyoti-bhogal)  
+**GitHub:** [jyoti-bhogal](https://github.com/jyoti-bhogal)   
+**Mastodon:** [jyoti_bhogal](https://mastodon.social/@jyoti_bhogal)
+
+**Bluesky:** [jyoti-bhogal.bsky.social](https://bsky.app/profile/jyoti-bhogal.bsky.social)
+
+**Website:** https://jyoti-bhogal.github.io/about-me/index.html
+
