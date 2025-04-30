@@ -85,13 +85,12 @@ To generate a random sample of reads of size `n`, for a specified patient ID, us
 Here is a demo code to generate a random sample of 2 reads for patient ID "patient_123" with read length 12 using the [rreads()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R) function:
 
 ```{r, echo = TRUE}  
-random_sample <- generatervis::rreads(patient_id = "patient_123", n = 2, read_length = 12)  
+generatervis::rreads(patient_id = "patient_123", n = 2, read_length = 12)  
 ```
 
-```{r, results='asis'}  
-cat("```text\n")  
-cat(paste(random_sample, collapse = "\n"))  
-cat("\n```\n")  
+```{output}  
+[1] "@patient_123_read1" "GGCCGGCTGTTG"       "+"                  "IIIIIIIIIIII"      
+[5] "@patient_123_read2" "CTGAACCAATTA"       "+"                  "IIIIIIIIIIII"     
 ```
 
 # 🎯 Next steps
