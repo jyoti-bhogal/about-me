@@ -1,14 +1,14 @@
 ---
-title: "{generatervis}: An R package to synthesise, visualise clinical data, and create a data workflow - Part 2"
+title: "{generatervis}: An R package to synthesise, visualise clinical data, and create a workflow - Part 2"
 subtitle: 
 description: 
- I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data. This is the second blog in this series of blogs to share about the process from ideation to implementation.
+ I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data, and create a data workflow. This is the second blog in this series of blogs to share about the process from ideation to implementation.
 author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
 url: https://jyoti-bhogal.github.io/about-me/
 preview: yellow_flowers.jpg
-date:  04-29-2025
+date:  05-05-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
@@ -26,78 +26,125 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 ![*Yellow Allamanda Cathartica flowers clicked by me.*](yellow_flowers.jpg)
-
-
 This is the second blog in the series of blogs about my first open-source R package {generatervis}. In this blog, I share how I convert the domain knowledge into a flowchart for developing an MVP of the package.
 
 ## 📝 Figuring out what we really need
 
-Over the past several weeks, I have been discussing with my cohort fellows and our mentor [Rowland Mosbergen](https://www.linkedin.com/in/rowlandm-gaicd/). The domain of Whole Genome Sequencing (WGS) is very vast, and the first lesson we have learnt is to ***narrow down the problem space*** we are trying to solve and ***create a roadmap*** for what we want to implement. Based on the requirements that we have gathered so far, I have created the following maturity model of a research data management workflow for creating and ingesting the WGS dataset into REDMANE.
+Over the past several weeks, I have been discussing with my cohort fellows and our mentor [Rowland Mosbergen](https://github.com/rowlandm). The domain of Whole Genome Sequencing (WGS) is very vast, and the first lesson we have learnt is to ***narrow down the problem space*** we are trying to solve and ***create a roadmap*** for what we want to implement. This gives us a structure for our ***Minimum Viable Product (MVP)***. Based on the requirements that we have gathered so far, I have created the following maturity model of a research data management workflow for creating and ingesting the WGS dataset into REDMANE.  
 
-![*Maturity model to create and ingest data into REDMANE*](maturity_model.png)
+![*Maturity model to create and ingest data into REDMANE.*](maturity_model.png)
 
 ## 🧠 Creating a flowchart: How am I approaching this?
 
-As a next step, I divided the different stages of the maturity model into further granular and achievable chunks. These steps help to create a basic workflow that starts with creating empty files in the `.fastq` format for the WGS dataset and eventually uploading the modified file(s) to cBioportal, an open-source platform to explore and analyse large-scale cancer genomic datasets.
+As a next step, I divided the different stages of the maturity model into further granular and achievable chunks. These steps help to create a basic workflow that starts with creating empty files in the `.fastq` format for the WGS dataset and eventually uploading the modified file(s) to the GitHub repository of a data portal, similar to the [cBioportal](https://github.com/cBioPortal/datahub/tree/master/public), which is an open-source platform to explore and analyse large-scale cancer genomic datasets.
 
 ## 🌼 Bringing the mental model to life, step by step
 
-![*The maturity is refined into a flowchart.*](flowchart.jpg)
+![*The maturity is refined into a flowchart.*](flowchart_2.jpg)  
 
 When creating this flowchart, I made the assumption that there is only one sample per patient. 
 
-Once I created the flowchart, it became much easier for me to start implementing the steps into the functions of the package. With the goal of developing a functional MVP version of the package, I have written the following functions in it: 
+Once I created the flowchart, it became much easier for me to start implementing the steps into the functions of the package. With the goal of developing a functional MVP version of the package, I have written an R function in the R package {generatervis} for each of the above steps. Follow along the blog to see the usage of each of these functions!
 
-1. [create_empty_fastq()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_empty_fastq.R): A function to create empty .fastq files  
-2. [rreads():](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R) A function to generate a random sample for reads 
-
-### ⬇️ Using the package {generatervis}:
+### ⬇️ Installing the package {generatervis}:
 
 The development version of the {generatervis} R package can be installed from GitHub using:
 
-```{r, echo = TRUE}  
+```r   
 # install.packages("pak")  
 pak::pak("Clinical-Informatics-Collaborative/generatervis")  
 ```  
-Once the package is installed, it can be used to perform the workflow steps as follows:
+Once the package is installed, it can be used to perform the workflow steps as detailed below.
 
-### 🧑‍💻 Creating an empty `.fastq` file
+First let's create an empty `.fastq` file by specifying a patient ID (multiple patient IDs can be provided as a vector) using the [create_empty_fastq()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_empty_fastq.R) function.
 
-An empty `.fastq` file can be created for a specified patient ID (or for multiple patient ID) using the `create_empty_fastq()` function. It has the following input parameters:
+As a demo let us consider the `patient_id` to be `”patient_123”`.
 
-* *patient_id*: A character vector representing the patient IDs.  
-* *output_dir*: A character string specifying the directory where the FASTQ file will be saved. Default is the current working directory.
-
-Here is a demo code to create an empty `.fastq` file for patient ID `”patient_123”` using the [create_empty_fastq()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_empty_fastq.R) function:
-
-```{r, echo = TRUE}  
-generatervis::create_empty_fastq(patient_id = "patient_123")  
+```r  
+generatervis::create_empty_fastq(patient_id)  
 ```
 
-### 🧑‍💻 Generating a random sample of reads
-
-To generate a random sample of reads of size `n`, for a specified patient ID, use the `rreads()` function. It has the following input parameters:
-
-* *patient_id*: A character string representing the patient ID.  
-* *n*: An integer specifying the number of reads to generate.  
-* *read_length*: An integer specifying the length of each read. The default is 8.
-
-Here is a demo code to generate a random sample of 2 reads for patient ID "patient_123" with read length 12 using the [rreads()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R) function:
-
-```{r, echo = TRUE}  
-generatervis::rreads(patient_id = "patient_123", n = 2, read_length = 12)  
+```output  
+Empty FASTQ file created at: /var/folders/7k/kpyh33yd4mlbp_p2j8m4810m0000gn/T//RtmpLlrqm6/patient_123.fastq  
 ```
 
-```{output}  
-[1] "@patient_123_read1" "GGCCGGCTGTTG"       "+"                  "IIIIIIIIIIII"      
-[5] "@patient_123_read2" "CTGAACCAATTA"       "+"                  "IIIIIIIIIIII"     
+Now let's generate a random sample of `n` (say 2) reads, for `”patient_123”` using the [rreads()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/rreads.R) function. Read length is the length of the sequence of nucleotides to be generated for each read. As an example, consider a `.fastq` file with read length 8.
+
+```r  
+set.seed(1067)  
+generatervis::rreads(patient_id, n, read_length)  
 ```
+
+```output   
+[1] "@patient_123_read1" "ACACGGCG"           "+"                  "IIIIIIII"            
+[5] "@patient_123_read2" "CCATTTTT"           "+"                  "IIIIIIII"   
+```
+
+Next, we fill the empty `.fastq` file with the random sample of `n` reads, for `”patient_123”`, using the [fill_fastq()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/fill_fastq.R) function.
+
+```r  
+generatervis::fill_fastq(patient_id, output_dir, n, read_length)  
+```
+
+```output  
+File already exists. Appending reads to the existing file.  
+Populated /var/folders/7k/kpyh33yd4mlbp_p2j8m4810m0000gn/T//RtmpLlrqm6/patient_123.fastq with 2 reads.  
+```
+
+At this stage, you can plot a heatmap of the sequences of the nucleotides using the [fastq_plot()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/fastq_plot.R) function. For the time being, I have hard-coded the `sequences` of nucleotides. As I develop the package further, I will modify this function so that it can be utilised. 
+
+```r  
+generatervis::fastq_plot(patient_id, output_dir, n, read_length)  
+```
+
+```output  
+Plot saved to: /var/folders/7k/kpyh33yd4mlbp_p2j8m4810m0000gn/T//RtmpLlrqm6/fastq_plot_patient_123.png  
+```
+
+Once the `.fastq` file is created, it needs to be processed to be converted into a `.bam` file. This can be done using the [fastq_to_bam()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/fastq_to_bam.R) function.
+
+```r  
+reference <- "chr1"  
+fastq_file <- file.path(output_dir, paste0(patient_id, ".fastq"))  
+sam_file <- paste0(output_dir, "/", patient_id, ".sam")  
+generatervis::fill_fastq(patient_id, output_dir, n, read_length)  
+generatervis::fastq_to_bam(fastq_file, patient_id, output_dir, sam_file, reference)  
+```
+
+```output  
+Dummy SAM file written to: /var/folders/7k/kpyh33yd4mlbp_p2j8m4810m0000gn/T//RtmpLlrqm6/patient_123.sam   
+```
+
+The `.fastq` is actually first converted into a `.sam` file, which you need to further convert into a `.bam` file, using the `samtools` command-line tool.
+
+``` bash  
+# samtools view -Sb path_to/file_name.sam > path_to/file_name.bam  
+```
+
+Following this conversion, the `.bam` file is summarised into a `.vcf` file using [bam_to_vcf()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/bam_to_vcf.R).
+
+```r  
+vcf_file <- paste0(output_dir, "/", patient_id, ".vcf")  
+generatervis::bam_to_vcf(patient_id, output_dir, vcf_file)  
+```
+
+```output  
+Dummy .vcf written to /var/folders/7k/kpyh33yd4mlbp_p2j8m4810m0000gn/T//RtmpLlrqm6/patient_123.vcf  
+```
+
+Finally we create the metadata `.txt` files using [create_metadata()](https://github.com/Clinical-Informatics-Collaborative/generatervis/blob/main/R/create_metadata.R).
+
+```r  
+generatervis::create_metadata(patient_id, output_dir)  
+```
+
+These files can then be uploaded to a data storage portal. Inspired by the [cBioportal/datahub repository](https://github.com/cBioPortal/datahub/tree/master/public), I have created the [Clinical-Informatics-Collaborative/data_storage_portal repository](https://github.com/Clinical-Informatics-Collaborative/data_storage_portal) for uploading the data.
 
 # 🎯 Next steps
 
 Some of the potential next steps include:
 
-1. Implement the remaining steps of the workflow for WGS dataset files.  
+1. Implement the workflow for real WGS dataset files.  
 2. For other dataset types, like Tabular Circular data, Imaging Dataset, etc., implement the process of creating the dataset and uploading it to cBioportal.
 
 P.S.: The project development is done using CI/CD. To know further, keep an eye on future blog posts in this series.
@@ -105,13 +152,14 @@ P.S.: The project development is done using CI/CD. To know further, keep an eye 
 # 🔑 Resources created
 
 1. {generatervis} website: [https://clinical-informatics-collaborative.github.io/generatervis/](https://clinical-informatics-collaborative.github.io/generatervis/)   
+2. `data_storage_repo` GitHub repository to store the data from the R package {generatervis}: [https://github.com/Clinical-Informatics-Collaborative/data_storage_portal](https://github.com/Clinical-Informatics-Collaborative/data_storage_portal)   
  
+
 
 # 💡References
 
 1. [R Packages (2e)](https://r-pkgs.org/) by Hadley Wickham and Jennifer Bryan, [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) License  
-2. For more reading about Bioconductor R packages for WGS data, see: https://www.bioconductor.org/packages/release/BiocViews.html#___Software
-
+2. For more reading about Bioconductor R packages for WGS data, see: [https://www.bioconductor.org/packages/release/BiocViews.html#___Software](https://www.bioconductor.org/packages/release/BiocViews.html#___Software) 
 
 ## Get In Touch:
 
