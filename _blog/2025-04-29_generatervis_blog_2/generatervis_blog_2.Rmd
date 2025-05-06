@@ -26,6 +26,7 @@ knitr::opts_chunk$set(echo = FALSE,
 ```
 
 ![*Yellow Allamanda Cathartica flowers clicked by me.*](yellow_flowers.jpg)
+
 This is the second blog in the series of blogs about my first open-source R package {generatervis}. In this blog, I share how I convert the domain knowledge into a flowchart for developing an MVP of the package.
 
 ## 📝 Figuring out what we really need
