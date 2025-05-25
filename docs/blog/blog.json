@@ -1,5 +1,34 @@
 [
   {
+    "path": "blog/2025-05-25_cw25_hack_day/",
+    "title": "`MetaGreenData`: Making Code More Sustainable, One Metadata File at a Time",
+    "description": "Ever thought about how much energy your code consumes? Or how to make your software more eco-friendly? Well, during the recent Collaborations Workshop 2025 Hack Day, my team decided to tackle this very challenge. Let me walk you through my journey.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-05-25",
+    "categories": [
+      "Software Sustainability Institute",
+      "Free and Open Source Software",
+      "Software",
+      "Python",
+      "Django",
+      "Research Software",
+      "Open Science",
+      "Open Source",
+      "Meta data"
+    ],
+    "contents": "\n🌿 MetaGreenData: Making Code More Sustainable, One Metadata File at a Time\nEver thought about how much energy your code consumes? Or how to make your software more eco-friendly? Well, during the recent Collaborations Workshop 2025 Hack Day, my team decided to tackle this very challenge. Let me walk you through my journey.\nImage credit: https://www.green-algorithms.org/🚀 The Spark: Why I Started\nI noticed that while many developers are keen on optimising their code for speed and efficiency, not many consider the environmental impact. That’s where I saw an opportunity. Our idea was simple: create a tool that helps developers understand and reduce the carbon footprint of their software.\n🧠 Brainstorming the Solution\nOur brainstorming session was filled with energy and ideas. We wanted a solution that was:\nUser-friendly: Easy for developers to integrate into their workflow.\nInformative: Provides clear insights into the environmental impact.\nActionable: Offers suggestions to reduce carbon emissions.\nAfter much discussion, we landed on the idea of a metadata generator that captures essential information about software, making it easier to assess and improve its sustainability.\n🛠️ Building MetaGreenData\nEnter MetaGreenData. This is our Django-based web application designed to help developers generate metadata files for their software projects. Here’s how we approached it:\nUnderstanding the Standards: We looked into existing metadata standards like CodeMeta and the Citation File Format (CFF). These standards provide a structured way to describe software, making it easier to share and cite.\nDesigning the Workflow: We created a simple form where users can input details about their software. This includes information like the software’s name, version, authors, and more.\nGenerating the Metadata: Based on the input, our tool generates a metadata file in the chosen format (CodeMeta or CFF). This file can then be added to the software’s repository.\nIntegrating Carbon Footprint Estimation: We integrated the Green Algorithms calculator to estimate the carbon footprint based on the software’s computational requirements.\n🔍 Visualising the Process\nTo make things clearer, here’s a simple flowchart of how MetaGreenData works:\n\\[User Inputs Software Details\\]\n|\nv\\[Select Metadata Format (CodeMeta/CFF)\\]\n|\nv\\[Generate Metadata File\\]\n|\nv\\[Estimate Carbon Footprint\\]\n📦 The Outcome\nWe are proud to share that MetaGreenData is now available on GitHub! 🎉\nRepository: MetaGreenData on GitHub\nHow to Use: For detailed instructions, check out the README file.\nWe won the first prize at the Collaborations Workshop 2025 Hack Day. Here’s the pictures from the day!\nImage credit: Software Sustainability InstituteAnd here’s my certificate of winning:\n📚 References and Inspirations\nOur project was inspired and informed by several resources:\nGreen Algorithms Calculator: Helps estimate the carbon footprint of computations. Link\nCodeMeta Generator: Assists in creating standardised metadata files. Link\nCitation File Format (CFF): Provides a human- and machine-readable format for software citation. Link\nDraft Metadata Fields: A comprehensive list of metadata fields for software tools. Link\n🔭 Looking Ahead\nMetaGreenData is just the beginning. We envision a future where sustainability is a core consideration in software development. By making it easier to assess and reduce the environmental impact of code, we hope to inspire developers to make greener choices.\nGet In Touch:\nEmail: bhogaljyoti1@gmail.comLinkedIn: jyoti-bhogalGitHub: jyoti-bhogalMastodon: jyoti_bhogal\nBluesky: jyoti-bhogal.bsky.social\nWebsite: https://jyoti-bhogal.github.io/about-me/index.html\n\n\n\n",
+    "preview": "blog/2025-05-25_cw25_hack_day/GLOBE---1850-2024-MO.png",
+    "last_modified": "2025-05-25T20:59:34+05:30",
+    "input_file": "cw25_hack_day.knit.md",
+    "preview_width": 3780,
+    "preview_height": 2126
+  },
+  {
     "path": "blog/2025-04-29_generatervis_blog_2/",
     "title": "{generatervis}: An R package to synthesise, visualise clinical data, and create a workflow - Part 2",
     "description": "I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data, and create a data workflow. This is the second blog in this series of blogs to share about the process from ideation to implementation.",
