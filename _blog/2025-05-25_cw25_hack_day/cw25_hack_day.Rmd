@@ -30,9 +30,9 @@ Ever thought about how much energy your code consumes? Or how to make your softw
 
 The third day of the [Collaborations Workshop 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25) was a dedicated Hack Day. The attendees were invited to pitch ideas for the Hack Day. Many wonderful ideas were pitched for the same. People started joining the team with the idea in which they were most interested to work upon. Ultimately, 10 teams were formed. The 10 teams collaborated for an intense hack day, leading to amazing ideas taking shape by the end of the day\!  
 
-Earlier on the second day of the workshop I had attended a collaborative ideas discussion session on “MetaGreenData: standardised reporting of the environmental impact of compute” chaired by Kirsty Pringle and joined by Bryn Ubald, Caterina Doglioni, Connor Aird, Jyoti Bhogal, and Saranjeet Bhogal. This session motivated me to join the “Group: D \- Delphinium” team for the Hack Day (team members: Christina Bremer, Duncan Leggatt, Jyoti Bhogal, Loïc Lannelongue, Will Haese-Hill; Joining remotely: Michael Sparks). I enjoyed collaborating with my team during the Hack Day \- we divided the tasks amongst each other. Throughout the day the judges visited the different teams asking questions, and at the end of the day, we were asked to provide a presentation of the work we did. In this blog post, I share the product my team created by the end of the Hack Day\! 
+Earlier on the second day of the workshop I had attended a collaborative ideas discussion session on “MetaGreenData: standardised reporting of the environmental impact of compute” chaired by Kirsty Pringle and joined by Bryn Ubald, Caterina Doglioni, Connor Aird, Jyoti Bhogal, and Saranjeet Bhogal. This session motivated me to join the “Group: D \- Delphinium” team for the Hack Day (team members: Christina Bremer, Duncan Leggatt, Jyoti Bhogal, Loïc Lannelongue, Will Haese-Hill; Joining remotely: Dylan Powell, Michael Sparks). I enjoyed collaborating with my team during the Hack Day \- we divided the tasks amongst each other. Throughout the day the judges visited the different teams asking questions, and at the end of the day, we were asked to provide a presentation of the work we did. In this blog post, I share the product my team created by the end of the Hack Day\! 
 
-![*Image: Group photo while working on the hack idea, (L to R) Caterina Doglioni, Will Haese-Hill, Duncan Leggatt, Loïc Lannelongue, Jyoti Bhogal, Christina Bremer.*](team_working_group_photo.png)
+![*Image: Group photo while working on the hack idea, (L to R) Caterina Doglioni, Will Haese-Hill, Duncan Leggatt, Loïc Lannelongue, Jyoti Bhogal, Christina Bremer; joining remotely: Dylan Powell, Michael Sparks.*](team_working_group_photo.png)
 
 ## **🚀 Motivation**
 
@@ -76,7 +76,7 @@ The idea was developed on a GitHub repository called [MetaGreenData](https://git
 
 Last but definitely not the least this project won the first prize at the Collaborations Workshop 2025 Hack Day. Here’s my team’s picture from the day\!
 
-![*Image credit: [Software Sustainability Institute](https://www.software.ac.uk/); (L to R) Christina Bremer, Will Haese-Hill, Duncan Leggatt, Loïc Lannelongue, Jyoti Bhogal, Joining remotely: Michael Sparks.*](first_prize_group_photo.jpeg)
+![*Image credit: [Software Sustainability Institute](https://www.software.ac.uk/); (L to R) Christina Bremer, Will Haese-Hill, Duncan Leggatt, Loïc Lannelongue, Jyoti Bhogal, Joining remotely: Dylan Powell, Michael Sparks.*](first_prize_group_photo.jpeg)
 
 And here’s my certificate:
 
