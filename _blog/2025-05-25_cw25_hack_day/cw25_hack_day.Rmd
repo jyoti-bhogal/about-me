@@ -70,11 +70,9 @@ To make things clearer, here's a simple flowchart of how MetaGreenData works:
 
 ## **📦 The Outcome**
 
-MetaGreenData is now available on GitHub\! 🎉
+[MetaGreenData](https://github.com/GreenAlgorithms/MetaGreenData) is now available on GitHub! 🎉
 
-* [MetaGreenData Repository on GitHub](https://github.com/GreenAlgorithms/MetaGreenData)
-
-* **How to Use**: For detailed instructions, check out the [README file](https://github.com/GreenAlgorithms/MetaGreenData?tab=readme-ov-file#metagreendata).
+The idea was developed on a GitHub repository called [MetaGreenData](https://github.com/GreenAlgorithms/MetaGreenData). We plan to develop it further and make it user-friendly.
 
 Last but definitely not the least this project won the first prize at the Collaborations Workshop 2025 Hack Day. Here’s my team’s picture from the day\!
 
