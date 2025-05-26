@@ -15,7 +15,6 @@ twitter:
 categories: [Software Sustainability Institute, Free and Open Source Software, Software, Python, Django, Research Software, Open Science, Open Source, Meta data] 
 output:
   distill::distill_article:
-    self_contained: false
 ---
 
 ```{r setup, include=FALSE}
