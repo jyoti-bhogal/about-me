@@ -48,8 +48,7 @@ Speaking of why this study is required \- this study is essential for several re
 
 SSI has been conducting surveys to study the RSE landscape since 2018\. However, there has been almost no representation of Asia in these surveys. This makes my research study even more essential. 
 
-![*Image: RSEs in the world in 2018, originally shared in the blog [What do we know about RSEs? Results from our international surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys*).
-](ssi_survery_map.png)  
+![*Image: RSEs in the world in 2018, originally shared in the blog [What do we know about RSEs? Results from our international surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys).*](ssi_survery_map.png)  
 
 Within Asia, the Asia-Pacific Advanced Network (APAN) is an organisation that represents member institutions as well as it is a backbone network connecting member countries and regions to each other and to other international research and education networks. I am a member of APAN’s [Open and Sharing Data Working Group (OSDWG)](https://apan.net/elements/working-groups/open-sharing-data/). This working group engages in dialogue and activities to promote good open science practices within research roles/institutes in the Asia Pacific. RSE Asia has had a consistent voice and representation during the biannual APAN meetings as a part of this working group. Through these engagements we realised the common interests we share with the working group and their intentions to help support the objectives of RSE Asia. Asia being a very complex and diverse region both, culturally and economically, it is essential to have the support from an established working group like the APAN’s OSDWG so as to have a better understanding of the research software landscape in the region.
 
