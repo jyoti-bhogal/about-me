@@ -26,15 +26,15 @@ knitr::opts_chunk$set(echo = FALSE,
 
 As part of my SSI Fellowship project, I was invited to visit [EPCC at the University of Edinburgh](https://www.epcc.ed.ac.uk/) and give a talk about my work. This was following my participation in the [Collaborations Workshop 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25) organised by the [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) at the [University of Stirling](https://www.stir.ac.uk/). I was joined by SSI Fellows **Samantha Wittke** and **Saranjeet Kaur**.
 
-![*Image: (Left to Right) SSI Fellows: Saranjeet Kaur, Jyoti Bhogal, Samantha Wittke at EPCC, Bayes Center, University of Edinburgh, Edinburgh, Scotland against the backdrop of the Holyrood Park (Salisbury Crags on the left, Arthur’s Seat on the right). Image credit: Catherine Inglis.*](bayes_center_holyrood_park.jpg)
+![*Image: (Left to Right) SSI Fellows: Saranjeet Kaur, Jyoti Bhogal, Samantha Wittke at EPCC, Bayes Center, University of Edinburgh against the backdrop of the Holyrood Park (Salisbury Crags on the left, Arthur’s Seat on the right). Image credit: Catherine Inglis.*](bayes_center_holyrood_park.jpg)
 
-On the day, **Catherine Inglis** and **Neil Chue Hong** welcomed us to the [Bayes Centre at EPCC](https://bayes-centre.ed.ac.uk/). The robots on the ground floor of the Bayes Centre are hard to miss, and I must say, I was captivated by them\! We all went on a tour of the EPCC building and met several members of the team there. Later, we stepped out and had a nice lunch break in the nice and sunny campus of the University of Edinburgh. It was during the chats with Catherine and Neil, I got to know that Unicorn 🦄 \- an imaginary creature \- is the national animal of Scotland, and then it made sense to me why the architecture in Edinburgh has unicorn statues mounted on it\! 
+On the day, **Catherine Inglis** and **Neil Chue Hong** welcomed us to the [Bayes Centre at EPCC](https://bayes-centre.ed.ac.uk/). The robots on the ground floor of the Bayes Centre are hard to miss, and I must say, I was captivated by them\! We all went on a tour of the EPCC building and met several members of the team there. Later, we stepped out and had a lunch break in the beautiful and sunny campus of the University of Edinburgh. It was during the chats with Catherine and Neil, I got to know that the Unicorn 🦄 \- an imaginary creature \- is the National Animal of Scotland, and then it made sense to me why the buildings in Edinburgh have so many unicorn statues\! 
 
 ![*Image: (Left to Right) A robot at the Bayes Center, University of Edinburgh; The Unicron, the National Animal of Scotland*](robot_unicorn.png)
 
 There were two talks planned for the day. The first one was by Samantha, who shared about the [CodeRefinery](https://coderefinery.org/) project and her work with the [Nordic RSE](https://nordic-rse.org/). Later, I presented my talk on the ongoing ‘Research Study on the Research Software Engineering (RSEng) Landscape in Asia’. Coincidentally, there were a few common points touched during both the talks \- maybe CodeRefinery and RSE Asia could collaborate more closely in the future, but for now, I will focus this blog on my talk\! 😊
 
-![*Image: Jyoti Bhogal speaking about her Research Study on the Research Software Engineering (RSEng) Landscape in Asia at EPCC, Bayes Center, University of Edinburgh, Edinburgh, Scotland.*](epcc_jyoti_talk_title_slide.jpeg)  
+![*Image: Jyoti Bhogal speaking about her “Research Study on the Research Software Engineering (RSEng) Landscape in Asia” at EPCC, Bayes Center, University of Edinburgh.*](epcc_jyoti_talk_title_slide.jpeg)  
 
 # What is RSE Asia?
 
@@ -55,15 +55,15 @@ Within Asia, the Asia-Pacific Advanced Network (APAN) is an organisation that re
 
 ![*Image: APAN Current Members (as of December 2024). Source of information for creating map: [APAN website](https://apan.net/membership/current-members/).*](apan_current_members.png)
 
-So far in this project, I have been able to refine and adapt the existing SSI surveys to make them suitable for the Asian context. I have also launched a pilot survey with a small group in APAN’s OSDWG to gain first-hand feedback on the survey so far. Next, I plan to refine the survey further based on this feedback before launching the full survey to a larger group in Asia.
+So far in this project, I have been able to refine and adapt the existing SSI surveys to make them suitable for the Asian context. I have also launched a pilot survey with a small group in APAN’s OSDWG to gain first-hand feedback on the survey so far. Next, I plan to refine the survey further based on this feedback before launching the full survey to a larger group. If you are either a researcher based in Asia or have worked in the Asian region or collaborate with colleagues in Asia, then please watch the [RSE Asia page](https://www.linkedin.com/company/rse-asia-association/?viewAsMember=true) for updates about my project and the survey \- I would love to hear from you\!
 
 # 🎉 Concluding the day
 
 After the talks, we spent some time discussing our work with the audience, which smoothly transitioned into EPCC’s ritual of ‘Friday Buns’. We discussed the challenges and way forward. Later that evening, I walked up the Calton hill (recommended by many) and got to see a 360° view of the city, the valleys, as well as the beautiful North Sea. Being a bright, sunny day, with the sun setting almost post 10 pm, I went for a walk to the Portobello Beach, and loved every bit of it\!
 
-![*Image (Left to Right): Me against the backdrop of the National Monument on the Calton Hill; The beautiful blues and browns of the Portobello Beach in Edinburgh.*](edinburgh_nature.png)
+![*Image (Left to Right): Me against the backdrop of the National Monument of Scotland on the Calton Hill; The beautiful blues and browns of the Portobello Beach in Edinburgh.*](edinburgh_nature.png)
 
-I sincerely want to thank **Neil Chue Hong** for inviting me to EPCC and to **Catherine Inglis** for all the hospitality she offered. Last but definitely not the least, a big thanks to **Sohail Sukhiani** and **Oscar Seip** for offering me a lot of behind-the-scenes support. I immensely value this opportunity of personal and professional growth\!
+I sincerely want to thank **Neil Chue Hong** for inviting me to EPCC and to **Catherine Inglis** for all the hospitality she offered. Last but definitely not least, a big thanks to **Sohail Sukhiani** and **Oscar Seip** for offering me a lot of behind-the-scenes support. I immensely value this opportunity of personal and professional growth\!
 
 ## 🔑 Resources:
 
