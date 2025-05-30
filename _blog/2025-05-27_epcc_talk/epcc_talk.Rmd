@@ -44,7 +44,7 @@ We (I and my co-Founder **Saranjeet Kaur**) launched the [Research Software Engi
 
 The motivation for this project was gained after reflecting over several of the community initiatives and interactions that RSE Asia had with the community in the region. I was further encouraged to take this work ahead when I proposed the idea during my talk on ‘[What is Research Software and Why Should we Think About its Sustainability?](https://zenodo.org/records/13377699)’ at the 58th meeting of the Asia Pacific Advanced Network (APAN58) during August 2024, which was attended by delegates from across Asia Pacific as well as the globe. I have been developing this idea since then, and have been encouraged and supported to do so by several RSE community members, SSI fellows, and community leaders. 
 
-Speaking of why this study is required \- this study is essential for several reasons, some of which are the need to diversify and expand the research software landscape, attempt to address the lack of formal RSE roles in Asia, leverage international partnerships, and further build a supportive community within Asia.Community building and support within Asia.
+Speaking of why this study is required \- this study is essential for several reasons, some of which are the need to diversify and expand the research software landscape, attempt to address the lack of formal RSE roles in Asia, leverage international partnerships, and further build a supportive community within Asia.
 
 SSI has been conducting surveys to study the RSE landscape since 2018\. However, there has been almost no representation of Asia in these surveys. This makes my research study even more essential. 
 
