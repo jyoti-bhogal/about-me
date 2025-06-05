@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = FALSE)
 **Phone no.:**\+91 8087635058/   
 \+91 9422047656  
 **EmailID:** [bhogaljyoti1@gmail.com](mailto:bhogaljyoti1@gmail.com)  
-**LinkedIn:** [jyoti-bhogal-a20705163](https://www.linkedin.com/in/jyoti-bhogal-a20705163/)  
+**LinkedIn:** [jyoti-bhogal](https://www.linkedin.com/in/jyoti-bhogal)  
 **Github:** [jyoti-bhogal](https://github.com/jyoti-bhogal)  
 **Time Zone:** IST (UTC+5:30 hours)  
 
