@@ -1,5 +1,29 @@
 [
   {
+    "path": "talks/2025-06-06_epcc/",
+    "title": "Research Study on the Research Soware Engineering (RSEng) Landscape in Asia",
+    "description": "An invited talk on 'Research Study on the Research Soware Engineering (RSEng) Landscape in Asia' at the EPCC, University of Edinburgh, in-person in May 2025.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-06-06",
+    "categories": [
+      "Research Software",
+      "Talk",
+      "Open Science",
+      "Open Source",
+      "SSI",
+      "EPCC"
+    ],
+    "contents": "\nMy Presentation Talk at EPCC, University of Edinburgh🔑 Talk Resources:\nSlides: Bhogal, J. (2025, May 16). Research Study on the Research Soware Engineering (RSEng) Landscape in Asia. Zenodo. https://doi.org/10.5281/zenodo.15450346\nRecording: Coming soon!\n\n\n\n",
+    "preview": "talks/2025-06-06_epcc/epcc_jyoti_talk_title_slide.jpeg",
+    "last_modified": "2025-06-06T10:30:38+05:30",
+    "input_file": "talk_epcc.knit.md"
+  },
+  {
     "path": "talks/2025-04-10_sca2025/",
     "title": "Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association",
     "description": "A Presentation Talk on 'Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association' at the SuperComputing Asia 2025 meeting online in March 2025.",
