@@ -20,7 +20,7 @@
       "title": "Hi, I'm Jyoti",
       "author": [],
       "contents": "",
-      "last_modified": "2025-04-19T13:51:22+05:30"
+      "last_modified": "2025-06-13T13:25:48+05:30"
     },
     {
       "path": "talk.html",
@@ -28,7 +28,7 @@
       "description": "Talks at conferenced, events, meetup, and other programmes\n",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2025-04-14T19:56:19+05:30"
+      "last_modified": "2025-06-13T13:24:45+05:30"
     }
   ],
   "collections": ["blog/blog.json", "talks/talks.json"]
