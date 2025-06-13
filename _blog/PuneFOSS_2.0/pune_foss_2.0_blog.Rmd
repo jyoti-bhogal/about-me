@@ -11,7 +11,7 @@ date: 03-08-2024
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories:   [Open Source, Community Building, FOSS, FOSS United, Open Science, Experience Blog]
+categories:   [Open Source, Community Building, FOSS, FOSS United, Open Science, Experience Blog, Pune, India, In Person]
 output:
   distill::distill_article:
     self_contained: false

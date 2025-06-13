@@ -11,7 +11,7 @@ date:  10-26-2024
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Python, Conference, Talk, India, Open Science, Bengaluru, Lightning Talk, Accessibility, Open Source] 
+categories: [Python, Conference, Talk, Open Science, Lightning Talk, Accessibility, Open Source, Bengaluru, India, In Person] 
 output:
   distill::distill_article:
     self_contained: false
