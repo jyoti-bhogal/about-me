@@ -11,7 +11,7 @@ date: 03-31-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Research Software, Conference, Talk, APAN, Open Science, Open Source] 
+categories: [Research Software, Conference, Talk, APAN, Open Science, Open Source, Yokohama, Japan, Online, Remote] 
 output:
   distill::distill_article:
     self_contained: false

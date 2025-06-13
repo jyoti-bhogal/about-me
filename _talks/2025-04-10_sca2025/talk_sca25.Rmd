@@ -11,7 +11,7 @@ date: 04-10-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Research Software, Conference, Talk, Open Science, Open Source, DEI, HPC, WHPC] 
+categories: [Research Software, Conference, Talk, Open Science, Open Source, DEI, HPC, WHPC, Singapore, Online, Remote] 
 output:
   distill::distill_article:
     self_contained: false
