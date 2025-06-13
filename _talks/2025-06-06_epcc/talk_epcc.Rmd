@@ -1,5 +1,5 @@
 ---
-title: "Research Study on the Research Soware Engineering (RSEng) Landscape in Asia"
+title: "Halò Scotland! Speaking at EPCC in the Edinburgh Sunshine"
 description: |
   An invited talk on 'Research Study on the Research Soware Engineering (RSEng) Landscape in Asia' at the EPCC, University of Edinburgh, in-person in May 2025.
 author:
