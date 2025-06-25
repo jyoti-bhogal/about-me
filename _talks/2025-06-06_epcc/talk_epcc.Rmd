@@ -28,6 +28,8 @@ knitr::opts_chunk$set(echo = FALSE,
 
 🔑 **Talk Resources:** 
 
-1. **Slides:** Bhogal, J. (2025, May 16). Research Study on the Research Soware Engineering (RSEng) Landscape in Asia. Zenodo. https://doi.org/10.5281/zenodo.15450346
+1. **Slides:** Bhogal, J. (2025, May 16). Research Study on the Research Software Engineering (RSEng) Landscape in Asia. Zenodo. https://doi.org/10.5281/zenodo.15450346 
 
-2. **Recording:** Coming soon!
+2. **Recording:** [The University of Edinburgh - Media](https://media.ed.ac.uk/media/1_p5zlw3k3?kalturaStartTime=1610) 
+
+3. **Featured Blog:** [EPCC News](https://www.epcc.ed.ac.uk/whats-happening/articles/investigating-research-software-engineering-landscape-asia)
