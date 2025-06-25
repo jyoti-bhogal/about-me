@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE,
                       out.extra="style='border:1px solid black;'")
 ```
 
-![My Presentation Talk at EPCC, University of Edinburgh](epcc_jyoti_talk_title_slide.jpeg)
+![My Talk at EPCC, University of Edinburgh](epcc_jyoti_talk_title_slide.jpeg)
 
 🔑 **Talk Resources:** 
 
