@@ -2,7 +2,7 @@
 title: "Time spent unconferencing at ODC 10"
 subtitle: 
 description: 
- This is a blog about my experience of particiapting in the Open Data Camp 10 (ODC 10) unconference sessions at the University of Edinburgh, Scotland, UK from 27-28 September 2025.
+ This is a blog about my experience of participating in the Open Data Camp 10 (ODC 10) unconference sessions at the University of Edinburgh, Scotland, UK from 27-28 September 2025.
 author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
@@ -32,7 +32,7 @@ Recently, I got the chance to attend **Open Data Camp 10 (ODC10)** for the very 
 
 One of the discussions that stood out for me was on *Maturing Open Data.* I liked the idea of treating data like a product, something that has versions, documentation, and dedicated roles like analysts and lawyers. There was also discussion about platforms like Hugging Face for AI and how something similar could exist for data. In another session, there was a discussion on how to convince senior leaders to support open data policies, which made me think a lot about the different skills needed at different stages.
 
-![Image: *Welcome banner*](collage_2.jpg)
+![Image: *Welcome banner, my badge, home page of ODC10 with sticker swags*](collage_2.jpg)
 
 There were some big-picture policy discussions too. One of them was about the UK’s plan for a **National Data Library (NDL)**, with the idea of having a single federated place to store and access data. Another one was on **Digital IDs**, where the participants were asked to think about it both as citizens and as data professionals. This made the discussion really interesting.
 
