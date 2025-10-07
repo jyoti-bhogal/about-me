@@ -1,5 +1,34 @@
 [
   {
+    "path": "talks/2025-08-03_apan60/",
+    "title": "Understanding the Personas of Research Software Engineers from Asian Institutes",
+    "description": "An invited talk on 'Understanding the Personas of Research Software Engineers from Asian Institutes' at the APAN60 meeting, Convention Center, Hong Kong, in-person in Jul-Aug 2025.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-08-03",
+    "categories": [
+      "Research Software",
+      "Talk",
+      "Open Science",
+      "Open Source",
+      "SSI",
+      "APAN60",
+      "Hong Kong",
+      "APAN",
+      "User Persona",
+      "Asia",
+      "In Person"
+    ],
+    "contents": "\nMy Talk at APAN60, Convention Center, Hong Kong🔑 Talk Resources:\nSlides: Bhogal, J. (2025, July 27). Understanding the Personas of Research Software Engineers from Asian Institutes. Zenodo. https://doi.org/10.5281/zenodo.16500272\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
+    "preview": "talks/2025-08-03_apan60/jyoti_apan60_talk.jpg",
+    "last_modified": "2025-10-07T17:49:09+01:00",
+    "input_file": "apan60.knit.md"
+  },
+  {
     "path": "talks/2025-06-06_epcc/",
     "title": "Halò Scotland! Speaking at EPCC in the Edinburgh Sunshine",
     "description": "An invited talk on 'Research Study on the Research Soware Engineering (RSEng) Landscape in Asia' at the EPCC, University of Edinburgh, in-person in May 2025.",

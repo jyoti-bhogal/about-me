@@ -1,0 +1,35 @@
+---
+title: "Understanding the Personas of Research Software Engineers from Asian Institutes"
+description: |
+  An invited talk on 'Understanding the Personas of Research Software Engineers from Asian Institutes' at the APAN60 meeting, Convention Center, Hong Kong, in-person in Jul-Aug 2025.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: jyoti_apan60_talk.jpg
+date: 08-03-2025
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [Research Software, Talk, Open Science, Open Source, SSI, APAN60, Hong Kong, APAN, User Persona, Asia, In Person] 
+output:
+  distill::distill_article:
+    self_contained: false
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+```
+
+![My Talk at APAN60, Convention Center, Hong Kong](jyoti_apan60_talk.jpg)
+
+🔑 **Talk Resources:** 
+
+1. **Slides:** Bhogal, J. (2025, July 27). Understanding the Personas of Research Software Engineers from Asian Institutes. Zenodo. https://doi.org/10.5281/zenodo.16500272
+
+2. **Recording:** Coming soon!
+
+3. **Featured Blog:** Coming soon!
