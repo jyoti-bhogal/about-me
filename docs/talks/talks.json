@@ -1,5 +1,34 @@
 [
   {
+    "path": "talks/2025-09-10_rsecon25_rse_worldwide/",
+    "title": "Research Software Engineering Asia Association (RSE Asia) Updates",
+    "description": "A talk on the 'Research Software Engineering Asia Association (RSE Asia) Updates' at the RSE Worldwide Session at the RSECon25, University of Warwick, Coventry, in-person in September 2025.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-09-11",
+    "categories": [
+      "Research Software",
+      "Talk",
+      "Open Science",
+      "Open Source",
+      "SSI",
+      "RSECon25",
+      "RSE Asia updates",
+      "RSE Worldwde session",
+      "Coventry",
+      "Asia",
+      "In Person"
+    ],
+    "contents": "\nRSE Asia updates at the RSE Worldwide session at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 10). Research Software Engineering Asia Association (RSE Asia) Updates. Zenodo. https://doi.org/10.5281/zenodo.17289327\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
+    "preview": "talks/2025-09-10_rsecon25_rse_worldwide/RSECon25_RSE_Asia_updates_talk_image.jpg",
+    "last_modified": "2025-10-07T18:24:53+01:00",
+    "input_file": "rsecon25_worldwide.knit.md"
+  },
+  {
     "path": "talks/2025-09-09_rsecon25_lightning/",
     "title": "Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration",
     "description": "An lightning talk on 'Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration' at the RSECon25, University of Warwick, Coventry, in-person in September 2025.",
@@ -26,7 +55,7 @@
     "contents": "\nMy poster lightning talk at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 9). Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration. Zenodo. https://doi.org/10.5281/zenodo.17289246\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
     "preview": "talks/2025-09-09_rsecon25_lightning/jyoti_rsecon25_lightning_talk_image.jpg",
     "last_modified": "2025-10-07T18:07:30+01:00",
-    "input_file": "rsecon25_lightning.knit.md"
+    "input_file": {}
   },
   {
     "path": "talks/2025-08-03_apan60/",
@@ -55,7 +84,7 @@
     "contents": "\nMy Talk at APAN60, Convention Center, Hong Kong🔑 Talk Resources:\nSlides: Bhogal, J. (2025, July 27). Understanding the Personas of Research Software Engineers from Asian Institutes. Zenodo. https://doi.org/10.5281/zenodo.16500272\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
     "preview": "talks/2025-08-03_apan60/jyoti_apan60_talk.jpg",
     "last_modified": "2025-10-07T17:49:09+01:00",
-    "input_file": "apan60.knit.md"
+    "input_file": {}
   },
   {
     "path": "talks/2025-06-06_epcc/",
@@ -82,7 +111,7 @@
     ],
     "contents": "\nMy Talk at EPCC, University of Edinburgh🔑 Talk Resources:\nSlides: Bhogal, J. (2025, May 16). Research Study on the Research Software Engineering (RSEng) Landscape in Asia. Zenodo. https://doi.org/10.5281/zenodo.15450346\nRecording: The University of Edinburgh - Media\nFeatured Blog: EPCC News\n\n\n\n",
     "preview": "talks/2025-06-06_epcc/epcc_jyoti_talk_title_slide.jpeg",
-    "last_modified": "2025-06-25T16:28:56+05:30",
+    "last_modified": "2025-06-25T11:58:56+01:00",
     "input_file": {}
   },
   {
@@ -111,7 +140,7 @@
     ],
     "contents": "\nMy Presentation Talk at SCA25🔑 Talk Resources:\nSlides: Bhogal, J. (2025, March 12). Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association. Zenodo. https://doi.org/10.5281/zenodo.15043541\nRecording: Coming soon!\n\n\n\n",
     "preview": "talks/2025-04-10_sca2025/SCA2025_WHPC_Panel_Speaker_Images.png",
-    "last_modified": "2025-06-13T14:21:13+05:30",
+    "last_modified": "2025-06-13T09:51:13+01:00",
     "input_file": {},
     "preview_width": 2214,
     "preview_height": 1340
@@ -141,7 +170,7 @@
     ],
     "contents": "\nMy Presentation Talk at APAN59🔑 Talk Resources:\nSlides: Bhogal, J. (2025, March 3). Building Bridges: Advancing Research Software Engineering and Open Science in Asia. Zenodo. https://doi.org/10.5281/zenodo.15180196\nRecording: Coming soon!\n\n\n\n",
     "preview": "talks/2025-03-31_apan59/APAN59_slide_main_page.png",
-    "last_modified": "2025-06-13T14:17:32+05:30",
+    "last_modified": "2025-06-13T09:47:32+01:00",
     "input_file": {},
     "preview_width": 960,
     "preview_height": 540
@@ -171,7 +200,7 @@
     ],
     "contents": "\nMy Lightning Talk at PyCon India 2024🔑 Talk Resources:\nSlides: Jyoti Bhogal, J. (2024, September 22). Accelerating India’s Open Science Journey with Python. Zenodo. https://doi.org/10.5281/zenodo.13826028\nRecording:\n\n\n\n\n",
     "preview": "talks/2024-10-26_pycon_india_2024/lit_talk_title.jpeg",
-    "last_modified": "2025-06-13T14:26:06+05:30",
+    "last_modified": "2025-06-13T09:56:06+01:00",
     "input_file": {}
   },
   {
@@ -199,7 +228,7 @@
     ],
     "contents": "\nMy Lightning Talk at RSECon24🔑 Talk Resources:\nSlides: Bhogal, J. (2024, September 2). RSECon24: RSE Worldwide Session 2024 - RSE Asia Association. Zenodo. https://doi.org/10.5281/zenodo.15211579\nRecording:\n\n\n\n\n",
     "preview": "talks/2024-09-02_rsecon24_rse_worldwide_session/talk_preview.png",
-    "last_modified": "2025-06-13T13:32:49+05:30",
+    "last_modified": "2025-06-13T09:02:49+01:00",
     "input_file": {},
     "preview_width": 2861,
     "preview_height": 1574
@@ -228,7 +257,7 @@
     ],
     "contents": "\nPanel discussion at RSEAA24\n\n\n",
     "preview": "talks/2024-10-05_rseaa24_strategy_policy_panel/RSEAA24_panel.png",
-    "last_modified": "2025-06-13T13:34:38+05:30",
+    "last_modified": "2025-06-13T09:04:38+01:00",
     "input_file": {},
     "preview_width": 1920,
     "preview_height": 1080
@@ -256,7 +285,7 @@
     ],
     "contents": "\nMy Presentation Talk at APAN58🔑 Talk Resources:\nSlides: Jyoti Bhogal. (2024, August 27). What is Research Software and Why Should we Think About its Sustainability?. Zenodo.https://doi.org/10.5281/zenodo.13377699\nRecording: APAN58 : Asia Pacific Open and Sharing Data WG, 27th August 2024, Part 1 (Clip from 00:00 to 14:55)\n\n\n\n\n",
     "preview": "talks/2025-03-30_apan58/APAN58_talk_image_1_software_sustainability_methods.png",
-    "last_modified": "2025-06-13T14:16:33+05:30",
+    "last_modified": "2025-06-13T09:46:33+01:00",
     "input_file": {},
     "preview_width": 1600,
     "preview_height": 730
@@ -284,7 +313,7 @@
     ],
     "contents": "\nMy Demo Talk at PythonPune February 2024 meetup🔑 Talk Resources:\nSlides: Bhogal, J. (2024, March 10). Geospatial Data Visualization: Tracking Sustainable Development Goals with Open Data and Open Source Software. Zenodo. https://doi.org/10.5281/zenodo.15211927\n\n\n\n",
     "preview": "talks/2024-03-10_pythonpune/Jyoti_Bhogal_PythonPune_February_2024_PuneMeetup.png",
-    "last_modified": "2025-06-13T13:30:26+05:30",
+    "last_modified": "2025-06-13T09:00:26+01:00",
     "input_file": {},
     "preview_width": 960,
     "preview_height": 540
