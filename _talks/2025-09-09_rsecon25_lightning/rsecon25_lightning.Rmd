@@ -1,0 +1,35 @@
+---
+title: "Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration"
+description: |
+  An lightning talk on 'Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration' at the RSECon25, University of Warwick, Coventry, in-person in September 2025.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: jyoti_rsecon25_lightning_talk_image.jpg
+date: 09-09-2025
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [Research Software, Talk, Open Science, Open Source, SSI, RSECon25, Lightning Talk, Coventry, Poster,  Asia, In Person] 
+output:
+  distill::distill_article:
+    self_contained: false
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+```
+
+![My poster lightning talk at RSECon25, University of Warwick, Coventry, United Kingdom](jyoti_rsecon25_lightning_talk_image.jpg)
+
+🔑 **Talk Resources:** 
+
+1. **Slides:** Bhogal, J. (2025, September 9). Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration. Zenodo. https://doi.org/10.5281/zenodo.17289246
+
+2. **Recording:** Coming soon!
+
+3. **Featured Blog:** Coming soon!

@@ -1,5 +1,34 @@
 [
   {
+    "path": "talks/2025-09-09_rsecon25_lightning/",
+    "title": "Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration",
+    "description": "An lightning talk on 'Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration' at the RSECon25, University of Warwick, Coventry, in-person in September 2025.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-09-09",
+    "categories": [
+      "Research Software",
+      "Talk",
+      "Open Science",
+      "Open Source",
+      "SSI",
+      "RSECon25",
+      "Lightning Talk",
+      "Coventry",
+      "Poster",
+      "Asia",
+      "In Person"
+    ],
+    "contents": "\nMy poster lightning talk at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 9). Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration. Zenodo. https://doi.org/10.5281/zenodo.17289246\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
+    "preview": "talks/2025-09-09_rsecon25_lightning/jyoti_rsecon25_lightning_talk_image.jpg",
+    "last_modified": "2025-10-07T18:07:30+01:00",
+    "input_file": "rsecon25_lightning.knit.md"
+  },
+  {
     "path": "talks/2025-08-03_apan60/",
     "title": "Understanding the Personas of Research Software Engineers from Asian Institutes",
     "description": "An invited talk on 'Understanding the Personas of Research Software Engineers from Asian Institutes' at the APAN60 meeting, Convention Center, Hong Kong, in-person in Jul-Aug 2025.",
