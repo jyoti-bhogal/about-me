@@ -1,5 +1,34 @@
 [
   {
+    "path": "talks/2025-09-17_pycon_uk_2025/",
+    "title": "Five Common Research Data Management Issues & How to Resolve them: With Python Packaging using 'Hatch' from PyPI",
+    "description": "A lightning talk on the research data management with python packaging from PyPI at the PyCon UK 2025, Contact Theater, Manchester, in-person in September 2025.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-09-17",
+    "categories": [
+      "Research Software",
+      "Talk",
+      "Lightning Talk",
+      "Open Source",
+      "Software Sustainability Institute",
+      "PyCon UK 2025",
+      "Manchester",
+      "Python",
+      "Django",
+      "Django Girls+",
+      "In Person"
+    ],
+    "contents": "\nRSE Asia updates at the RSE Worldwide session at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 19). Five Common Research Data Management Issues & How to Resolve them: With Python Packaging using ‘Hatch’ from PyPI. Zenodo. https://doi.org/10.5281/zenodo.17179268\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
+    "preview": "talks/2025-09-17_pycon_uk_2025/PyConUK2025_lightning_talk_image_1.jpg",
+    "last_modified": "2025-10-08T18:57:22+01:00",
+    "input_file": "pycon_uk_2025.knit.md"
+  },
+  {
     "path": "talks/2025-09-10_rsecon25_rse_worldwide/",
     "title": "Research Software Engineering Asia Association (RSE Asia) Updates",
     "description": "A talk on the 'Research Software Engineering Asia Association (RSE Asia) Updates' at the RSE Worldwide Session at the RSECon25, University of Warwick, Coventry, in-person in September 2025.",
@@ -15,17 +44,17 @@
       "Talk",
       "Open Science",
       "Open Source",
-      "SSI",
+      "Software Sustainability Institute",
       "RSECon25",
       "RSE Asia updates",
-      "RSE Worldwde session",
+      "RSE Worldwide session",
       "Coventry",
       "Asia",
       "In Person"
     ],
     "contents": "\nRSE Asia updates at the RSE Worldwide session at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 10). Research Software Engineering Asia Association (RSE Asia) Updates. Zenodo. https://doi.org/10.5281/zenodo.17289327\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
     "preview": "talks/2025-09-10_rsecon25_rse_worldwide/RSECon25_RSE_Asia_updates_talk_image.jpg",
-    "last_modified": "2025-10-07T18:24:53+01:00",
+    "last_modified": "2025-10-08T18:57:07+01:00",
     "input_file": "rsecon25_worldwide.knit.md"
   },
   {
@@ -44,7 +73,7 @@
       "Talk",
       "Open Science",
       "Open Source",
-      "SSI",
+      "Software Sustainability Institute",
       "RSECon25",
       "Lightning Talk",
       "Coventry",
@@ -54,8 +83,8 @@
     ],
     "contents": "\nMy poster lightning talk at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 9). Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration. Zenodo. https://doi.org/10.5281/zenodo.17289246\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
     "preview": "talks/2025-09-09_rsecon25_lightning/jyoti_rsecon25_lightning_talk_image.jpg",
-    "last_modified": "2025-10-07T18:07:30+01:00",
-    "input_file": {}
+    "last_modified": "2025-10-08T18:58:39+01:00",
+    "input_file": "rsecon25_lightning.knit.md"
   },
   {
     "path": "talks/2025-08-03_apan60/",
@@ -73,7 +102,7 @@
       "Talk",
       "Open Science",
       "Open Source",
-      "SSI",
+      "Software Sustainability Institute",
       "APAN60",
       "Hong Kong",
       "APAN",
@@ -83,8 +112,8 @@
     ],
     "contents": "\nMy Talk at APAN60, Convention Center, Hong Kong🔑 Talk Resources:\nSlides: Bhogal, J. (2025, July 27). Understanding the Personas of Research Software Engineers from Asian Institutes. Zenodo. https://doi.org/10.5281/zenodo.16500272\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
     "preview": "talks/2025-08-03_apan60/jyoti_apan60_talk.jpg",
-    "last_modified": "2025-10-07T17:49:09+01:00",
-    "input_file": {}
+    "last_modified": "2025-10-08T18:58:14+01:00",
+    "input_file": "apan60.knit.md"
   },
   {
     "path": "talks/2025-06-06_epcc/",
@@ -102,7 +131,7 @@
       "Talk",
       "Open Science",
       "Open Source",
-      "SSI",
+      "Software Sustainability Institute",
       "EPCC",
       "Edinburgh",
       "Scotland",
@@ -111,8 +140,8 @@
     ],
     "contents": "\nMy Talk at EPCC, University of Edinburgh🔑 Talk Resources:\nSlides: Bhogal, J. (2025, May 16). Research Study on the Research Software Engineering (RSEng) Landscape in Asia. Zenodo. https://doi.org/10.5281/zenodo.15450346\nRecording: The University of Edinburgh - Media\nFeatured Blog: EPCC News\n\n\n\n",
     "preview": "talks/2025-06-06_epcc/epcc_jyoti_talk_title_slide.jpeg",
-    "last_modified": "2025-06-25T11:58:56+01:00",
-    "input_file": {}
+    "last_modified": "2025-10-08T18:57:54+01:00",
+    "input_file": "talk_epcc.knit.md"
   },
   {
     "path": "talks/2025-04-10_sca2025/",

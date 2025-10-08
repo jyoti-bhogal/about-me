@@ -11,7 +11,7 @@ date: 09-11-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Research Software, Talk, Open Science, Open Source, SSI, RSECon25, RSE Asia updates, RSE Worldwde session, Coventry, Asia, In Person] 
+categories: [Research Software, Talk, Open Science, Open Source, Software Sustainability Institute, RSECon25, RSE Asia updates, RSE Worldwide session, Coventry, Asia, In Person] 
 output:
   distill::distill_article:
     self_contained: false

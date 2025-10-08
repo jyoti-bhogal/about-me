@@ -11,7 +11,7 @@ date: 06-06-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Research Software, Talk, Open Science, Open Source, SSI, EPCC, Edinburgh, Scotland, United Kingdom, In Person] 
+categories: [Research Software, Talk, Open Science, Open Source, Software Sustainability Institute, EPCC, Edinburgh, Scotland, United Kingdom, In Person] 
 output:
   distill::distill_article:
     self_contained: false

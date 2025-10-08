@@ -1,0 +1,35 @@
+---
+title: "Five Common Research Data Management Issues & How to Resolve them: With Python Packaging using 'Hatch' from PyPI"
+description: |
+  A lightning talk on the research data management with python packaging from PyPI at the PyCon UK 2025, Contact Theater, Manchester, in-person in September 2025.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: PyConUK2025_lightning_talk_image_1.jpg
+date: 09-17-2025
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [Research Software, Talk, Lightning Talk, Open Source, Software Sustainability Institute, PyCon UK 2025, Manchester, Python, Django, Django Girls+, In Person] 
+output:
+  distill::distill_article:
+    self_contained: false
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+```
+
+![RSE Asia updates at the RSE Worldwide session at RSECon25, University of Warwick, Coventry, United Kingdom](PyConUK2025_lightning_talk_image_1.jpg)
+
+🔑 **Talk Resources:** 
+
+1. **Slides:** Bhogal, J. (2025, September 19). Five Common Research Data Management Issues & How to Resolve them: With Python Packaging using 'Hatch' from PyPI. Zenodo. https://doi.org/10.5281/zenodo.17179268
+
+2. **Recording:** Coming soon!
+
+3. **Featured Blog:** Coming soon!

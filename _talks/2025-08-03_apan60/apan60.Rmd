@@ -11,7 +11,7 @@ date: 08-03-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Research Software, Talk, Open Science, Open Source, SSI, APAN60, Hong Kong, APAN, User Persona, Asia, In Person] 
+categories: [Research Software, Talk, Open Science, Open Source, Software Sustainability Institute, APAN60, Hong Kong, APAN, User Persona, Asia, In Person] 
 output:
   distill::distill_article:
     self_contained: false
