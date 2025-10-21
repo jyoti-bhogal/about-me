@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE,
                       out.extra="style='border:1px solid black;'")
 ```
 
-![RSE Asia updates at the RSE Worldwide session at RSECon25, University of Warwick, Coventry, United Kingdom](PyConUK2025_lightning_talk_image_1.jpg)
+![Lightning talK on Research Data Management at PyCon UK 2025, Contact Theater, Manchester, England, United Kingdom](PyConUK2025_lightning_talk_image_1.jpg)
 
 🔑 **Talk Resources:** 
 

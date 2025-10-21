@@ -1,0 +1,35 @@
+---
+title: "Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations"
+description: |
+  A unicorn mandala art workshop on the 'Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations' at the Open Data Camp 10, University of Edinburgh, Business School, Edinburgh, in-person in September 2025.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: collage_3.jpg
+date: 09-28-2025
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [Research Software, Data, Open Data, Workshop, Open Source, Software Sustainability Institute, Open Data Camp 10, University of Edinbuurgh, Edinburgh, In Person] 
+output:
+  distill::distill_article:
+    self_contained: false
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+```
+
+![A unicron mandala hands-on collaborative art workshop at Open Data Camp 10, University of Edinburgh, Scotland, United Kingdom](collage_3.jpg)
+
+🔑 **Talk Resources:** 
+
+1. **Slides:** Bhogal, J. (2025, September 27). Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations. Zenodo. https://doi.org/10.5281/zenodo.17260657
+
+2. **Recording:** Coming soon!
+
+3. **Featured Blog:** Coming soon!
