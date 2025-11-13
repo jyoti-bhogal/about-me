@@ -1,5 +1,37 @@
 [
   {
+    "path": "talks/2025-10-08_hidden_ref_festival_2025/",
+    "title": "Community as Infrastructure: Uncovering the Hidden Impact of Research Software in Research Excellence",
+    "description": "A lightning talk about the hidden impact of research software in the research excellence ecosystem.",
+    "author": [
+      {
+        "name": "Jyoti Bhogal",
+        "url": "https://jyoti-bhogal.github.io/about-me/"
+      }
+    ],
+    "date": "2025-10-09",
+    "categories": [
+      "Research Software",
+      "HiddenREF",
+      "Research Excellence",
+      "Data",
+      "Open Data",
+      "Lightning Talk",
+      "Talk",
+      "Open Source",
+      "Software Sustainability Institute",
+      "HiddenREF Festival 2025",
+      "5% Manifesto",
+      "ThinkTank Science Museum",
+      "Birmingham",
+      "In Person"
+    ],
+    "contents": "\nGroup photo of all participants at the HiddenREF Festival 2025 - Day 1, ThinkTank Science Museum, Birmingham, England, United King🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 27). Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations. Zenodo. https://doi.org/10.5281/zenodo.17260657\nRecording: YouTube recording\nFeatured Blog: Coming soon!\n\n\n\n",
+    "preview": {},
+    "last_modified": "2025-11-13T12:31:10+05:30",
+    "input_file": "hiddenref_festival_2025.knit.md"
+  },
+  {
     "path": "talks/2025-09-28_open_data_camp_10/",
     "title": "Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations",
     "description": "A unicorn mandala art workshop on the 'Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations' at the Open Data Camp 10, University of Edinburgh, Business School, Edinburgh, in-person in September 2025.",

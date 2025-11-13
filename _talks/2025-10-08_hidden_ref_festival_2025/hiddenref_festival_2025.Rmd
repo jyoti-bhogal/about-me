@@ -1,0 +1,35 @@
+---
+title: "Community as Infrastructure: Uncovering the Hidden Impact of Research Software in Research Excellence"
+description: |
+  A lightning talk about the hidden impact of research software in the research excellence ecosystem.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: collage_3.jpg
+date: 10-09-2025
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [Research Software, HiddenREF, Research Excellence, Data, Open Data, Lightning Talk, Talk, Open Source, Software Sustainability Institute, HiddenREF Festival 2025, 5% Manifesto, ThinkTank Science Museum, Birmingham, In Person] 
+output:
+  distill::distill_article:
+    self_contained: false
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+```
+
+![Group photo of all participants at the HiddenREF Festival 2025 - Day 1, ThinkTank Science Museum, Birmingham, England, United King](hiddenref_festival_2025_group_photo_day_1.jpg)
+
+🔑 **Talk Resources:** 
+
+1. **Slides:** Bhogal, J. (2025, September 27). Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations. Zenodo. https://doi.org/10.5281/zenodo.17260657
+
+2. **Recording:** [YouTube recording](https://youtu.be/EQ_Add2dEPw?list=PLd9IowK2Ms3RCT1LBh0H0vysXvmdwvgyT&t=3492)
+
+3. **Featured Blog:** Coming soon!
