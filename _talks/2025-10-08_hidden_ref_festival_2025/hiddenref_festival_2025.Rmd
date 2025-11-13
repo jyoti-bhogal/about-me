@@ -6,7 +6,7 @@ author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
 url: https://jyoti-bhogal.github.io/about-me/
-preview: collage_3.jpg
+preview: hiddenref_festival_2025_group_photo_day_1.jpg
 date: 10-09-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
