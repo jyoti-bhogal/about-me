@@ -113,7 +113,7 @@ Throughout the conference, during the welcome and closing sessions, Mark Smith k
 
 **Coming soon:** A Django web app I built during one of the workshops \- stay tuned\!
 
-![*Image: Picture clicked by me of the Manchester bee that welcomed me into my room and was absolutely reluctant to go out of the window 😆!*](manchester_bee.jpg) 
+![*Image: Picture clicked by me of the Manchester bee that welcomed me into my room and was absolutely reluctant to go out of the window 😆!*](bee_hotel_window.jpg) 
 
 *P.S.: Manchester inspires one to \#bee a worker (pun unintended 😁)\!*
 
