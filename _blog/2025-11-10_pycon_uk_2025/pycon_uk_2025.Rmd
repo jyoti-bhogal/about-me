@@ -90,7 +90,7 @@ The final workshop of the day was a brainstorming session led by Daniele Procida
 
 Day 4 was intentionally shorter after three intensive days of talks and workshops. It was the **Dev Day**, where around ten organisations presented their open-source projects and invited participants to contribute \- whether through ideas, documentation, or code\!
 
-I contributed to the **‘[ACTS Research Software Stories](https://everse.software/RSQKit/acts_research_software_story)’** component of the **{RSQ}Kit**, developed within the **EVERSE project**, and hosted by **Michael Sparks** and **Caterina Doglioni** from the University of Manchester.
+I contributed to the **‘[ACTS Research Software Stories](https://everse.software/RSQKit/acts_research_software_story)’** component of the **{RSQ}Kit**, developed within the **EVERSE project**. The dev sprint was hosted by **Michael Sparks** and **Caterina Doglioni** from the **University of Manchester**.
 
 Please feel free to check out my contributions through this [GitHub link](https://github.com/EVERSE-ResearchSoftware/RSQKit/pull/454#issuecomment-3318389977)\!     
 
