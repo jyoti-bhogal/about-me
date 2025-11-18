@@ -30,6 +30,6 @@ knitr::opts_chunk$set(echo = FALSE,
 
 1. **Slides:** Bhogal, J. (2025, September 19). Five Common Research Data Management Issues & How to Resolve them: With Python Packaging using 'Hatch' from PyPI. Zenodo. https://doi.org/10.5281/zenodo.17179268
 
-2. **Recording:** [YouTube recording](https://youtu.be/CouUftzuQVQ?list=PLrkpavSsBQZ6bnFa93KWXtMJoBA-a4_f_&t=1702)
+2. **Recording:** [PyCon UK 2025 YouTube recording](https://youtu.be/CouUftzuQVQ?list=PLrkpavSsBQZ6bnFa93KWXtMJoBA-a4_f_&t=1702)
 
 3. **Featured Blog:** Coming soon!
