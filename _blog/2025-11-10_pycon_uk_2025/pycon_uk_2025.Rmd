@@ -26,7 +26,7 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ![*Image: Picture of the conference venue, Contact Theatre, Manchester, with its architecture inspired by a castle.*](contact_theater.jpg) 
 
-PyCon UK 2025 took place at the Contact Theatre in Manchester, and the atmosphere was nothing short of inspiring—vibrant, diverse, friendly, and full of learning. Over four exciting days, the conference brought together an incredible mix of talks, workshops, collaborative dev sprints, amazing people, and, of course, great food. It was a space where ideas flowed freely, communities connected, and I had a lot of meaningful learnings to take away. The venue itself has a unique architecture, which is so conducive to creative and collaborative work.
+PyCon UK 2025 took place at the Contact Theatre in Manchester, and the atmosphere was nothing short of inspiring - vibrant, diverse, friendly, and full of learning. Over four exciting days, the conference brought together an incredible mix of talks, workshops, collaborative dev sprints, amazing people, and, of course, great food. It was a space where ideas flowed freely, communities connected, and I had a lot of meaningful learnings to take away. The venue itself has a unique architecture, which is so conducive to creative and collaborative work.
 
 # Day 1
 
@@ -55,7 +55,7 @@ I also spent some time chatting with sponsors at their stalls and participated i
 
 # Day 3
 
-**Day 3 also had talks and workshops running in parallel.** The day began with a keynote by **Sheena O’Connell** titled *“Playing the Long Game.”* I really appreciated the advice Sheena shared for early-career professionals. When it comes to using GenAI and LLMs, Sheena emphasised that while they are great as a starting point, it is still essential to understand what the generated code actually does.
+**Day 3 also had talks and workshops running in parallel.** The day began with a keynote by **Sheena O’Connell** titled **Playing the Long Game.** I really appreciated the advice Sheena shared for early-career professionals. When it comes to using GenAI and LLMs, Sheena emphasised that while they are great as a starting point, it is still essential to understand what the generated code actually does.
 
 I participated in three hands-on workshops:
 
@@ -67,7 +67,7 @@ In this workshop, we explored documentation tools used in well-known Python proj
 
 This was an excellent workshop by Sarah, where she walked us through her process for designing programming workshops for school students. I got hands-on experience writing simple programs using the child-friendly interface of the learning platform.
 
-A unique part of the workshop was working with **micro:bit** devices \- small boards with mounted  LEDs. We coded using the [*Code with Mu*](https://codewith.mu/en/) editor, which provides several ready-to-run modules with sample code that can be modified. Each participant was given a micro:bit, and it was a lot of fun seeing our code come alive on the device.
+A unique part of the workshop was working with [**micro:bit**](https://microbit.org/) devices \- small boards with mounted  LEDs. We coded using the [*Code with Mu*](https://codewith.mu/en/) editor, which provides several ready-to-run modules with sample code that can be modified. Each participant was given a micro:bit, and it was a lot of fun seeing our code come alive on the device.
 
 ![*Image: Picture at a PyCon UK 2025 workshop, clicked by me.*](how_to_organise_workshop.jpg) 
 
@@ -80,7 +80,7 @@ htmltools::HTML('
 </video>
 ')
 ```
-*Video: The code output on the microbit reads ‘PyCon UK 2025’ followed by an image of a duck, recorded by me.*
+*Video: The code output on the micro:bit reads ‘PyCon UK 2025’ followed by an image of a duck, recorded by me.*
 
 ## **3\. *How to Measure and Elevate Quality in Engineering Practice* by Daniele Procida**
 
@@ -113,10 +113,9 @@ Throughout the conference, during the welcome and closing sessions, Mark Smith k
 
 **Coming soon:** A Django web app I built during one of the workshops \- stay tuned\!
 
-![*Image: Picture clicked by me of the Manchester bee that welcomed me into my room and was absolutely reluctant to go out of the window 😆!*](bee_hotel_window.jpg) 
+![*Image: Picture clicked by me of the Manchester bee (highlighted in yellow at the edge of the window) that welcomed me into my room and was absolutely reluctant to go out of the window 😆!*](bee_hotel_window.jpg) 
 
 *P.S.: Manchester inspires one to \#bee a worker (pun unintended 😁)\!*
-
 
 ## Get In Touch:
 
