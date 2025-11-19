@@ -59,11 +59,11 @@ I also spent some time chatting with sponsors at their stalls and participated i
 
 I participated in three hands-on workshops:
 
-## **1\. *What We Can Learn from Exemplary Python Documentation* by Christian Heitzmann**
+## 1\. *What We Can Learn from Exemplary Python Documentation* by Christian Heitzmann
 
 In this workshop, we explored documentation tools used in well-known Python projects such as NumPy and pandas. It was a very practical session that gave insights into how good documentation is structured and maintained.
 
-## **2\. *Theming Workshops for Education via “Coding a Satellite”* by Sarah Townson**
+## 2\. *Theming Workshops for Education via 'Coding a Satellite'* by Sarah Townson
 
 This was an excellent workshop by Sarah, where she walked us through her process for designing programming workshops for school students. I got hands-on experience writing simple programs using the child-friendly interface of the learning platform.
 
@@ -80,9 +80,9 @@ htmltools::HTML('
 </video>
 ')
 ```
-*Video: The code output on the micro:bit reads ‘PyCon UK 2025’ followed by an image of a duck, recorded by me.*
+*Video: The code output on the micro:bit reads ‘PyCon UK 25’ followed by an image of a duck, recorded by me.*
 
-## **3\. *How to Measure and Elevate Quality in Engineering Practice* by Daniele Procida**
+## 3\. *How to Measure and Elevate Quality in Engineering Practice* by Daniele Procida
 
 The final workshop of the day was a brainstorming session led by Daniele Procida, Director of Engineering at Canonical. He introduced a team-progress tracking system with multiple maturity levels, each containing sub-goals. He set up a system where teams can choose which sub-goals they want to focus on within a given level. This self-reporting system \- centred on small, incremental, and realistic progress steps \- has proven effective precisely because teams are free to choose their path.
 
