@@ -37,10 +37,10 @@ Before the R Dev Day, we had an optional preparation day where participants coul
 During the Dev Day itself, I worked on two issues from the **r-devel** repository:
 
 **Issue 1: Bug 18282 \- Improving the documentation of `var.test()`**  
-I focused on enhancing the documentation of the R function `var.test()` along with the other contributors. I received helpful and constructive feedback from Sebastian Meyer, and by the end of the day, we were able to submit a patch for the issue. Seeing this progress come together collaboratively was extremely satisfying. Check out more about my contribution in [this GitHub repository](https://github.com/r-devel/r-dev-day/issues/45)\!
+I focused on enhancing the documentation of the R function `var.test()` along with the other contributors. I received helpful and constructive feedback from Sebastian Meyer, and by the end of the day, we were able to submit a patch for the issue. Seeing this progress come together collaboratively was extremely satisfying. Check out more about my contribution in [this GitHub issue](https://github.com/r-devel/r-dev-day/issues/45)\!
 
 **Issue 2: Testing with 'write' permission**  
-For my second issue, I was given `write` permissions in the repository. On my macOS machine, I set up and installed [pre-commit](https://pre-commit.com/) and successfully ran the R function `use_precommit()`. Pre-commit is a tool that helps one automatically check for minor issues before pushing code from a local repository to a remote repository for code review or for merging. This was a great hands-on experience that deepened my understanding of the technical workflow used in R development. Check out my contribution in [this GitHub repository](https://github.com/r-devel/r-dev-day/issues/122)\!
+For my second issue, I was given `write` permissions in the repository. On my macOS machine, I set up and installed [pre-commit](https://pre-commit.com/) and successfully ran the R function `use_precommit()`. Pre-commit is a tool that helps one automatically check for minor issues before pushing code from a local repository to a remote repository for code review or for merging. This was a great hands-on experience that deepened my understanding of the technical workflow used in R development. Check out my contribution in [this GitHub issue](https://github.com/r-devel/r-dev-day/issues/122)\!
 
 ## Learning New Tools
 
