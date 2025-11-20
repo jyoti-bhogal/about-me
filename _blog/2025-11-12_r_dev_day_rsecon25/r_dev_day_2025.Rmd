@@ -56,7 +56,7 @@ Throughout the event, I had the chance to work alongside R contributors from man
 
 Meeting many members of the R-Ladies community in person was especially meaningful. R was my first programming language, and **R-Ladies Global** was the first open-source community I joined. I was warmly welcomed into the community early on and even got the opportunity to serve as a social media curator. This role introduced me to the wider world of open-source software and community-led development \- something that continues to enrich my career and learning journey.
 
-## Some Lovely Memories
+## Some Lovely Memories!
 
 ![*Image: Chocolates shared by the R en Buenos Aires chapter; R Dev Day dinner.*](food_collage_r_dev_day.jpg)
 
