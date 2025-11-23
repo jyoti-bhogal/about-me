@@ -44,7 +44,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * Curate and create monthly newsletters, generate subscription  analytics and reports
 * **Software Tools:** Hugo framework, VS Code (Terminal), GitHub.
 
-####  **Deloitte Consulting India Pvt. Ltd., Pune —** *Analyst,* April 2022 \- September 2024  
+####  **Deloitte Consulting India Pvt. Ltd., Pune -** *Analyst,* April 2022 \- September 2024  
 
 * *Sanofi Research & Development Data Office (June 2023 \- September 2024\)*  
   * As a Data Governance Consultant for cross-functional Clinical R\&D domains, Jyoti laid down standards for a Data Governance Workflow and Policies, and created a centralised Data Catalog in the Informatica Cloud platform Cloud Data Governance and Catalog (CDGC).  
@@ -56,7 +56,7 @@ knitr::opts_chunk$set(echo = FALSE)
   * Estimated percentage reuse of content from Deloitte’s CognitiveSpark for Clinical (CSC) software asset, and also from within the Clinical Trial Dossier for partially automating the documentation process.  
   * **Software Tools:** MS Excel, Workiva, MS Word. 
 
-#### **Cytel Statistical Software & Services Pvt. Ltd.,** Pune — *Software Quality Engineer I \- Statistician,* September 2020 \- March 2022
+#### **Cytel Statistical Software & Services Pvt. Ltd.,** Pune - *Software Quality Engineer I \- Statistician,* September 2020 \- March 2022
 
 * Jyoti simulated optimal Clinical Trial design to optimise trial cost or statistical power of testing the effectiveness of a drug formula.  
 * Delivered 6 major software releases which she finished on time and on budget with good statistical power.  
@@ -169,7 +169,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * Studied geospatial time series data to understand the correlation between Climate patterns at different geographical locations using the Ocean Surface temperature data.  
 
-#### **Analysis of Grammatical Facial Expressions**— *Masters Project*    
+#### **Analysis of Grammatical Facial Expressions**- *Masters Project*    
 
 * Developed an ML algorithm to comprehend facial expressions by using Statistical techniques like Principle Component Analysis (PCA), MANOVA, and LDA on UCI Machine Learning Repository data.  
 * Achieved 80-90% accuracy in classifying facial expressions.
@@ -223,10 +223,10 @@ English, Hindi, German (Certificate Course)
 
 # **EDUCATION**
 
-**Savitribai Phule Pune University (SPPU),** Pune, India — *M.Sc.(Statistics) |* July 2018 \- June 2020| CGPA: 9.25/10 | University Rank: 3
+**Savitribai Phule Pune University (SPPU),** Pune, India - *M.Sc.(Statistics) |* July 2018 \- June 2020| CGPA: 9.25/10 | University Rank: 3
 
-**Savitribai Phule Pune University (SPPU),** Pune, India — *B.Sc.(Statistics) |* July 2014 \- June 2018 | Percentage: 96.83%
+**Savitribai Phule Pune University (SPPU),** Pune, India - *B.Sc.(Statistics) |* July 2014 \- June 2018 | Percentage: 96.83%
 
-**Maharashtra State Board of Secondary & Higher Secondary Education,** Pune, India — *12th Grade |* July 2012 \- June 2014 | Percentage: 86.46%
+**Maharashtra State Board of Secondary & Higher Secondary Education,** Pune, India - *12th Grade |* July 2012 \- June 2014 | Percentage: 86.46%
 
-**Central Board of Secondary Education,** New Delhi, India — *10th Grade |* July 2011 \- June 2012 | Percentage: 95.00% | GPA: 10/10
+**Central Board of Secondary Education,** New Delhi, India - *10th Grade |* July 2011 \- June 2012 | Percentage: 95.00% | GPA: 10/10
