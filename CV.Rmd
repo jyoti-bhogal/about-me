@@ -89,7 +89,42 @@ knitr::opts_chunk$set(echo = FALSE)
 * Cohort-5 (OLS-5), February 2022 \- July 2022: Project Lead & Community Building Volunteer for 'Building Pathways for Onboarding to Research Software Engineering (RSE) Asia Association.', planned & created a working group for the RSE Asia Association.
 
 
-# **CONFERENCES**
+# **CONFERENCES, WORKSHOPS, TALKS**
+
+#### **EARL Tech Conference 2025 (Enterprise Applications of the R Language 2025), Brighton, England | 14-16 October 2025**
+* Participated in hand-on workshop on R for Bayesian Statistics and integrating LLMs in R Shiny applications using `ellmer` R package.
+* Attended various talks and panel discussions on applications of Python and R programming language in enterprises.
+
+#### **HiddenREF Festival 2025, Birmingham, England | 7-8 October 2025**
+* Participated in three sessions on assessment of non-traditional outputs.
+* Presented a lightning talk on 'Community as Infrastructure: Uncovering the Hidden Impact of Research Software in Research Excellence'.
+* Volunteer to help run the conference smoothly by assisting technical AV.
+
+#### **Open Data Camp 10 (ODC10), Edinburgh, Scotland | 27-28 September 2025**
+* Organised a hands-on session on 'Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations'.
+* Contributed to various sessions on Open Data practices, including sessions Digital Identifiers and National Data Library.
+
+#### **PyCon UK 2025, Manchester, England | 19-22 September 2025**
+* Attended various talks and workshops on Python programming language and its applications in data science, software education, team building, machine learning, LLMs, and software development.
+* Attended a one-day hands-on 'Django Girls Worhshop' to learn Django web application development.
+* Presented a lightning talk on 'Five Common Research Data Management Issues & How to Resolve them: With Python Packaging using ‘Hatch’ from PyPI'.
+
+#### **R Dev Day @ RSECon25, Coventry, England | 8 and 12 September 2025**
+* Participated in the dev day to contribute to enhancing documentation of `var.test()`.
+* Contributed to R `glossary` package to test pre-commit with 'Write' access to repository.
+
+#### **RSECon25, Coventry, England | 9-11 September 2025**
+* Presented a lightning talk and poster on 'Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration'.
+* Presented updates from the RSE Asia Association at the RSE Worldwide session.
+* Volunteered to help run the conference smoothly.
+
+#### **Open Software Week, London, England | 11-15 August 2025**
+* Participated in various hands-on workshops and panel discussions on Open Software practices, including seesions on Introduction to Python, and neuroinformatics software `movement`.
+
+#### **APAN60, Hong Kong | 27 July - 1 August 2025**
+* Singed Memorandum of Understanding (MoU) on behalf of RSE Asia Association with APAN to collaborate on Research Software Engineering and Open Science initiatives in the Asia-Pacific region.
+* Presented a talk on 'Understanding the Personas of Research Software Engineers from Asian Institutes'.
+* Held a Warli Art themed RSE Asia meetup to foster community networking. 
 
 #### **Invited Talk, Edinburgh, Scotland | 16 May 2025**
 
@@ -103,28 +138,26 @@ knitr::opts_chunk$set(echo = FALSE)
 * Contributed to a mini-workshop on ‘How do you ensure your science is seen, used and sustained?’
 * Attended keynotes, lightning talks, panel discussions, and social sessions.
 
-####               **FOSSASIA Summit 2025, Bangkok, Thailand | 13-15 March 2025**
+#### **FOSSASIA Summit 2025, Bangkok, Thailand | 13-15 March 2025**
 
-* FOSSASIA summit 2025 is by the FOSSASIA organisation to bring together an inspiring community across borders and ages to form a better future with Open Technologies and Information & Communication Technologies  
+* FOSSASIA summit 2025 is by the FOSSASIA organisation to bring together an inspiring community across borders and ages to form a better future with Open Technologies and Information & Communication Technologies.  
 * Jyoti presented a remote Lightning Talk at the RSE Worldwide session to share the status of the RSE Asia Association, participated in the R Development Hackathon to translate 30+ R programming language messages from English to Hindi using Weblate, and attended various other sessions.
 
-
-
-####           **SuperComputing Asia (SCA) 2025, Online | 10-13 March 2025**
+#### **SuperComputing Asia (SCA) 2025, Online | 10-13 March 2025**
 
 * SuperComouting Asia 2025 is a gathering of the best HPC in Asia.  
-* Jyoti presented a remote talk on ‘Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association’ in the panel on ‘Diversity and Inclusivity’
+* Jyoti presented a remote talk on ‘Advancing DEI in Research Software through the Research Software Engineering (RSEng) Asia Association’ in the panel on ‘Diversity and Inclusivity’.
 
-####               **APAN59, Online | 3-7 March 2025**
+#### **APAN59, Online | 3-7 March 2025**
 
-* Jyoti presented a remote talk at the OSDWG session to on the topic ‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’, and also chaired the seesion
+* Jyoti presented a remote talk at the OSDWG session to on the topic ‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’, and also chaired the session.
 
-#### **PyCon India 2024, Bengaluru, India | 12-15 Sep 2024**
-* PyCon India is an annual conference run by the Python community in India
-* At PyCon India 2024, Jyoti gave a lightning talk on ‘Accelerating India’s Open Science Journey with Python’. She also participated in workshops and a DevDay to learn to contribute to the NumPy open-source Python library
+#### **PyCon India 2024, Bengaluru, India | 12-15 September 2024**
+* PyCon India is an annual conference run by the Python community in India.
+* At PyCon India 2024, Jyoti gave a lightning talk on ‘Accelerating India’s Open Science Journey with Python’. She also participated in workshops and a DevDay to learn to contribute to the NumPy open-source Python library.
 
 
-####               **RSECon24, Online | 3-5 September 2024**
+#### **RSECon24, Online | 3-5 September 2024**
 
 * RSECon24 is organised by the Society of Research Software Engineering (SocRSE), a charitable incorporated organisation based in the UK. It was run in a hybrid mode (London+Remote).  
 * Jyoti presented a remote Lightning Talk at the RSE Worldwide session to share the status of the RSE Asia Association, participated in the R Development Hackathon to translate 30+ R programming language messages from English to Hindi using Weblate, and attended various other sessions.
@@ -133,7 +166,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * Asia Pacific Advanced Network is an organisation and also a network that connects the research and education networks of its member countries/economies and other research networks across the world. At APAN58, the 58th bi-annual meeting of APAN, Jyoti remotely presented the journey of the RSE Asia Association so far.
 
-#### **Confederation of Open Access Repositories  (COAR) Asia Meeting, Conference, New Delhi, India | 17 \- 18 April 2024**
+#### **Confederation of Open Access Repositories  (COAR) Asia Meeting, Conference, New Delhi, India | 17-18 April 2024**
 
 * COAR Asia is a special forum hosted by COAR in which members of the Asian open-access community can share information, meet each other, and build relationships. In the COAR Asia meeting, titled “The promise and practice of open science”, Jyoti represented RSE Asia and discussed the importance of Research Software Engineering to enhance Open Science practices.
 
@@ -143,17 +176,17 @@ knitr::opts_chunk$set(echo = FALSE)
 * PuneFOSS 2.0 (24 February 2024): At the FOSS United Pune conference in February 2024, Jyoti attended a day full of interactive sessions on the importance of Free and Open Source Software ecosystem.  
 * PuneFOSS 2.1 (24 August 2024): Jyoti participated in a hands-on workshop titled ‘Dynamic Secrets: Unleashing the Thor’s Hammer of FOSS’, along with listening to other talks on open source software products like InstructLab and WebAssembly.
 
-#### **PyCon India 2023, Hyderabad, India | 29 Sep \- 2  Oct 2023**
+#### **PyCon India 2023, Hyderabad, India | 29 Sep - 2  Oct 2023**
 
-* PyCon India is an annual conference run by the Python community in India.  
+* PyCon India is an annual conference run by the Python community in India.
 * At PyCon India 2023, Jyoti participated in Python workshops on Data Munging with Python. Furthermore, she gave inputs in an Open Forum discussion on FOSS and Scientific Software Development.
 
-#### **PyData Global 2021, Online | 28 \- 30 Oct 2021**
+#### **PyData Global 2021, Online | 28 - 30 Oct 2021**
 
-* PyData is a community for developers and users of open-source data tools.  
+* PyData is a community for developers and users of open-source data tools.
 * At PyData Global 2021, Jyoti was selected as a PyData Global Impact Scholar. Amongst many other learnings, she enjoyed a sprint on the usability of the Python package *PyMC.* She continues to be an active member of the PyData community.
 
-#### **useR 2021, Online | 5 \- 9 July 2021**
+#### **useR 2021, Online | 5-9 July 2021**
 
 * useR\! is an annual conference, organised by R community volunteers, and supported by the R Foundation showcases applications and developments of R Software. At useR 2021, Jyoti volunteered as a Zoom Host and participated in various conference sessions on applications of R software, like the R quiz, Research Software Engineering, and many more.
 
@@ -161,9 +194,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * R-Ladies is a worldwide organisation whose mission is to promote gender diversity in the R community. Jyoti managed the R-Ladies Twitter handle to encourage and maintain communications about the use of R Software language within the R-Ladies global community.
 
-                
-
-#                 **ACADEMIC PROJECTS**
+# **ACADEMIC PROJECTS**
 
 #### **Analysing Correlation between Geographical Regions via Ocean Surface Temperatures \-** *Summer Internship, Indian Institute of Science Education and Research, Pune, India*
 
