@@ -30,11 +30,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #### **Research Software Engineering Contributor, Walter and Eliza Hall Institute of Medical Research (WEHI),** November 2024 \- Present (Remote, Volunteer)
 * Exploring, analysing and visualising cancer genomics data using cBioportal as a free, open-source online database.
-* Studying various formats of multiomics data files commonly used in Bioinformatics – raw (.fastq), processed (.bam/.cram), summarised (.vcf) files.
+* Studying various formats of multiomics data files commonly used in Bioinformatics - raw (.fastq), processed (.bam/.cram), summarised (.vcf) files.
 * Cross-team collaborations to prioritise the dependencies.
 * **Software Tools:** RStudio, GitHub
 
-#### **Research Software Community Manager, Research Software Alliance (ReSA),** September 2024 \- Present (part-time)
+#### **Research Software Community Manager, Research Software Alliance (ReSA),** September 2024 - September 2025 (part-time)
 
 * Provide technical support to maintain and update the organisational website
 * Manage the task force process, organisation, and internal communications
@@ -49,7 +49,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * *Sanofi Research & Development Data Office (June 2023 \- September 2024\)*  
   * As a Data Governance Consultant for cross-functional Clinical R\&D domains, Jyoti laid down standards for a Data Governance Workflow and Policies, and created a centralised Data Catalog in the Informatica Cloud platform Cloud Data Governance and Catalog (CDGC).  
   * Developed Conceptual Data models for 6+ transversal R\&D business functions.  
-  * Deeply involved in regular stakeholder communications (business and technical), decision-making, and strategizing.  
+  * Deeply involved in regular stakeholder communications (business and technical), decision-making, and strategising.  
   * **Software Tools:** Informatica Cloud (CDGC), MS Excel, MS Word.   
 * *CognitiveSpark for Clinical (April 2022 \- May 2023\)*  
   * For Structured Content Authoring in the Regulatory domain of Life Sciences, Jyoti developed standardised templates for Clinical Trial Dossier components.  
@@ -68,14 +68,13 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # **RELEVANT VOLUNTEER COMMUNITY EXPERIENCE**
 
-#### **Research Software Engineering (RSE) Asia Association, Volunteer  Lead,** September 2021 \- Present
+#### **Research Software Engineering (RSE) Asia Association, Volunteer  Co-Lead,** September 2021 \- Present
 
 * RSE Asia is a non-profit organisation which works towards building the Research Software Engineer landscape in the Asian region. Jyoti played a crucial role in establishing the RSE Asia Association.  
 * She organised RSE Asia Community Calls, represented RSE Asia at Asia Pacific Advanced Network (APAN) meetings (APAN58 and APAN59)  
-* She co-Chaired the 3rd annual successfully running Research Software Engineering Asia Australia Unconference 2024 (RSEAA24), and is co-chairing and organising  the 4th edition annual conference RSAA25  
+* She co-Chaired the 3rd and 4th annual successfully running Research Software Engineering Asia Australia Unconference 2024 (RSEAA24) and the  RSAA25 conference.
 * She has conducted a 6-month community conversation series on ‘Enabling Open Science Through Research Code’, which created openly available recordings, resource sheets, and summary blog posts of each episode. The average turnout of registrations was around 30% consistently.  
 * She manages the RSE Asia Association webpage and LinkedIn.
-
 
 #### **International Council of Research Software Engineering, Co-Observer,** 2022 \- Present
 
@@ -87,7 +86,6 @@ knitr::opts_chunk$set(echo = FALSE)
 * OLS is a not-for-profit organisation dedicated to capacity building and diversifying leadership in research worldwide. It runs a mentorship program, now called the Open Seeds program.  
 * Cohort \-4 (OLS-4), September 2021 \- January 2022: Project Lead & Community Building Volunteer for 'Building the Research Software Engineering (RSE) Asia Association.' Organised RSE Asia Launch Event in collaboration with Hacktoberfest 2021\.  
 * Cohort-5 (OLS-5), February 2022 \- July 2022: Project Lead & Community Building Volunteer for 'Building Pathways for Onboarding to Research Software Engineering (RSE) Asia Association.', planned & created a working group for the RSE Asia Association.
-
 
 # **CONFERENCES, WORKSHOPS, TALKS**
 
@@ -110,8 +108,8 @@ knitr::opts_chunk$set(echo = FALSE)
 * Presented a lightning talk on 'Five Common Research Data Management Issues & How to Resolve them: With Python Packaging using ‘Hatch’ from PyPI'.
 
 #### **R Dev Day @ RSECon25, Coventry, England | 8 and 12 September 2025**
-* Participated in the dev day to contribute to enhancing documentation of `var.test()`.
-* Contributed to R `glossary` package to test pre-commit with 'Write' access to repository.
+* Participated in the dev day to contribute to enhancing documentation of `var.test()` function.
+* Contributed to the R `glossary` package to test pre-commit with 'Write' access to repository.
 
 #### **RSECon25, Coventry, England | 9-11 September 2025**
 * Presented a lightning talk and poster on 'Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration'.
@@ -120,6 +118,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #### **Open Software Week, London, England | 11-15 August 2025**
 * Participated in various hands-on workshops and panel discussions on Open Software practices, including seesions on Introduction to Python, and neuroinformatics software `movement`.
+* Participated in the OSW Hackday to explore the concept and open source Python library `skimage` to create skeletonised images from masked images of animal, and driving nodes from the skeletonised image to simplify the further analysis.
 
 #### **APAN60, Hong Kong | 27 July - 1 August 2025**
 * Singed Memorandum of Understanding (MoU) on behalf of RSE Asia Association with APAN to collaborate on Research Software Engineering and Open Science initiatives in the Asia-Pacific region.
@@ -150,7 +149,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #### **APAN59, Online | 3-7 March 2025**
 
-* Jyoti presented a remote talk at the OSDWG session to on the topic ‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’, and also chaired the session.
+* Jyoti presented a remote talk at the OSDWG session on the topic ‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’, and also chaired the session.
 
 #### **PyCon India 2024, Bengaluru, India | 12-15 September 2024**
 * PyCon India is an annual conference run by the Python community in India.
