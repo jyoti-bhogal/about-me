@@ -12,7 +12,7 @@ date:  11-10-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Software Sustainability Institute, Open Source Software, Open Data, Open Science, Free Software, Software, Research Software, Meta data, Contact Theater, Manchester, Bee, England, United Kingdom, In Person] 
+categories: [Software Sustainability Institute, Open Source Software, Open Data, Open Science, Free Software, Software, Django, Django Girls, Research Software, Meta data, Contact Theater, Manchester, Bee, England, United Kingdom, In Person] 
 output:
   distill::distill_article:
 ---
