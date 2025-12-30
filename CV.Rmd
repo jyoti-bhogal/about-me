@@ -11,8 +11,6 @@ output:
 knitr::opts_chunk$set(echo = FALSE)
 ```
 
-**Phone no.:**\+91 8087635058/   
-\+91 9422047656  
 **Email ID:** [bhogaljyoti1@gmail.com](mailto:bhogaljyoti1@gmail.com)  
 **LinkedIn:** [jyoti-bhogal](https://www.linkedin.com/in/jyoti-bhogal)  
 **Github:** [jyoti-bhogal](https://github.com/jyoti-bhogal)  
@@ -90,21 +88,21 @@ knitr::opts_chunk$set(echo = FALSE)
 # **CONFERENCES, WORKSHOPS, TALKS**
 
 #### **EARL Tech Conference 2025 (Enterprise Applications of the R Language 2025), Brighton, England | 14-16 October 2025**
-* Participated in hand-on workshop on R for Bayesian Statistics and integrating LLMs in R Shiny applications using `ellmer` R package.
-* Attended various talks and panel discussions on applications of Python and R programming language in enterprises.
+* Participated in a hands-on workshop on R for Bayesian Statistics and integrating LLMs in R Shiny applications using the `ellmer` R package.
+* Attended various talks and panel discussions on applications of Python and the R programming language in enterprises.
 
 #### **HiddenREF Festival 2025, Birmingham, England | 7-8 October 2025**
-* Participated in three sessions on assessment of non-traditional outputs.
+* Participated in three sessions on the assessment of non-traditional outputs.
 * Presented a lightning talk on 'Community as Infrastructure: Uncovering the Hidden Impact of Research Software in Research Excellence'.
-* Volunteer to help run the conference smoothly by assisting technical AV.
+* Volunteer to help run the conference smoothly by assisting with technical AV.
 
 #### **Open Data Camp 10 (ODC10), Edinburgh, Scotland | 27-28 September 2025**
 * Organised a hands-on session on 'Drawing Parallels: A Unicorn Mandala Art Workshop on Open Data & Collaborations'.
-* Contributed to various sessions on Open Data practices, including sessions Digital Identifiers and National Data Library.
+* Contributed to various sessions on Open Data practices, including sessions on Digital Identifiers and National Data Library.
 
 #### **PyCon UK 2025, Manchester, England | 19-22 September 2025**
-* Attended various talks and workshops on Python programming language and its applications in data science, software education, team building, machine learning, LLMs, and software development.
-* Attended a one-day hands-on 'Django Girls Worhshop' to learn Django web application development.
+* Attended various talks and workshops on the Python programming language and its applications in data science, software education, team building, machine learning, LLMs, and software development.
+* Attended a one-day hands-on 'Django Girls Workshop' to learn Django web application development.
 * Presented a lightning talk on 'Five Common Research Data Management Issues & How to Resolve them: With Python Packaging using ‘Hatch’ from PyPI'.
 
 #### **R Dev Day @ RSECon25, Coventry, England | 8 and 12 September 2025**
@@ -117,13 +115,13 @@ knitr::opts_chunk$set(echo = FALSE)
 * Volunteered to help run the conference smoothly.
 
 #### **Open Software Week, London, England | 11-15 August 2025**
-* Participated in various hands-on workshops and panel discussions on Open Software practices, including seesions on Introduction to Python, and neuroinformatics software `movement`.
-* Participated in the OSW Hackday to explore the concept and open source Python library `skimage` to create skeletonised images from masked images of animal, and driving nodes from the skeletonised image to simplify the further analysis.
+* Participated in various hands-on workshops and panel discussions on Open Software practices, including sessions on Introduction to Python, and neuroinformatics software `movement`.
+* Participated in the OSW Hackday to explore the concept and open source Python library `skimage` to create skeletonised images from masked images of animals, and derive nodes from the skeletonised image to simplify further analysis.
 
 #### **APAN60, Hong Kong | 27 July - 1 August 2025**
-* Singed Memorandum of Understanding (MoU) on behalf of RSE Asia Association with APAN to collaborate on Research Software Engineering and Open Science initiatives in the Asia-Pacific region.
+* Signed Memorandum of Understanding (MoU) on behalf of RSE Asia Association with APAN to collaborate on Research Software Engineering and Open Science initiatives in the Asia-Pacific region.
 * Presented a talk on 'Understanding the Personas of Research Software Engineers from Asian Institutes'.
-* Held a Warli Art themed RSE Asia meetup to foster community networking. 
+* Held a Warli Art-themed RSE Asia meetup to foster community networking. 
 
 #### **Invited Talk, Edinburgh, Scotland | 16 May 2025**
 
