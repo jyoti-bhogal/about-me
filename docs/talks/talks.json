@@ -112,10 +112,10 @@
       "Asia",
       "In Person"
     ],
-    "contents": "\nRSE Asia updates at the RSE Worldwide session at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 10). Research Software Engineering Asia Association (RSE Asia) Updates. Zenodo. https://doi.org/10.5281/zenodo.17289327\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
+    "contents": "\nRSE Asia updates at the RSE Worldwide session at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 10). Research Software Engineering Asia Association (RSE Asia) Updates. Zenodo. https://doi.org/10.5281/zenodo.17289327\nRecording: Click here to view the recording.\nFeatured Blog: Coming soon!\n\n\n\n",
     "preview": "talks/2025-09-10_rsecon25_rse_worldwide/RSECon25_RSE_Asia_updates_talk_image.jpg",
-    "last_modified": "2025-10-08T23:27:07+05:30",
-    "input_file": {}
+    "last_modified": "2026-01-08T13:42:36+05:30",
+    "input_file": "rsecon25_worldwide.knit.md"
   },
   {
     "path": "talks/2025-09-09_rsecon25_lightning/",
@@ -201,7 +201,7 @@
     "contents": "\nMy Talk at EPCC, University of Edinburgh🔑 Talk Resources:\nSlides: Bhogal, J. (2025, May 16). Research Study on the Research Software Engineering (RSEng) Landscape in Asia. Zenodo. https://doi.org/10.5281/zenodo.15450346\nRecording: The University of Edinburgh - Media\nFeatured Blog: EPCC News\n\n\n\n",
     "preview": "talks/2025-06-06_epcc/epcc_jyoti_talk_title_slide.jpeg",
     "last_modified": "2025-12-30T12:47:07+05:30",
-    "input_file": "talk_epcc.knit.md"
+    "input_file": {}
   },
   {
     "path": "talks/2025-04-10_sca2025/",

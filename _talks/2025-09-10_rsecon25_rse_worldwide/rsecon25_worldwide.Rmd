@@ -30,6 +30,6 @@ knitr::opts_chunk$set(echo = FALSE,
 
 1. **Slides:** Bhogal, J. (2025, September 10). Research Software Engineering Asia Association (RSE Asia) Updates. Zenodo. https://doi.org/10.5281/zenodo.17289327
 
-2. **Recording:** Coming soon!
+2. **Recording:** [Click here to view the recording](https://youtu.be/y6RazWryaOw?list=PL27mQJy8eDHnot5jhJkFgBaIjqgE5zTn7&t=554).
 
 3. **Featured Blog:** Coming soon!
