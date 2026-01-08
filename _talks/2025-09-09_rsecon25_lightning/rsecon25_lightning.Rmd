@@ -32,6 +32,6 @@ knitr::opts_chunk$set(echo = FALSE,
 
 2. **Recording:**
 
-<iframe width="1393" height="554" src="https://www.youtube.com/embed/y6RazWryaOw?list=PL27mQJy8eDHnot5jhJkFgBaIjqgE5zTn7" title="RSECon25 Poster Lightning Talks" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/y6RazWryaOw?si=uu2Q9K05O4DyMa0Z&amp;start=552" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 3. **Featured Blog:** Coming soon!
