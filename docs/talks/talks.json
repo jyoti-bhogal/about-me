@@ -115,7 +115,7 @@
     "contents": "\nRSE Asia updates at the RSE Worldwide session at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 10). Research Software Engineering Asia Association (RSE Asia) Updates. Zenodo. https://doi.org/10.5281/zenodo.17289327\nRecording:\n\n\nFeatured Blog: Coming soon!\n\n\n\n",
     "preview": "talks/2025-09-10_rsecon25_rse_worldwide/RSECon25_RSE_Asia_updates_talk_image.jpg",
     "last_modified": "2026-01-08T13:52:52+05:30",
-    "input_file": "rsecon25_worldwide.knit.md"
+    "input_file": {}
   },
   {
     "path": "talks/2025-09-09_rsecon25_lightning/",
@@ -141,10 +141,10 @@
       "Asia",
       "In Person"
     ],
-    "contents": "\nMy poster lightning talk at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 9). Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration. Zenodo. https://doi.org/10.5281/zenodo.17289246\nRecording: Coming soon!\nFeatured Blog: Coming soon!\n\n\n\n",
+    "contents": "\nMy poster lightning talk at RSECon25, University of Warwick, Coventry, United Kingdom🔑 Talk Resources:\nSlides: Bhogal, J. (2025, September 9). Enabling Research Software Excellence through RSE Community Conversations: An African and Asian Collaboration. Zenodo. https://doi.org/10.5281/zenodo.17289246\nRecording:\n\n\nFeatured Blog: Coming soon!\n\n\n\n",
     "preview": "talks/2025-09-09_rsecon25_lightning/jyoti_rsecon25_lightning_talk_image.jpg",
-    "last_modified": "2025-10-08T23:28:39+05:30",
-    "input_file": {}
+    "last_modified": "2026-01-08T15:27:29+05:30",
+    "input_file": "rsecon25_lightning.knit.md"
   },
   {
     "path": "talks/2025-08-03_apan60/",
