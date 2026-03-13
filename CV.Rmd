@@ -17,6 +17,14 @@ knitr::opts_chunk$set(echo = FALSE)
 **Time Zone:** IST (UTC+5:30 hours)  
 
 # **RELEVANT WORK EXPERIENCE**
+#### **Incubation Fellow (RSE Asia), OLS (formerly Open Life Science),** January 2026 \- Present
+
+* Migrate RSE Asia website to new web framework and theme
+* Ongoing maintenance of the RSE Asia website
+* Curate a Jobs Board
+* Organise and manage RSE Asia meetups
+* Create event outcome materials like video recordings, resource sheets, and summary blog posts
+* RSE Asia Survey 
 
 #### **SSI Fellow 2025, Software Sustainability Institute (SSI),** January 2025 \- Present
 
