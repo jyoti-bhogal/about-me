@@ -10,6 +10,8 @@ links:
     url: "mailto:bhogaljyoti1@gmail.com"
   - label: Bluesky
     url: "https://bsky.app/profile/jyoti-bhogal.bsky.social target ='_blank'"
+  - label: Linktree
+    url: "https://linktr.ee/jyoti_bhogal target = '_blank'"
   
 output:
   postcards::trestles
