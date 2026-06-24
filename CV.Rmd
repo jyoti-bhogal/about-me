@@ -78,7 +78,15 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #### **Research Software Engineering (RSE) Asia Association, Volunteer  Co-Lead,** September 2021 \- Present
 
-* RSE Asia is a non-profit organisation which works towards building the Research Software Engineer landscape in the Asian region. Jyoti played a crucial role in establishing the RSE Asia Association.  
+* <span style="color: #63458A ; font-weight: bold;">What is RSE Asia Association?</span>
+  <details>
+  <summary style="color: #63458A ; font-weight: bold;">Click here to see more description</summary>
+  
+   <p style="margin-left: 30px;">
+      RSE Asia is a non-profit organisation which works towards             building the Research Software Engineer landscape in the Asian        region. Jyoti played a crucial role in establishing the RSE Asia       Association.  
+   </p>    
+  </details>
+
 * She organised RSE Asia Community Calls, represented RSE Asia at Asia Pacific Advanced Network (APAN) meetings (APAN58 and APAN59)  
 * She co-Chaired the 3rd and 4th annual successfully running Research Software Engineering Asia Australia Unconference 2024 (RSEAA24) and the  RSAA25 conference.
 * She has conducted a 6-month community conversation series on ‘Enabling Open Science Through Research Code’, which created openly available recordings, resource sheets, and summary blog posts of each episode. The average turnout of registrations was around 30% consistently.  
@@ -86,12 +94,27 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #### **International Council of Research Software Engineering, Co-Observer,** 2022 \- Present
 
-* The International Council of RSE Associations (*the Council*) provides a formal open forum for established national and multinational RSE associations to talk and coordinate regularly, and thus sustain international collaboration.  
+
+* <span style="color: #63458A ; font-weight: bold;">International Council of RSE Associations</span>
+  <details>
+  <summary style="color: #63458A ; font-weight: bold;">Click here to see more description</summary>
+  
+   <p style="margin-left: 30px;">
+      The International Council of RSE Associations (*the Council*) provides a formal open forum for established national and multinational RSE associations to talk and coordinate regularly, and thus sustain international collaboration. 
+   </p>    
+  </details>
 * As an observer member of the council, Jyoti provides insights from Asia and fosters connections within the global RSE community.
 
 #### **OLS (formerly Open Life Science) Graduate,** Open Science Project
 
-* OLS is a not-for-profit organisation dedicated to capacity building and diversifying leadership in research worldwide. It runs a mentorship program, now called the Open Seeds program.  
+* <span style="color: #63458A ; font-weight: bold;">What is OLS (formerly Open Life Science)?</span>
+  <details>
+  <summary style="color: #63458A ; font-weight: bold;">Click here to see more description</summary>
+  
+   <p style="margin-left: 30px;">
+      OLS is a not-for-profit organisation dedicated to capacity building and diversifying leadership in research worldwide. It runs a mentorship program, now called the Open Seeds program. 
+   </p>    
+  </details>
 * Cohort \-4 (OLS-4), September 2021 \- January 2022: Project Lead & Community Building Volunteer for 'Building the Research Software Engineering (RSE) Asia Association.' Organised RSE Asia Launch Event in collaboration with Hacktoberfest 2021\.  
 * Cohort-5 (OLS-5), February 2022 \- July 2022: Project Lead & Community Building Volunteer for 'Building Pathways for Onboarding to Research Software Engineering (RSE) Asia Association.', planned & created a working group for the RSE Asia Association.
 
