@@ -25,12 +25,13 @@ knitr::opts_chunk$set(echo = FALSE)
 * Organise and manage RSE Asia meetups
 * Create event outcome materials like video recordings, resource sheets, and summary blog posts
 * RSE Asia Survey 
+* **Software Tools:** Hugo, HugoBlox (with Research Group theme), VS Code, git, GitHub, HTML, CSS
 
 #### **SSI Fellow 2025, Software Sustainability Institute (SSI),** January 2025 \- Present
 
 * Localising the [SSI surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys) to make them suitable for the Asian context  
 * Conducting research analysis  on the anonymised responses to the survey
-* Promoting the project and reporting the progress at the biannual APAN meetings
+* Promoting the project and reporting the progress at the biannual [Asia Pacific Advanced Network (APAN)](https://apan.net/) meetings
 * Conducting a qualitative and quantitative analysis to develop a community network analysis graph
 * **Software Tools:** GitHub, R/Python, VS Code
 
@@ -48,7 +49,7 @@ knitr::opts_chunk$set(echo = FALSE)
 * Support stakeholder forums
 * Community engagement through social media (LinkedIn, Bluesky, Slack, Mastodon, Mailing list - with engagement rate increasing by 133%, 66%, 63%,  32%, 20% respectively)
 * Curate and create monthly newsletters, generate subscription  analytics and reports
-* **Software Tools:** Hugo framework, VS Code (Terminal), GitHub.
+* **Software Tools:** Hugo framework, VS Code (Terminal), GitHub, git, HTML, CSS
 
 ####  **Deloitte Consulting India Pvt. Ltd., Pune -** *Analyst,* April 2022 \- September 2024  
 
@@ -56,7 +57,8 @@ knitr::opts_chunk$set(echo = FALSE)
   * As a Data Governance Consultant for cross-functional Clinical R\&D domains, Jyoti laid down standards for a Data Governance Workflow and Policies, and created a centralised Data Catalog in the Informatica Cloud platform Cloud Data Governance and Catalog (CDGC).  
   * Developed Conceptual Data models for 6+ transversal R\&D business functions.  
   * Deeply involved in regular stakeholder communications (business and technical), decision-making, and strategising.  
-  * **Software Tools:** Informatica Cloud (CDGC), MS Excel, MS Word.   
+  * **Software Tools:** Informatica Cloud (CDGC), MS Excel, MS Word 
+  
 * *CognitiveSpark for Clinical (April 2022 \- May 2023\)*  
   * For Structured Content Authoring in the Regulatory domain of Life Sciences, Jyoti developed standardised templates for Clinical Trial Dossier components.  
   * Estimated percentage reuse of content from Deloitte’s CognitiveSpark for Clinical (CSC) software asset, and also from within the Clinical Trial Dossier for partially automating the documentation process.  
@@ -64,7 +66,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #### **Cytel Statistical Software & Services Pvt. Ltd.,** Pune - *Software Quality Engineer I \- Statistician,* September 2020 \- March 2022
 
-* Jyoti simulated optimal Clinical Trial design to optimise trial cost or statistical power of testing the effectiveness of a drug formula.  
+* Simulated optimal Clinical Trial design to optimise trial cost or statistical power of testing the effectiveness of a drug formula.  
 * Delivered 6 major software releases which she finished on time and on budget with good statistical power.  
 * Wrote extensive R program codes to simulate, wrangle, and analyse subject/patient data. Used this output as a benchmark to test the Solara core engine C++ outputs.   
 * Performed automated and manual testing for software.  
@@ -95,9 +97,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # **CONFERENCES, WORKSHOPS, TALKS**
 
-#### **EARL Tech Conference 2025 (Enterprise Applications of the R Language 2025), Brighton, England | 14-16 October 2025**
-* Participated in a hands-on workshop on R for Bayesian Statistics and integrating LLMs in R Shiny applications using the `ellmer` R package.
-* Attended various talks and panel discussions on applications of Python and the R programming language in enterprises.
+### _**Conferences that I participated in:**_
 
 #### **HiddenREF Festival 2025, Birmingham, England | 7-8 October 2025**
 * Participated in three sessions on the assessment of non-traditional outputs.
@@ -136,18 +136,6 @@ knitr::opts_chunk$set(echo = FALSE)
 * Presented a talk on my ‘Research Study on the Research Software Engineering (RSEng) Landscape’ at the EPCC, University of Edinburgh.
 * [Blog post](https://jyoti-bhogal.github.io/about-me/blog/2025-05-27_epcc_talk/) about the talk.
 
-#### **Collaborations Workshop 2025, Stirling, Scotland | 13-15 May 2025**
-
-* Contributed to Green Algorithm’s ‘[MetaGreenData](https://github.com/GreenAlgorithms/MetaGreenData)’ project on hack day and won 1st place amongst 10 teams.
-* Wrote a speed blog on the theme ‘futureproofing research software’.
-* Contributed to a mini-workshop on ‘How do you ensure your science is seen, used and sustained?’
-* Attended keynotes, lightning talks, panel discussions, and social sessions.
-
-#### **FOSSASIA Summit 2025, Bangkok, Thailand | 13-15 March 2025**
-
-* FOSSASIA summit 2025 is by the FOSSASIA organisation to bring together an inspiring community across borders and ages to form a better future with Open Technologies and Information & Communication Technologies.  
-* Jyoti presented a remote Lightning Talk at the RSE Worldwide session to share the status of the RSE Asia Association, participated in the R Development Hackathon to translate 30+ R programming language messages from English to Hindi using Weblate, and attended various other sessions.
-
 #### **SuperComputing Asia (SCA) 2025, Online | 10-13 March 2025**
 
 * SuperComouting Asia 2025 is a gathering of the best HPC in Asia.  
@@ -171,6 +159,32 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * Asia Pacific Advanced Network is an organisation and also a network that connects the research and education networks of its member countries/economies and other research networks across the world. At APAN58, the 58th bi-annual meeting of APAN, Jyoti remotely presented the journey of the RSE Asia Association so far.
 
+#### **useR 2021, Online | 5-9 July 2021**
+
+* useR\! is an annual conference, organised by R community volunteers, and supported by the R Foundation showcases applications and developments of R Software. At useR 2021, Jyoti volunteered as a Zoom Host and participated in various conference sessions on applications of R software, like the R quiz, Research Software Engineering, and many more.
+
+#### **R-Ladies Global, Rotating Curato, Online**
+
+* R-Ladies is a worldwide organisation whose mission is to promote gender diversity in the R community. Jyoti managed the R-Ladies Twitter handle to encourage and maintain communications about the use of R Software language within the R-Ladies global community.
+
+### _**Conferences that I attended:**_
+
+#### **EARL Tech Conference 2025 (Enterprise Applications of the R Language 2025), Brighton, England | 14-16 October 2025**
+* Participated in a hands-on workshop on R for Bayesian Statistics and integrating LLMs in R Shiny applications using the `ellmer` R package.
+* Attended various talks and panel discussions on applications of Python and the R programming language in enterprises.
+
+#### **Collaborations Workshop 2025, Stirling, Scotland | 13-15 May 2025**
+
+* Contributed to Green Algorithm’s ‘[MetaGreenData](https://github.com/GreenAlgorithms/MetaGreenData)’ project on hack day and won 1st place amongst 10 teams.
+* Wrote a speed blog on the theme ‘futureproofing research software’.
+* Contributed to a mini-workshop on ‘How do you ensure your science is seen, used and sustained?’
+* Attended keynotes, lightning talks, panel discussions, and social sessions.
+
+#### **FOSSASIA Summit 2025, Bangkok, Thailand | 13-15 March 2025**
+
+* FOSSASIA summit 2025 is by the FOSSASIA organisation to bring together an inspiring community across borders and ages to form a better future with Open Technologies and Information & Communication Technologies.  
+* Jyoti presented a remote Lightning Talk at the RSE Worldwide session to share the status of the RSE Asia Association, participated in the R Development Hackathon to translate 30+ R programming language messages from English to Hindi using Weblate, and attended various other sessions.
+
 #### **Confederation of Open Access Repositories  (COAR) Asia Meeting, Conference, New Delhi, India | 17-18 April 2024**
 
 * COAR Asia is a special forum hosted by COAR in which members of the Asian open-access community can share information, meet each other, and build relationships. In the COAR Asia meeting, titled “The promise and practice of open science”, Jyoti represented RSE Asia and discussed the importance of Research Software Engineering to enhance Open Science practices.
@@ -190,14 +204,6 @@ knitr::opts_chunk$set(echo = FALSE)
 
 * PyData is a community for developers and users of open-source data tools.
 * At PyData Global 2021, Jyoti was selected as a PyData Global Impact Scholar. Amongst many other learnings, she enjoyed a sprint on the usability of the Python package *PyMC.* She continues to be an active member of the PyData community.
-
-#### **useR 2021, Online | 5-9 July 2021**
-
-* useR\! is an annual conference, organised by R community volunteers, and supported by the R Foundation showcases applications and developments of R Software. At useR 2021, Jyoti volunteered as a Zoom Host and participated in various conference sessions on applications of R software, like the R quiz, Research Software Engineering, and many more.
-
-#### **R-Ladies Global, Rotating Curato, Online**
-
-* R-Ladies is a worldwide organisation whose mission is to promote gender diversity in the R community. Jyoti managed the R-Ladies Twitter handle to encourage and maintain communications about the use of R Software language within the R-Ladies global community.
 
 # **ACADEMIC PROJECTS**
 
