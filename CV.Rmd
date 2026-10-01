@@ -122,6 +122,11 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ### _**Conferences that I participated in:**_
 
+#### **EARL Tech Conference 2025 (Enterprise Applications of the R    Language 2025), Brighton, England | 14-16 October 2025**
+* Participated in a hands-on workshop on R for Bayesian Statistics and integrating LLMs in R Shiny applications using the `ellmer` R package.
+* Attended various talks and panel discussions on applications of Python and the R programming language in enterprises on various topics like the use of LLMs, data analysis with Python, and marketing research analysis with Python
+* Skills: R, R Shiny, Visual Studio Code, GitHub, git, Python
+
 #### **HiddenREF Festival 2025, Birmingham, England | 7-8 October 2025**
 * Participated in three sessions on the assessment of non-traditional outputs.
 * Presented a lightning talk on 'Community as Infrastructure: Uncovering the Hidden Impact of Research Software in Research Excellence'.
