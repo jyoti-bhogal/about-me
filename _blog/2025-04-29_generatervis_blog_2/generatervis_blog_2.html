@@ -20,8 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -32,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -1503,7 +1504,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </script>
 
   <!--/radix_placeholder_distill-->
-  <script src="generatervis_blog_2_files/header-attrs-2.28/header-attrs.js"></script>
+  <script src="generatervis_blog_2_files/header-attrs-2.32/header-attrs.js"></script>
   <script src="generatervis_blog_2_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="generatervis_blog_2_files/popper-2.6.0/popper.min.js"></script>
   <link href="generatervis_blog_2_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -1575,8 +1576,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <p>As a next step, I divided the different stages of the maturity model into further granular and achievable chunks. These steps help to create a basic workflow that starts with creating empty files in the <code>.fastq</code> format for the WGS dataset and eventually uploading the modified file(s) to the GitHub repository of a data portal, similar to the <a href="https://github.com/cBioPortal/datahub/tree/master/public">cBioportal</a>, which is an open-source platform to explore and analyse large-scale cancer genomic datasets.</p>
 <h2 id="bringing-the-mental-model-to-life-step-by-step">🌼 Bringing the mental model to life, step by step</h2>
 <figure>
-<img src="flowchart_2.jpg" alt="The maturity is refined into a flowchart." />
-<figcaption aria-hidden="true"><em>The maturity is refined into a flowchart.</em></figcaption>
+<img src="flowchart_2.jpg" alt="The maturity model is refined into a flowchart." />
+<figcaption aria-hidden="true"><em>The maturity model is refined into a flowchart.</em></figcaption>
 </figure>
 <p>When creating this flowchart, I made the assumption that there is only one sample per patient.</p>
 <p>Once I created the flowchart, it became much easier for me to start implementing the steps into the functions of the package. With the goal of developing a functional MVP version of the package, I have written an R function in the R package {generatervis} for each of the above steps. Follow along the blog to see the usage of each of these functions!</p>

@@ -41,7 +41,7 @@ As a next step, I divided the different stages of the maturity model into furthe
 
 ## 🌼 Bringing the mental model to life, step by step
 
-![*The maturity is refined into a flowchart.*](flowchart_2.jpg)  
+![*The maturity model is refined into a flowchart.*](flowchart_2.jpg)  
 
 When creating this flowchart, I made the assumption that there is only one sample per patient. 
 
