@@ -111,7 +111,7 @@ A group of us headed out to a Middle Eastern restaurant, where I enjoyed Baba Gh
 
 Throughout the conference, during the welcome and closing sessions, Mark Smith kept the whole room entertained with his iconic tractor jokes \- ones that I find myself still laughing at\!
 
-**Check this out:** A [Django Girls blog web app](https://jyotidjangoblog.pythonanywhere.com/) I built during one of the workshops \- stay tuned\!
+**Check this out:** A [Django Girls blog web app](https://jyotidjangoblog.pythonanywhere.com/) I built during the one-day Django Girls workshop\!
 
 ![*Image: Picture clicked by me of the Manchester bee - highlighted in yellow at the edge of the window - that welcomed me into my room and was absolutely reluctant to go out of the window 😆!*](bee_hotel_window.jpg) 
 
