@@ -27,9 +27,9 @@ knitr::opts_chunk$set(echo = FALSE)
 * RSE Asia Survey 
 * **Software Tools:** Hugo, HugoBlox (with Research Group theme), VS Code, git, GitHub, HTML, CSS
 
-#### **SSI Fellow 2025, Software Sustainability Institute (SSI),** January 2025 \- Present
+#### **2025 Fellow, Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)),** January 2025 \- Present
 
-* Localising the [SSI surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys) to make them suitable for the Asian context  
+* Localising the [IRS surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys) to make them suitable for the Asian context  
 * Conducting research analysis  on the anonymised responses to the survey
 * Promoting the project and reporting the progress at the biannual [Asia Pacific Advanced Network (APAN)](https://apan.net/) meetings
 * Conducting a qualitative and quantitative analysis to develop a community network analysis graph
@@ -203,7 +203,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 #### **Collaborations Workshop 2025, Stirling, Scotland | 13-15 May 2025**
 
-* Contributed to Green Algorithm’s ‘[MetaGreenData](https://github.com/GreenAlgorithms/MetaGreenData)’ project on hack day and won 1st place amongst 10 teams.
+* Contributed to Green Algorithm’s ‘[GreenMetaData](https://github.com/GreenAlgorithms/MetaGreenData)’ project on hack day and won 1st place amongst 10 teams.
 * Wrote a speed blog on the theme ‘futureproofing research software’.
 * Contributed to a mini-workshop on ‘How do you ensure your science is seen, used and sustained?’
 * Attended keynotes, lightning talks, panel discussions, and social sessions.
@@ -262,7 +262,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 # **AWARDS**
 
-* [SSI Fellowship 2025](https://www.software.ac.uk/fellowship-programme/jyoti-bhogal)  
+* [2025 Fellowship of the Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))](https://www.software.ac.uk/fellowship-programme/jyoti-bhogal)  
 * Pfizer Scholarship for Masters  
 * Meritorious Student Scholarship (based on B.Sc. University Ranking), Savitribai Phule Pune University  
 * INSPIRE (SHE) Scholarship, DST, Government of India  

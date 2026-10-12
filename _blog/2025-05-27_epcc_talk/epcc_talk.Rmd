@@ -12,7 +12,7 @@ date:  05-29-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Software Sustainability Institute, University, Talk,  Free and Open Source Software, Software, Research Software, Open Science, Open Source, Meta data, Edinburgh, Scotland, United Kingdom, In Person] 
+categories: [Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)), University, Talk,  Free and Open Source Software, Software, Research Software, Open Science, Open Source, Meta data, Edinburgh, Scotland, United Kingdom, In Person] 
 output:
   distill::distill_article:
 ---
@@ -24,9 +24,9 @@ knitr::opts_chunk$set(echo = FALSE,
 
 ```
 
-As part of my SSI Fellowship project, I was invited to visit [EPCC at the University of Edinburgh](https://www.epcc.ed.ac.uk/) and give a talk about my work. This was following my participation in the [Collaborations Workshop 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25) organised by the [Software Sustainability Institute (SSI)](https://www.software.ac.uk/) at the [University of Stirling](https://www.stir.ac.uk/). I was joined by SSI Fellows **Samantha Wittke** and **Saranjeet Kaur**.
+As part of my IRS Fellowship project, I was invited to visit [EPCC at the University of Edinburgh](https://www.epcc.ed.ac.uk/) and give a talk about my work. This was following my participation in the [Collaborations Workshop 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25) organised by the [Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))](https://www.software.ac.uk/) at the [University of Stirling](https://www.stir.ac.uk/). I was joined by IRS Fellows **Samantha Wittke** and **Saranjeet Kaur**.
 
-![*Image: (Left to Right) SSI Fellows: Saranjeet Kaur, Jyoti Bhogal, Samantha Wittke at EPCC, Bayes Center, University of Edinburgh against the backdrop of the Holyrood Park (Salisbury Crags on the left, Arthur’s Seat on the right). Image credit: Catherine Inglis.*](bayes_center_holyrood_park.jpg)
+![*Image: (Left to Right) IRS Fellows: Saranjeet Kaur, Jyoti Bhogal, Samantha Wittke at EPCC, Bayes Center, University of Edinburgh against the backdrop of the Holyrood Park (Salisbury Crags on the left, Arthur’s Seat on the right). Image credit: Catherine Inglis.*](bayes_center_holyrood_park.jpg)
 
 On the day, **Catherine Inglis** and **Neil Chue Hong** welcomed us to the [Bayes Centre at EPCC](https://bayes-centre.ed.ac.uk/). The robots on the ground floor of the Bayes Centre are hard to miss, and I must say, I was captivated by them\! We all went on a tour of the EPCC building and met several members of the team there. Later, we stepped out and had a lunch break in the beautiful and sunny campus of the University of Edinburgh. It was during the chats with Catherine and Neil, I got to know that the Unicorn 🦄 \- an imaginary creature \- is the National Animal of Scotland, and then it made sense to me why the buildings in Edinburgh have so many unicorn statues\! 
 
@@ -42,11 +42,11 @@ We (I and my co-Founder **Saranjeet Kaur**) launched the [Research Software Engi
 
 # What is my project about?
 
-The motivation for this project was gained after reflecting over several of the community initiatives and interactions that RSE Asia had with the community in the region. I was further encouraged to take this work ahead when I proposed the idea during my talk on ‘[What is Research Software and Why Should we Think About its Sustainability?](https://jyoti-bhogal.github.io/about-me/talks/2025-03-30_apan58/)’ at the 58th meeting of the Asia Pacific Advanced Network (APAN58) during August 2024, which was attended by delegates from across Asia Pacific as well as the globe. I have been developing this idea since then, and have been encouraged and supported to do so by several RSE community members, SSI fellows, and community leaders. 
+The motivation for this project was gained after reflecting over several of the community initiatives and interactions that RSE Asia had with the community in the region. I was further encouraged to take this work ahead when I proposed the idea during my talk on ‘[What is Research Software and Why Should we Think About its Sustainability?](https://jyoti-bhogal.github.io/about-me/talks/2025-03-30_apan58/)’ at the 58th meeting of the Asia Pacific Advanced Network (APAN58) during August 2024, which was attended by delegates from across Asia Pacific as well as the globe. I have been developing this idea since then, and have been encouraged and supported to do so by several RSE community members, IRS fellows, and community leaders. 
 
 Speaking of why this study is required \- this study is essential for several reasons, some of which are the need to diversify and expand the research software landscape, attempt to address the lack of formal RSE roles in Asia, leverage international partnerships, and further build a supportive community within Asia.
 
-SSI has been conducting surveys to study the RSE landscape since 2018\. However, there has been almost no representation of Asia in these surveys. This makes my research study even more essential. 
+The IRS has been conducting surveys to study the RSE landscape since 2018\. However, there has been almost no representation of Asia in these surveys. This makes my research study even more essential. 
 
 ![*Image: RSEs in the world in 2018, originally shared in the blog [What do we know about RSEs? Results from our international surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys).*](ssi_survery_map.png)  
 
@@ -54,7 +54,7 @@ Within Asia, the Asia-Pacific Advanced Network (APAN) is an organisation that re
 
 ![*Image: APAN Current Members (as of December 2024). Source of information for creating map: [APAN website](https://apan.net/membership/current-members/).*](apan_current_members.png)
 
-So far in this project, I have been able to refine and adapt the existing SSI surveys to make them suitable for the Asian context. I have also launched a pilot survey with a small group in APAN’s OSDWG to gain first-hand feedback on the survey so far. Next, I plan to refine the survey further based on this feedback before launching the full survey to a larger group. If you are either a researcher based in Asia or have worked in the Asian region or collaborate with colleagues in Asia, then please watch the [RSE Asia page](https://www.linkedin.com/company/rse-asia-association/?viewAsMember=true) for updates about my project and the survey \- I would love to hear from you\!
+So far in this project, I have been able to refine and adapt the existing IRS surveys to make them suitable for the Asian context. I have also launched a pilot survey with a small group in APAN’s OSDWG to gain first-hand feedback on the survey so far. Next, I plan to refine the survey further based on this feedback before launching the full survey to a larger group. If you are either a researcher based in Asia or have worked in the Asian region or collaborate with colleagues in Asia, then please watch the [RSE Asia page](https://www.linkedin.com/company/rse-asia-association/?viewAsMember=true) for updates about my project and the survey \- I would love to hear from you\!
 
 # 🎉 Concluding the day
 

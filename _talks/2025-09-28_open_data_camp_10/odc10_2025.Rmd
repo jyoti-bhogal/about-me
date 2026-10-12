@@ -11,7 +11,7 @@ date: 09-28-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Research Software, Data, Open Data, Workshop, Open Source, Software Sustainability Institute, Open Data Camp 10, University of Edinbuurgh, Edinburgh, In Person] 
+categories: [Research Software, Data, Open Data, Workshop, Open Source, Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)), Open Data Camp 10, University of Edinbuurgh, Edinburgh, In Person] 
 output:
   distill::distill_article:
     self_contained: false

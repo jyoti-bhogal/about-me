@@ -11,7 +11,7 @@ date: 09-17-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Research Software, Talk, Lightning Talk, Open Source, Software Sustainability Institute, PyCon UK 2025, Manchester, Python, Django, Django Girls+, In Person] 
+categories: [Research Software, Talk, Lightning Talk, Open Source, Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)), PyCon UK 2025, Manchester, Python, Django, Django Girls+, In Person] 
 output:
   distill::distill_article:
     self_contained: false

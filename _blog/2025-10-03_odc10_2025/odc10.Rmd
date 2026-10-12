@@ -12,7 +12,7 @@ date:  10-03-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Software Sustainability Institute, Open Data, Open Science, Data, Free and Open Source Software, Software, Research Software, Meta data, University, Edinburgh, Business School, Scotland, United Kingdom, In Person] 
+categories: [Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)), Open Data, Open Science, Data, Free and Open Source Software, Software, Research Software, Meta data, University, Edinburgh, Business School, Scotland, United Kingdom, In Person] 
 output:
   distill::distill_article:
 ---

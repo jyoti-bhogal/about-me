@@ -2287,7 +2287,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   d-article a,
   d-article a:link,
   d-article a:visited {
-    color: #564787;
+    color: #63458A;
   }
 
   /* Hyperlinks in page content: hover/focus colour */
@@ -2535,137 +2535,137 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 <!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).on("load", function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
 
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
@@ -2769,7 +2769,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="blog/2025-05-27_epcc_talk/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Software Sustainability Institute","University","Talk","Free and Open Source Software","Software","Research Software","Open Science","Open Source","Meta data","Edinburgh","Scotland","United Kingdom","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","University","Talk","Free and Open Source Software","Software","Research Software","Open Science","Open Source","Meta data","Edinburgh","Scotland","United Kingdom","In Person"]}</script>
 <div class="metadata">
 <div class="publishedDate">May 29, 2025</div>
 <div class="dt-authors">
@@ -2782,7 +2782,7 @@ function init_posts_list() {
 <div class="description">
 <h2>Halò Scotland! Visiting EPCC in the Edinburgh Sunshine</h2>
 <div class="dt-tags">
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">University</div>
 <div class="dt-tag">Talk</div>
 <div class="dt-tag">Free and Open Source Software</div>
@@ -2800,9 +2800,9 @@ function init_posts_list() {
 </div>
 </a>
 <a href="blog/2025-05-25_cw25_hack_day/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Software Sustainability Institute","Free and Open Source Software","Software","Python","Django","Research Software","Open Science","Open Source","Meta data","University","Stirling","Scotland","United Kingdom","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","Free and Open Source Software","Software","Python","Django","Research Software","Open Science","Open Source","Meta data","University","Stirling","Scotland","United Kingdom","In Person"]}</script>
 <div class="metadata">
-<div class="publishedDate">May 25, 2025</div>
+<div class="publishedDate">May 24, 2025</div>
 <div class="dt-authors">
 <div class="dt-author">Jyoti Bhogal</div>
 </div>
@@ -2813,7 +2813,7 @@ function init_posts_list() {
 <div class="description">
 <h2>`MetaGreenData`: Making Code More Sustainable, One Metadata File at a Time</h2>
 <div class="dt-tags">
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">Free and Open Source Software</div>
 <div class="dt-tag">Software</div>
 <div class="dt-tag">Python</div>
@@ -2887,32 +2887,6 @@ function init_posts_list() {
 <p>I have been developing an R package {generatervis} which is useful to synthesise and visualise clinical data. This is the first blog in this series of blogs to share about the process from ideation to implementation.</p>
 </div>
 </a>
-<a href="blog/2025-03-30_apan58_apan59_blog/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Research Software","Conference","Talk","APAN","Open Science","Open Source","Online","Remote"]}</script>
-<div class="metadata">
-<div class="publishedDate">April 10, 2025</div>
-<div class="dt-authors">
-<div class="dt-author">Jyoti Bhogal</div>
-</div>
-</div>
-<div class="thumbnail">
-<img data-src="blog/2025-03-30_apan58_apan59_blog/david-edelstein-N4DbvTUDikw-unsplash.jpg"/>
-</div>
-<div class="description">
-<h2>Research, Software, and Collaborations</h2>
-<div class="dt-tags">
-<div class="dt-tag">Research Software</div>
-<div class="dt-tag">Conference</div>
-<div class="dt-tag">Talk</div>
-<div class="dt-tag">APAN</div>
-<div class="dt-tag">Open Science</div>
-<div class="dt-tag">Open Source</div>
-<div class="dt-tag">Online</div>
-<div class="dt-tag">Remote</div>
-</div>
-<p>During my talks at the APAN58 and APAN59 meetings, I had a chance to have interesting conversations and feedback, which I am sharing through this blog.</p>
-</div>
-</a>
 <a href="blog/2025-04-05_fossasia_summit_2025/" class="post-preview">
 <script class="post-metadata" type="text/json">{"categories":["FOSS","Free and Open Source Software","Software","Conference","Talk","Research Software","Open Science","Open Source","Bangkok","Thailand","In Person"]}</script>
 <div class="metadata">
@@ -2940,6 +2914,32 @@ function init_posts_list() {
 <div class="dt-tag">In Person</div>
 </div>
 <p>During my visit to the FOSSASIA Summit 2025, I had a chance to have interesting conversations and learnings. I  am sharing the same through this blog.</p>
+</div>
+</a>
+<a href="blog/2025-03-30_apan58_apan59_blog/" class="post-preview">
+<script class="post-metadata" type="text/json">{"categories":["Research Software","Conference","Talk","APAN","Open Science","Open Source","Online","Remote"]}</script>
+<div class="metadata">
+<div class="publishedDate">April 10, 2025</div>
+<div class="dt-authors">
+<div class="dt-author">Jyoti Bhogal</div>
+</div>
+</div>
+<div class="thumbnail">
+<img data-src="blog/2025-03-30_apan58_apan59_blog/david-edelstein-N4DbvTUDikw-unsplash.jpg"/>
+</div>
+<div class="description">
+<h2>Research, Software, and Collaborations</h2>
+<div class="dt-tags">
+<div class="dt-tag">Research Software</div>
+<div class="dt-tag">Conference</div>
+<div class="dt-tag">Talk</div>
+<div class="dt-tag">APAN</div>
+<div class="dt-tag">Open Science</div>
+<div class="dt-tag">Open Source</div>
+<div class="dt-tag">Online</div>
+<div class="dt-tag">Remote</div>
+</div>
+<p>During my talks at the APAN58 and APAN59 meetings, I had a chance to have interesting conversations and feedback, which I am sharing through this blog.</p>
 </div>
 </a>
 <a href="blog/2025-02-20_jb_eostrc_s1_e5/" class="post-preview">
@@ -3274,6 +3274,10 @@ function init_posts_list() {
 <span class="category-count">(1)</span>
 </li>
 <li>
+<a href="#category:Institute_for_Research_Software_(IRS)_(previously_the_Software_Sustainability_Institute_(SSI))">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</a>
+<span class="category-count">(2)</span>
+</li>
+<li>
 <a href="#category:Lightning_Talk">Lightning Talk</a>
 <span class="category-count">(1)</span>
 </li>
@@ -3351,7 +3355,7 @@ function init_posts_list() {
 </li>
 <li>
 <a href="#category:Software_Sustainability_Institute">Software Sustainability Institute</a>
-<span class="category-count">(5)</span>
+<span class="category-count">(3)</span>
 </li>
 <li>
 <a href="#category:Software_Testing">Software Testing</a>
@@ -3392,7 +3396,7 @@ function init_posts_list() {
 <a href="#">More articles &raquo;</a>
 </div>
 </div>
-<!--/radix_placeholder_article_listing-->
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
 <h1>Blog</h1>

@@ -11,7 +11,7 @@ date: 10-09-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Research Software, HiddenREF, Research Excellence, Data, Open Data, Lightning Talk, Talk, Open Source, Software Sustainability Institute, HiddenREF Festival 2025, 5% Manifesto, ThinkTank Science Museum, Birmingham, In Person] 
+categories: [Research Software, HiddenREF, Research Excellence, Data, Open Data, Lightning Talk, Talk, Open Source, Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)), HiddenREF Festival 2025, 5% Manifesto, ThinkTank Science Museum, Birmingham, In Person] 
 output:
   distill::distill_article:
     self_contained: false

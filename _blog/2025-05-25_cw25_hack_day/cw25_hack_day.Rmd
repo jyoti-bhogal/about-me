@@ -12,7 +12,7 @@ date:  05-25-2025
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
   creator: "@Jyoti_Bhogal1"
-categories: [Software Sustainability Institute, Free and Open Source Software, Software, Python, Django, Research Software, Open Science, Open Source, Meta data, University, Stirling, Scotland, United Kingdom, In Person] 
+categories: [Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)), Free and Open Source Software, Software, Python, Django, Research Software, Open Science, Open Source, Meta data, University, Stirling, Scotland, United Kingdom, In Person] 
 output:
   distill::distill_article:
 ---
@@ -76,11 +76,11 @@ The idea was developed on a GitHub repository called [MetaGreenData](https://git
 
 Last but definitely not the least this project won the first prize at the Collaborations Workshop 2025 Hack Day. Here’s my team’s picture from the day\!
 
-![*Image credit: [Software Sustainability Institute](https://www.software.ac.uk/); (L to R) Christina Bremer, Will Haese-Hill, Duncan Leggatt, Loïc Lannelongue, Jyoti Bhogal, Joining remotely: Dylan Powell, Michael Sparks.*](first_prize_group_photo.jpeg)
+![*Image credit: [Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))](https://www.software.ac.uk/); (L to R) Christina Bremer, Will Haese-Hill, Duncan Leggatt, Loïc Lannelongue, Jyoti Bhogal, Joining remotely: Dylan Powell, Michael Sparks.*](first_prize_group_photo.jpeg)
 
 And here’s my certificate:
 
-![Certificate of Achievement: First place at the Hack Day, [Collaborations Workshop 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25), organised by the [Software Sustainability Institute](https://www.software.ac.uk/).](first_jyoti_bhogal_certificate.jpg)
+![Certificate of Achievement: First place at the Hack Day, [Collaborations Workshop 2025](https://www.software.ac.uk/workshop/collaborations-workshop-2025-cw25), organised by the [Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))](https://www.software.ac.uk/).](first_jyoti_bhogal_certificate.jpg)
 
 ## **📚 References and Inspirations**
 

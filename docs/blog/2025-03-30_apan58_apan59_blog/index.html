@@ -20,8 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -32,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -131,7 +132,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_rmarkdown_metadata-->
   
   <script type="text/json" id="radix-resource-manifest">
-  {"type":"character","attributes":{},"value":["apan58_apan59_blog_files/anchor-4.2.2/anchor.min.js","apan58_apan59_blog_files/bowser-1.9.3/bowser.min.js","apan58_apan59_blog_files/distill-2.2.21/template.v2.js","apan58_apan59_blog_files/header-attrs-2.28/header-attrs.js","apan58_apan59_blog_files/jquery-3.6.0/jquery-3.6.0.js","apan58_apan59_blog_files/jquery-3.6.0/jquery-3.6.0.min.js","apan58_apan59_blog_files/jquery-3.6.0/jquery-3.6.0.min.map","apan58_apan59_blog_files/popper-2.6.0/popper.min.js","apan58_apan59_blog_files/tippy-6.2.7/tippy-bundle.umd.min.js","apan58_apan59_blog_files/tippy-6.2.7/tippy-light-border.css","apan58_apan59_blog_files/tippy-6.2.7/tippy.css","apan58_apan59_blog_files/tippy-6.2.7/tippy.umd.min.js","apan58_apan59_blog_files/webcomponents-2.0.0/webcomponents.js","apan58_poster.png","APAN58_talk_image_1_software_sustainability_methods.png","APAN58_talk_image_2_task.png","apan59_logo.png","cc_by_logo.png","david-edelstein-N4DbvTUDikw-unsplash.jpg","david-edelstein-N4DbvTUDikw-unsplash.png","ssi_survey_map.png","ssi_survey_summary_table.png"]}
+  {"type":"character","attributes":{},"value":["apan58_apan59_blog_files/anchor-4.2.2/anchor.min.js","apan58_apan59_blog_files/bowser-1.9.3/bowser.min.js","apan58_apan59_blog_files/distill-2.2.21/template.v2.js","apan58_apan59_blog_files/header-attrs-2.28/header-attrs.js","apan58_apan59_blog_files/header-attrs-2.32/header-attrs.js","apan58_apan59_blog_files/jquery-3.6.0/jquery-3.6.0.js","apan58_apan59_blog_files/jquery-3.6.0/jquery-3.6.0.min.js","apan58_apan59_blog_files/jquery-3.6.0/jquery-3.6.0.min.map","apan58_apan59_blog_files/popper-2.6.0/popper.min.js","apan58_apan59_blog_files/tippy-6.2.7/tippy-bundle.umd.min.js","apan58_apan59_blog_files/tippy-6.2.7/tippy-light-border.css","apan58_apan59_blog_files/tippy-6.2.7/tippy.css","apan58_apan59_blog_files/tippy-6.2.7/tippy.umd.min.js","apan58_apan59_blog_files/webcomponents-2.0.0/webcomponents.js","apan58_poster.png","APAN58_talk_image_1_software_sustainability_methods.png","APAN58_talk_image_2_task.png","apan59_logo.png","cc_by_logo.png","david-edelstein-N4DbvTUDikw-unsplash.jpg","david-edelstein-N4DbvTUDikw-unsplash.png","ssi_survey_map.png","ssi_survey_summary_table.png"]}
   </script>
   <!--radix_placeholder_navigation_in_header-->
 <meta name="distill:offset" content="../.."/>
@@ -2305,7 +2306,7 @@ d-article h1 {
 d-article a,
 d-article a:link,
 d-article a:visited {
-  color: #564787;
+  color: #63458A;
 }
 
 /* Hyperlinks in page content: hover/focus colour */
@@ -2509,7 +2510,7 @@ d-appendix d-footnote-list a.footnote-backlink {
   color: var(--hover-color, white);
 }</style>
 <!--/radix_placeholder_distill-->
-  <script src="../../site_libs/header-attrs-2.28/header-attrs.js"></script>
+  <script src="../../site_libs/header-attrs-2.32/header-attrs.js"></script>
   <script src="../../site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
   <script src="../../site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="../../site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
@@ -2619,17 +2620,17 @@ d-appendix d-footnote-list a.footnote-backlink {
 <p>It was nice to see that my talk sparked curiosity in the audience and they promptly provided their feedback of what resonated with them. I also attended sessions on various topics including cybersecurity, high-performance computing &amp; AI, agriculture and rural hybridization, network technologies, telemedicine and research collaborations. These sessions gave me more insights into the latest proceedings in the various fields of research and development in the Asia Pacific region.</p>
 <p>In March 2025, I had the opportunity to speak at the <strong>Asia Pacific Advanced Network’s APAN59 meeting</strong> online remotely. My presentation was on the title <strong><em>‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’</em></strong>. I gave my talk as part of the APAN’s Open and Sharing Data Working Group (OSDWG). Software being one of the pillars of Open Science, through this talk, I highlighted how paying attention towards developing and maintaining research software is directly linked to the principles of Open Science.</p>
 <p>Later in March 2025, I had the opportunity to present my talk titled <strong><em>‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’</em></strong> at <strong>APAN59,</strong> online remotely again as part of the OSDWG discussion session. Software being one of the pillars of Open Science, through this talk, I highlighted how paying attention towards developing and maintaining research software is directly linked to the principles of Open Science.</p>
-<p>During my talk, I shared about my ongoing <strong>Research Study on the Research Software Engineering (RSEng) Landscape in Asia</strong>. I discussed the need of this study - due to the <strong>no/low representation of the community of researchers who code in the Asian region</strong>. This is demonstrated by the outcomes of an existing global survey by the Software Sustainability Institute, which completely lacks representation from Asia.</p>
+<p>During my talk, I shared about my ongoing <strong>Research Study on the Research Software Engineering (RSEng) Landscape in Asia</strong>. I discussed the need of this study - due to the <strong>no/low representation of the community of researchers who code in the Asian region</strong>. This is demonstrated by the outcomes of an existing global survey by the Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)), which completely lacks representation from Asia.</p>
 <figure>
-<img src="ssi_survey_summary_table.png" alt="SSI Survey Summary Table" />
-<figcaption aria-hidden="true">SSI Survey Summary Table</figcaption>
+<img src="ssi_survey_summary_table.png" alt="IRS Survey Summary Table" />
+<figcaption aria-hidden="true">IRS Survey Summary Table</figcaption>
 </figure>
-<p>Source: Article by SSI: <a href="https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys">What do we know about RSEs? Results from our international surveys</a>.</p>
+<p>Source: Article by : <a href="https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys">What do we know about RSEs? Results from our international surveys</a>.</p>
 <figure>
-<img src="ssi_survey_map.png" alt="SSI Survey Map" />
-<figcaption aria-hidden="true">SSI Survey Map</figcaption>
+<img src="ssi_survey_map.png" alt="IRS Survey Map" />
+<figcaption aria-hidden="true">IRS Survey Map</figcaption>
 </figure>
-<p>Source: Article by SSI: <a href="https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys">What do we know about RSEs? Results from our international surveys</a>.</p>
+<p>Source: Article by IRS: <a href="https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys">What do we know about RSEs? Results from our international surveys</a>.</p>
 <p>I shared the roadmap of my research study with the audience. At the end of my talk, there were quite a few engaging questions. One of the comments from an active member of the APAN biannual meetings was</p>
 <blockquote>
 <p>“The topic of this research study is something that deals with a national-level problem, thus making it much more essential to be studied.”</p>

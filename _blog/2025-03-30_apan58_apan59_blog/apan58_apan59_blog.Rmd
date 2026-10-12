@@ -71,15 +71,15 @@ In March 2025, I had the opportunity to speak at the **Asia Pacific Advanced Net
 
 Later in March 2025, I had the opportunity to present my talk titled ***‘Building Bridges: Advancing Research Software Engineering and Open Science in Asia’*** at **APAN59,** online remotely again as part of the OSDWG discussion session. Software being one of the pillars of Open Science, through this talk, I highlighted how paying attention towards developing and maintaining research software is directly linked to the principles of Open Science.
 
-During my talk, I shared about my ongoing **Research Study on the Research Software Engineering (RSEng) Landscape in Asia**. I discussed the need of this study \- due to the **no/low representation of the community of researchers who code in the Asian region**. This is demonstrated by the outcomes of an existing global survey by the Software Sustainability Institute, which completely lacks representation from Asia.
+During my talk, I shared about my ongoing **Research Study on the Research Software Engineering (RSEng) Landscape in Asia**. I discussed the need of this study \- due to the **no/low representation of the community of researchers who code in the Asian region**. This is demonstrated by the outcomes of an existing global survey by the Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI)), which completely lacks representation from Asia.
 
-![SSI Survey Summary Table](ssi_survey_summary_table.png)
+![IRS Survey Summary Table](ssi_survey_summary_table.png)
 
-Source: Article by SSI: [What do we know about RSEs? Results from our international surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys).  
+Source: Article by : [What do we know about RSEs? Results from our international surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys).  
 
-![SSI Survey Map](ssi_survey_map.png)  
+![IRS Survey Map](ssi_survey_map.png)  
 
-Source: Article by SSI: [What do we know about RSEs? Results from our international surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys).
+Source: Article by IRS: [What do we know about RSEs? Results from our international surveys](https://www.software.ac.uk/blog/what-do-we-know-about-rses-results-our-international-surveys).
 
 
 I shared the roadmap of my research study with the audience. At the end of my talk, there were quite a few engaging questions. One of the comments from an active member of the APAN biannual meetings was
