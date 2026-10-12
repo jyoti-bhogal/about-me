@@ -910,13 +910,13 @@ d-appendix {
 
 
 h1 {
-color: #564787;
-font-size: 26px;
+color: #3d2b3d;
+font-size: 36px;
 }
 
 h2 {
-color: #C1A4645;
-font-size: 36px;
+color: #564787;
+font-size: 26px;
 }
 
 
@@ -927,14 +927,30 @@ line-height: 1em;
 }
 
 
-
-a {
-color: #2C4CE9; 
-text-decoration: underline; 
+d-article a,
+d-article a:link,
+d-article a:visited {
+color: #564787;
 }
 
-a:hover {
+d-article a:hover,
+d-article a:focus {
 color: #9A48D0;
+}
+
+.distill-site-header a,
+.distill-site-header a:link,
+.distill-site-header a:visited,
+.distill-site-footer a,
+.distill-site-footer a:link,
+.distill-site-footer a:visited {
+color: rgba(255, 255, 255, 0.8);
+}
+.distill-site-header a:hover,
+.distill-site-header a:focus,
+.distill-site-footer a:hover,
+.distill-site-footer a:focus {
+color: white;
 }
 
 
@@ -1119,7 +1135,7 @@ document.addEventListener('DOMContentLoaded', function(e) {
           <header class="header header--fixed" role="banner">
           <nav class="distill-site-nav distill-site-header">
           <div class="nav-left">
-          <a href="index.html" class="title">Home</a>
+          <a href="index.html" class="title">Jyoti Bhogal</a>
           <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."></input>
           </div>
           <div class="nav-right">

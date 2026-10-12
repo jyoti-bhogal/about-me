@@ -89,22 +89,22 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
   <!--radix_placeholder_meta_tags-->
-  <title>Home: Talks</title>
+  <title>Jyoti Bhogal: Talks</title>
 
   <meta property="description" itemprop="description" content="Talks at conferenced, events, meetup, and other programmes"/>
 
 
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="Home: Talks"/>
+  <meta property="og:title" content="Jyoti Bhogal: Talks"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Talks at conferenced, events, meetup, and other programmes"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="Home"/>
+  <meta property="og:site_name" content="Jyoti Bhogal"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="Home: Talks"/>
+  <meta property="twitter:title" content="Jyoti Bhogal: Talks"/>
   <meta property="twitter:description" content="Talks at conferenced, events, meetup, and other programmes"/>
 
   <!--/radix_placeholder_meta_tags-->
@@ -2260,15 +2260,15 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
   /*The following is for header 1 font*/
   h1 {
-    color: #564787;
-    font-size: 26px;
+    color: #3d2b3d;
+    font-size: 36px;
   }
 
 
   /*The following is for header 2 font*/
   h2 {
-    color: #C1A4645;
-    font-size: 36px;
+    color: #564787;
+    font-size: 26px;
   }
 
   /*Note: Currently in this website there is no font with header 2*/
@@ -2282,22 +2282,35 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   }
 
   /*For the buttons with URLs, for example twitter, github, etc*/
-
-
-  /*Note: This change is visible in browser, when you hover on any button or hyperlink*/
-  /*change url color */
-  a {
-    color: #2C4CE9; /* or any color you prefer */
-    text-decoration: underline; /* optional: adds underline for emphasis */
+  /* Hyperlinks in page content: default colour */
+  d-article a,
+  d-article a:link,
+  d-article a:visited {
+    color: #564787;
   }
 
-
-  /*Note: The following change is visible when you hover on text with hyperlink or just direct links given in the pages*/
-  a:hover {
+  /* Hyperlinks in page content: hover/focus colour */
+  d-article a:hover,
+  d-article a:focus {
     color: #9A48D0;
   }
 
+  /* Menu bar (header) and footer links: keep them light on the purple background */
+  .distill-site-header a,
+  .distill-site-header a:link,
+  .distill-site-header a:visited,
+  .distill-site-footer a,
+  .distill-site-footer a:link,
+  .distill-site-footer a:visited {
+    color: rgba(255, 255, 255, 0.8);
+  }
 
+  .distill-site-header a:hover,
+  .distill-site-header a:focus,
+  .distill-site-footer a:hover,
+  .distill-site-footer a:focus {
+    color: white;
+  }
 
 
   /*change body color*/
@@ -2306,7 +2319,6 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: #00100a;
     font-size: 18px;
   }
-
 
 
   /*change buttons on homepage*/
@@ -2478,7 +2490,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.32/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2506,7 +2518,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">Home</a>
+<a href="index.html" class="title">Jyoti Bhogal</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
