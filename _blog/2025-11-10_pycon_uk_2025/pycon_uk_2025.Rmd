@@ -44,7 +44,7 @@ I dedicated the entire second day to the **Django Girls workshop**, and it was o
 
 What stood out was how incredibly patient and knowledgeable the coaches were. Even the smallest questions were answered with clarity and depth, helping me connect how local code and servers relate to remote hosts and deployment. The detailed explanations really helped me understand the bigger picture of how Django works.
 
-Here’s the GitHub repository for the Django app I built during the workshop:  
+Here’s the GitHub repository for the [Django Girls Blog website app](https://jyotidjangoblog.pythonanywhere.com/) that I built during the workshop:  
  🔗 [**https://github.com/jyoti-bhogal/my-django-blog**](https://github.com/jyoti-bhogal/my-django-blog)
 
 I also spent some time chatting with sponsors at their stalls and participated in a fun Python quiz organised by **Flok Health**, where I learned something new about Python generators being a function or an expression that allows you to create iterators in a memory-efficient way\! They are particularly useful for working with large datasets or potentially infinite sequences, as they generate values on demand rather than storing the entire sequence in memory.
@@ -111,14 +111,13 @@ A group of us headed out to a Middle Eastern restaurant, where I enjoyed Baba Gh
 
 Throughout the conference, during the welcome and closing sessions, Mark Smith kept the whole room entertained with his iconic tractor jokes \- ones that I find myself still laughing at\!
 
-**Coming soon:** A Django web app I built during one of the workshops \- stay tuned\!
+**Check this out:** A [Django Girls blog web app](https://jyotidjangoblog.pythonanywhere.com/) I built during one of the workshops \- stay tuned\!
 
 ![*Image: Picture clicked by me of the Manchester bee - highlighted in yellow at the edge of the window - that welcomed me into my room and was absolutely reluctant to go out of the window 😆!*](bee_hotel_window.jpg) 
 
 *P.S.: Manchester inspires one to \#bee a worker (pun unintended 😁)\!*
 
 ## Get In Touch:
-
 **Email:** [bhogaljyoti1@gmail.com](mailto:bhogaljyoti1@gmail.com)   
 **LinkedIn:** [jyoti-bhogal](http://www.linkedin.com/in/jyoti-bhogal)  
 **GitHub:** [jyoti-bhogal](https://github.com/jyoti-bhogal)   
