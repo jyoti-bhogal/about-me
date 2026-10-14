@@ -2534,145 +2534,145 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_site_before_body-->
 <!--/radix_placeholder_site_before_body-->
 <!--radix_placeholder_article_listing-->
-
-
-<script type="application/javascript">
-
-function init_posts_list() {
-
-  function load_image(img) {
-    var src = $(img).attr('data-src');
-    if (src) {
-      $(img).attr('src', src);
-      $(img).on("load", function() {
-        img.removeAttribute('data-src');
-      });
-    }
-  }
-
-  function set_posts_visible(posts, visible) {
-    if (visible) {
-
-      // show bottom border by default
-      $(posts).removeClass('post-preview-last');
-
-      // apply limits if need be
-      var max_posts = 25;
-      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
-      if (apply_limits && posts.length > max_posts) {
-        posts = $(posts).slice(0, max_posts);
-      } else {
-        $('.posts-more a').addClass('hidden');
-      }
-
-      // apply last style
-      $(posts.slice(-1)[0]).addClass('post-preview-last');
-
-      $(posts).removeClass('hidden');
-      $(posts).find('img[data-src]').each(function(i, img) {
-        load_image(img);
-      });
-    } else {
-      $(posts).addClass('hidden');
-    }
-  }
-
-  function apply_hash_filter() {
-
-    // clear active state
-    $('.categories .active').removeClass('active');
-
-    // mark all posts invisible to start
-    set_posts_visible($('.posts-list').children('a'), false);
-
-    // if we have a hash filter
-    if (window.location.hash && window.location.hash.startsWith("#category:")) {
-
-      // mark posts that match the category visible
-      var page_category = window.location.hash.replace(/^#category:/, "");
-      page_category = decodeURIComponent(page_category)
-      var posts = $('.post-metadata').map(function(idx, script) {
-        var metadata = $.parseJSON($(script).html());
-        var post = null;
-        $.each(metadata.categories, function(idx, category) {
-          category = category.replace(/ /g,"_");
-          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
-            post = $(script).parent().get();
-            return false;
-          }
-        });
-        return post;
-      });
-      set_posts_visible(posts, true);
-
-      // mark the hash active
-      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
-
-      // update the list_caption
-      var list_caption = $('.posts-list-caption');
-      var caption = (page_category || '').toLowerCase() === "articles"
-        ? list_caption.attr('data-caption')
-        : ('Category: ' + page_category.replace(/_/g," "));
-      list_caption.text(caption);
-
-    } else {
-
-      // no hash filter, make all posts visible (subject to max display)
-      set_posts_visible($('.posts-list').children(), true);
-
-      // reset list caption
-      var list_caption = $('.posts-list-caption');
-      list_caption.text(list_caption.attr('data-caption'));
-
-
-    }
-  }
-
-  // more articles
-  function apply_post_limits(apply) {
-    if (apply) {
-      $('.posts-container').addClass('posts-apply-limit');
-      $('.posts-more a').removeClass('hidden');
-    } else {
-      $('.posts-container').removeClass('posts-apply-limit');
-      $('.posts-more a').addClass('hidden');
-    }
-  }
-
-  // click handling for tags
-  $('.dt-tag').click(function(ev) {
-    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
-    return false;
-  })
-
-  // hash filter handling
-  apply_hash_filter();
-  $(window).on('hashchange',function() {
-    apply_post_limits(true);
-    apply_hash_filter();
-  });
-
-  // more articles link
-  $('.posts-more a').click(function(e) {
-    e.preventDefault();
-    apply_post_limits(false);
-    apply_hash_filter();
-    return false;
-  });
-
-}
-
-</script>
-
-
+
+
+<script type="application/javascript">
+
+function init_posts_list() {
+
+  function load_image(img) {
+    var src = $(img).attr('data-src');
+    if (src) {
+      $(img).attr('src', src);
+      $(img).on("load", function() {
+        img.removeAttribute('data-src');
+      });
+    }
+  }
+
+  function set_posts_visible(posts, visible) {
+    if (visible) {
+
+      // show bottom border by default
+      $(posts).removeClass('post-preview-last');
+
+      // apply limits if need be
+      var max_posts = 25;
+      var apply_limits = $('.posts-container').hasClass('posts-apply-limit');
+      if (apply_limits && posts.length > max_posts) {
+        posts = $(posts).slice(0, max_posts);
+      } else {
+        $('.posts-more a').addClass('hidden');
+      }
+
+      // apply last style
+      $(posts.slice(-1)[0]).addClass('post-preview-last');
+
+      $(posts).removeClass('hidden');
+      $(posts).find('img[data-src]').each(function(i, img) {
+        load_image(img);
+      });
+    } else {
+      $(posts).addClass('hidden');
+    }
+  }
+
+  function apply_hash_filter() {
+
+    // clear active state
+    $('.categories .active').removeClass('active');
+
+    // mark all posts invisible to start
+    set_posts_visible($('.posts-list').children('a'), false);
+
+    // if we have a hash filter
+    if (window.location.hash && window.location.hash.startsWith("#category:")) {
+
+      // mark posts that match the category visible
+      var page_category = window.location.hash.replace(/^#category:/, "");
+      page_category = decodeURIComponent(page_category)
+      var posts = $('.post-metadata').map(function(idx, script) {
+        var metadata = $.parseJSON($(script).html());
+        var post = null;
+        $.each(metadata.categories, function(idx, category) {
+          category = category.replace(/ /g,"_");
+          if ((page_category || '').toLowerCase() === "articles" || category === page_category) {
+            post = $(script).parent().get();
+            return false;
+          }
+        });
+        return post;
+      });
+      set_posts_visible(posts, true);
+
+      // mark the hash active
+      $('.categories li>a[href="' + decodeURIComponent(window.location.hash) + '"]').addClass('active');
+
+      // update the list_caption
+      var list_caption = $('.posts-list-caption');
+      var caption = (page_category || '').toLowerCase() === "articles"
+        ? list_caption.attr('data-caption')
+        : ('Category: ' + page_category.replace(/_/g," "));
+      list_caption.text(caption);
+
+    } else {
+
+      // no hash filter, make all posts visible (subject to max display)
+      set_posts_visible($('.posts-list').children(), true);
+
+      // reset list caption
+      var list_caption = $('.posts-list-caption');
+      list_caption.text(list_caption.attr('data-caption'));
+
+
+    }
+  }
+
+  // more articles
+  function apply_post_limits(apply) {
+    if (apply) {
+      $('.posts-container').addClass('posts-apply-limit');
+      $('.posts-more a').removeClass('hidden');
+    } else {
+      $('.posts-container').removeClass('posts-apply-limit');
+      $('.posts-more a').addClass('hidden');
+    }
+  }
+
+  // click handling for tags
+  $('.dt-tag').click(function(ev) {
+    window.location.hash = '#category:' + $(this).text().replace(/ /g, "_");
+    return false;
+  })
+
+  // hash filter handling
+  apply_hash_filter();
+  $(window).on('hashchange',function() {
+    apply_post_limits(true);
+    apply_hash_filter();
+  });
+
+  // more articles link
+  $('.posts-more a').click(function(e) {
+    e.preventDefault();
+    apply_post_limits(false);
+    apply_hash_filter();
+    return false;
+  });
+
+}
+
+</script>
+
+
 
 <div class="posts-container posts-with-sidebar posts-apply-limit l-screen-inset">
 <div class="posts-list">
 <h1 class="posts-list-caption" data-caption="Talks">Talks</h1>
 <a href="talks/2025-10-08_hidden_ref_festival_2025/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Research Software","HiddenREF","Research Excellence","Data","Open Data","Lightning Talk","Talk","Open Source","Software Sustainability Institute","HiddenREF Festival 2025","5% Manifesto","ThinkTank Science Museum","Birmingham","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Research Software","HiddenREF","Research Excellence","Data","Open Data","Lightning Talk","Talk","Open Source","Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","HiddenREF Festival 2025","5% Manifesto","ThinkTank Science Museum","Birmingham","In Person"]}</script>
 <div class="metadata">
-<div class="publishedDate">Oct. 9, 2025</div>
+<div class="publishedDate">Oct. 8, 2025</div>
 <div class="dt-authors">
 <div class="dt-author">Jyoti Bhogal</div>
 </div>
@@ -2691,7 +2691,7 @@ function init_posts_list() {
 <div class="dt-tag">Lightning Talk</div>
 <div class="dt-tag">Talk</div>
 <div class="dt-tag">Open Source</div>
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">HiddenREF Festival 2025</div>
 <div class="dt-tag">5% Manifesto</div>
 <div class="dt-tag">ThinkTank Science Museum</div>
@@ -2702,7 +2702,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="talks/2025-09-28_open_data_camp_10/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Research Software","Data","Open Data","Workshop","Open Source","Software Sustainability Institute","Open Data Camp 10","University of Edinbuurgh","Edinburgh","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Research Software","Data","Open Data","Workshop","Open Source","Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","Open Data Camp 10","University of Edinbuurgh","Edinburgh","In Person"]}</script>
 <div class="metadata">
 <div class="publishedDate">Sept. 28, 2025</div>
 <div class="dt-authors">
@@ -2720,7 +2720,7 @@ function init_posts_list() {
 <div class="dt-tag">Open Data</div>
 <div class="dt-tag">Workshop</div>
 <div class="dt-tag">Open Source</div>
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">Open Data Camp 10</div>
 <div class="dt-tag">University of Edinbuurgh</div>
 <div class="dt-tag">Edinburgh</div>
@@ -2730,7 +2730,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="talks/2025-09-17_pycon_uk_2025/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Lightning Talk","Open Source","Software Sustainability Institute","PyCon UK 2025","Manchester","Python","Django","Django Girls+","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Lightning Talk","Open Source","Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","PyCon UK 2025","Manchester","Python","Django","Django Girls+","In Person"]}</script>
 <div class="metadata">
 <div class="publishedDate">Sept. 17, 2025</div>
 <div class="dt-authors">
@@ -2747,7 +2747,7 @@ function init_posts_list() {
 <div class="dt-tag">Talk</div>
 <div class="dt-tag">Lightning Talk</div>
 <div class="dt-tag">Open Source</div>
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">PyCon UK 2025</div>
 <div class="dt-tag">Manchester</div>
 <div class="dt-tag">Python</div>
@@ -2759,7 +2759,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="talks/2025-09-10_rsecon25_rse_worldwide/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Open Science","Open Source","Software Sustainability Institute","RSECon25","RSE Asia updates","RSE Worldwide session","Coventry","Asia","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Open Science","Open Source","Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","RSECon25","RSE Asia updates","RSE Worldwide session","Coventry","Asia","In Person"]}</script>
 <div class="metadata">
 <div class="publishedDate">Sept. 11, 2025</div>
 <div class="dt-authors">
@@ -2776,7 +2776,7 @@ function init_posts_list() {
 <div class="dt-tag">Talk</div>
 <div class="dt-tag">Open Science</div>
 <div class="dt-tag">Open Source</div>
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">RSECon25</div>
 <div class="dt-tag">RSE Asia updates</div>
 <div class="dt-tag">RSE Worldwide session</div>
@@ -2788,7 +2788,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="talks/2025-09-09_rsecon25_lightning/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Open Science","Open Source","Software Sustainability Institute","RSECon25","Lightning Talk","Coventry","Poster","Asia","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Open Science","Open Source","Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","RSECon25","Lightning Talk","Coventry","Poster","Asia","In Person"]}</script>
 <div class="metadata">
 <div class="publishedDate">Sept. 9, 2025</div>
 <div class="dt-authors">
@@ -2805,7 +2805,7 @@ function init_posts_list() {
 <div class="dt-tag">Talk</div>
 <div class="dt-tag">Open Science</div>
 <div class="dt-tag">Open Source</div>
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">RSECon25</div>
 <div class="dt-tag">Lightning Talk</div>
 <div class="dt-tag">Coventry</div>
@@ -2817,7 +2817,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="talks/2025-08-03_apan60/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Open Science","Open Source","Software Sustainability Institute","APAN60","Hong Kong","APAN","User Persona","Asia","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Open Science","Open Source","Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","APAN60","Hong Kong","APAN","User Persona","Asia","In Person"]}</script>
 <div class="metadata">
 <div class="publishedDate">Aug. 3, 2025</div>
 <div class="dt-authors">
@@ -2834,7 +2834,7 @@ function init_posts_list() {
 <div class="dt-tag">Talk</div>
 <div class="dt-tag">Open Science</div>
 <div class="dt-tag">Open Source</div>
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">APAN60</div>
 <div class="dt-tag">Hong Kong</div>
 <div class="dt-tag">APAN</div>
@@ -2846,7 +2846,7 @@ function init_posts_list() {
 </div>
 </a>
 <a href="talks/2025-06-06_epcc/" class="post-preview">
-<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Open Science","Open Source","Software Sustainability Institute","EPCC","Edinburgh","Scotland","United Kingdom","In Person"]}</script>
+<script class="post-metadata" type="text/json">{"categories":["Research Software","Talk","Open Science","Open Source","Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))","EPCC","Edinburgh","Scotland","United Kingdom","In Person"]}</script>
 <div class="metadata">
 <div class="publishedDate">June 6, 2025</div>
 <div class="dt-authors">
@@ -2863,7 +2863,7 @@ function init_posts_list() {
 <div class="dt-tag">Talk</div>
 <div class="dt-tag">Open Science</div>
 <div class="dt-tag">Open Source</div>
-<div class="dt-tag">Software Sustainability Institute</div>
+<div class="dt-tag">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</div>
 <div class="dt-tag">EPCC</div>
 <div class="dt-tag">Edinburgh</div>
 <div class="dt-tag">Scotland</div>
@@ -3159,6 +3159,10 @@ function init_posts_list() {
 <span class="category-count">(2)</span>
 </li>
 <li>
+<a href="#category:Institute_for_Research_Software_(IRS)_(previously_the_Software_Sustainability_Institute_(SSI))">Institute for Research Software (IRS) (previously the Software Sustainability Institute (SSI))</a>
+<span class="category-count">(7)</span>
+</li>
+<li>
 <a href="#category:Japan">Japan</a>
 <span class="category-count">(1)</span>
 </li>
@@ -3255,10 +3259,6 @@ function init_posts_list() {
 <span class="category-count">(1)</span>
 </li>
 <li>
-<a href="#category:Software_Sustainability_Institute">Software Sustainability Institute</a>
-<span class="category-count">(7)</span>
-</li>
-<li>
 <a href="#category:Talk">Talk</a>
 <span class="category-count">(13)</span>
 </li>
@@ -3297,7 +3297,7 @@ function init_posts_list() {
 <a href="#">More articles &raquo;</a>
 </div>
 </div>
-<!--/radix_placeholder_article_listing-->
+<!--/radix_placeholder_article_listing-->
 
 <div class="d-title">
 <h1>Talks</h1>
