@@ -147,7 +147,7 @@ This was one of the first things I wanted to understand when exploring the repos
 | 7 | **`.gitignore`** | Git ignore rules | Same concept in Python projects |
 | 8 | **`.gitattributes`** | Git file-handling rules | Git configuration |
 
-You don't need to understand every file immediately. Recognizing what each file is for is already a useful first step\!
+You don't need to understand every file immediately. Recognising what each file is for is already a useful first step\!
 
 ## From exploration to contribution: A little about my journey
 
@@ -173,7 +173,7 @@ Now that you've explored the language, its tools, and the repository structure, 
 
 Here's a small challenge:
 
-1. **Reproduce existing examples:** Check out the [Your First Program](https://ocaml.org/docs/your-first-program) learning page from the [OCaml.org](http://OCaml.org) official website and write your first program using the OCmal language.  
+1. **Reproduce existing examples:** Check out the [Your First Program](https://ocaml.org/docs/your-first-program) learning page from the [OCaml.org](http://OCaml.org) official website and write your first program using the OCaml language.  
 2. **Explore:** Open the [ocaml-tiff repository](https://github.com/geocaml/ocaml-tiff) and find a function inside `src/`.  
 3. **Experiment:** Try running a small OCaml program using `utop`.  
 4. **Investigate:** Look at the tests and see how the project checks that its functions work.  
@@ -181,7 +181,7 @@ Here's a small challenge:
 
 And remember, your journey doesn't need to stop at this repository\!
 
-Explore the [OCaml community](https://ocaml.org/community), browse the [OCaml GitHub organization](https://github.com/ocaml), or discover more learning resources on [OCaml.org](https://ocaml.org/).
+Explore the [OCaml community](https://ocaml.org/community), browse the [OCaml GitHub organisation](https://github.com/ocaml), or discover more learning resources on [OCaml.org](https://ocaml.org/).
 
 You might find an interesting project, learn a new programming concept, or meet people who are exploring similar questions.
 
