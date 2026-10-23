@@ -1,0 +1,24 @@
+add blog #103
+
+# Conflicts:
+#	_blog/.DS_Store
+#	docs/blog.html
+#	docs/blog/blog.json
+#	docs/search.json
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# interactive rebase in progress; onto 979a9b3
+# Last command done (1 command done):
+#    pick a47cfb9 # add blog #103
+# No commands remaining.
+# You are currently rebasing branch 'main' on '979a9b3'.
+#
+# Changes to be committed:
+#	new file:   _blog/2025-10-23_ocaml_blog_1/hongbin-heNpLRaLDNw-unsplash.jpg
+#	new file:   _blog/2025-10-23_ocaml_blog_1/ocaml_blog_1.Rmd
+#	new file:   _blog/2025-10-23_ocaml_blog_1/ocaml_blog_1.html
+#	new file:   docs/blog/2025-10-23_ocaml_blog_1/hongbin-heNpLRaLDNw-unsplash.jpg
+#	new file:   docs/blog/2025-10-23_ocaml_blog_1/index.html
+#
