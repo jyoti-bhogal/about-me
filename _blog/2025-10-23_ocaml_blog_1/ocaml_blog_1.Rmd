@@ -1,0 +1,211 @@
+---
+title: "Do you want to go on a camel-ride to explore the world of OCaml?"
+subtitle: Your beginner-friendly practical guide to exploring OCaml, understanding a real codebase, and getting started with open-source contributions.
+description: 
+ This blog post is a practical guide to exploring OCaml, understanding a real codebase, and getting started with open-source contributions.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: hongbin-heNpLRaLDNw-unsplash.jpg
+date:  10-23-2026
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [OCaml, Open Source Software, Open Data, Open Science, Free Software, Software, Functional Programming, Geospatial, Research Software, Meta data, Outreachy] 
+output:
+  distill::distill_article:
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy(
+  position = c("top", "right"),
+  tooltip_message = "Copy code",
+  tooltip_success = "Copied!"
+)
+```
+
+![Photo by <a href="https://unsplash.com/@hbsun2013?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hongbin</a> on <a href="https://unsplash.com/photos/a-camel-standing-in-the-middle-of-a-desert-heNpLRaLDNw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>](hongbin-heNpLRaLDNw-unsplash.jpg) 
+
+Have you ever opened a new code repository and wondered where to begin? What do all these folders and files mean? Where should I look first? And how do I start contributing?
+
+I had similar questions when I began exploring [OCaml](https://ocaml.org/) and the [geocaml/ocaml-tiff](https://github.com/geocaml/ocaml-tiff) repository.
+
+While exploring the codebase, a few fellow contributors also reached out to me for help understanding its structure. So, I thought, why not put together everything I've learned in one place and share it with everyone?
+
+Our friendly camel 🐪 would be really happy to take you on this exploration journey\!
+
+So, hop on\! Let's go for a ride\!
+
+## Meet OCaml and its camel 🐪
+
+OCaml is a high-level, statically typed programming language that supports functional, imperative, and object-oriented programming.
+
+The OCaml community contributes to the implementation of the language, as well as its growing ecosystem of tools and libraries.
+
+### What did I find interesting about OCaml?
+
+I explored videos from the **FUN OCaml conference**, where I learned about how OCaml is used in academic research, industry, and software development, along with the scientific ideas behind the language.
+
+One interesting talk was [Frameworks: No, Libraries: Yes. Developing a Product in OCaml from Scratch \- FUN OCaml 2025 by Malcolm Matalka](https://www.youtube.com/watch?v=0Hwd7NxQ8_c) and the playlist [OCaml Unboxed by the wonderful folks at Jane Street](https://youtube.com/playlist?list=PLCiAikFFaMJrgFrWRKn0-1EI3gVZLQJtJ&si=DjFJDauYix2B36tO).
+
+Coming from a background in R, Python, and scientific data analysis, I was curious to explore how OCaml is used in research and software.
+
+That's how I found myself exploring \`[`ocaml-tiff`](https://github.com/geocaml/ocaml-tiff)`` ` ``, a library for reading and writing TIFF image data, including geospatial applications.
+
+## Getting started with OCaml
+
+Before diving into the code, let's get familiar with a few tools.
+
+The `ocaml-tiff` project uses the [Dune build system](https://ocaml.org/docs/using-the-ocaml-compiler-toolchain) and the [opam package manager](https://ocaml.org/docs/managing-dependencies).
+
+* **Dune** helps build and test OCaml projects.  
+* **opam** helps manage OCaml packages and development environments.  
+* **utop** provides an interactive environment for experimenting with OCaml code right into your terminal window.
+
+If you're new to OCaml, these resources are a great starting point:
+
+* [How to Install OCaml](https://ocaml.org/docs/installing-ocaml)  
+* [Take a Tour of OCaml](https://ocaml.org/docs/tour-of-ocaml)  
+* [Write Your First OCaml Program](https://ocaml.org/docs/your-first-program)
+
+I also experimented with OCaml using `utop` in my VS Code terminal. It was a useful way to understand the syntax and observe how the language behaves.
+
+To try it yourself \- paste the following commands in your terminal:
+
+```bash
+opam install utop  
+utop  
+```
+
+And here's a small experiment:
+
+```ocaml
+let square x = x * x;;
+square 5;;
+```
+
+You should get `25` as the result\!
+
+## Let's explore the ocaml-tiff repository\!
+
+Are you already feeling inspired to contribute?
+
+Start with the project's [CONTRIBUTING.md](https://github.com/geocaml/ocaml-tiff/blob/main/CONTRIBUTING.md) guide and follow the setup instructions.
+
+Once your local environment is ready, let's understand how the repository is organized.
+
+### What's inside the folders?
+
+Here are five important folders in the root directory.
+
+| Sr. No. | Folder name | Folder Content | What does the folder do? (Layman edition/Newcomer edition) | What do these files do? |
+| ----- | ----- | ----- | ----- | ----- |
+| 1 | **`src/`** | Main source code | Builds the functionality | Contains the OCaml code responsible for understanding TIFF files and their contents. |
+| 2 | **`test/`** | Tests | Checks that the functionality works | Contains tests and sample TIFF files that help catch errors when code changes. |
+| 3 | **`examples/`** | Example programs | Shows how to use it | Demonstrates how other programs can use the library. |
+| 4 | **`bench/`** | Benchmarks | Measures performance | Measures how efficiently the library performs operations. |
+| 5 | **`fuzz/`** | Robustness testing | Finds problems with unusual inputs | Helps identify crashes and unexpected behaviour. |
+
+**My tip:** Start with the `README.md`, then explore ` examples/` and `test/` before diving into the source code.
+
+### What are the other files in the root directory?
+
+| Sr. No. | File | What it does? |
+| ----- | ----- | ----- |
+| 1 | **`README.md`** | Introduces the project and its usage. |
+| 2 | **`HACKING.md`** | Explains technical and development details. |
+| 3 | **`CONTRIBUTING.md`** | Provides instructions for contributors. |
+| 4 | **`dune-project`** | Defines the project and package configuration. |
+| 5 | **`dune`** | Configures build behaviour. |
+| 6 | **`tiff.opam`** | Contains package metadata and dependencies. |
+| 7 | **`tiff.opam.template`** | Template for package metadata. |
+| 8 | **`.ocamlformat`** | Defines OCaml code formatting rules. |
+| 9 | **`.gitignore`** | Tells Git which files to ignore. |
+| 10 | **`.gitattributes`** | Configures how Git handles certain files. |
+| 11 | **`LICENSE`** | Specifies the software's licensing terms. |
+
+### What do the different file extensions mean?
+
+This was one of the first things I wanted to understand when exploring the repository.
+
+| Sr. No. | File type | Meaning | Familiar comparison with a Python project |
+| ----- | ----- | ----- | ----- |
+| 1 | **`.ml`** | OCaml implementation code | `.py` in Python or `.R` in R |
+| 2 | **`.mli`** | Defines a module's public interface | Similar to an API declaration or header file |
+| 3 | **`.md`** | Markdown documentation | GitHub README |
+| 4 | **`.tiff`** | Image file, often used for testing | Sample dataset |
+| 5 | **`.opam`** | Package metadata and dependencies | Package manifest |
+| 6 | **`.ocamlformat`** | Code formatting configuration | Python formatter configuration |
+| 7 | **`.gitignore`** | Git ignore rules | Same concept in Python projects |
+| 8 | **`.gitattributes`** | Git file-handling rules | Git configuration |
+
+You don't need to understand every file immediately. Recognizing what each file is for is already a useful first step\!
+
+## From exploration to contribution: A little about my journey
+
+Once I understood the repository structure, I began exploring [Issue \#81: Structured Error Reporting](https://github.com/geocaml/ocaml-tiff/issues/81).
+
+The issue involved improving how the library handles and reports errors.
+
+I started by asking questions: Where are errors raised? How are they handled? Which files contain the relevant code?
+
+This helped me identify the relevant parts of the codebase and gradually understand how they worked.
+
+Interestingly, while setting up the project, I also encountered a problem that turned out to be a bug. I reported it, worked on a 1-line fix, and submitted [Pull Request \#94](https://github.com/geocaml/ocaml-tiff/pull/94), which was merged\!
+
+I shared the fix with other contributors, hoping it would make their setup experience easier.
+
+I also started working on [structured error reporting](https://github.com/geocaml/ocaml-tiff/pull/106) and [documentation improvements](https://github.com/geocaml/ocaml-tiff/pull/107).
+
+**My biggest takeaway?** You don't always need to understand an entire codebase before contributing. Sometimes, the process of getting started reveals something useful that you can improve for everyone.
+
+## Your turn\! Where will the camel take you next? 🐪
+
+Now that you've explored the language, its tools, and the repository structure, why not try something yourself?
+
+Here's a small challenge:
+
+1. **Reproduce existing examples:** Check out the [Your First Program](https://ocaml.org/docs/your-first-program) learning page from the [OCaml.org](http://OCaml.org) official website and write your first program using the OCmal language.  
+2. **Explore:** Open the [ocaml-tiff repository](https://github.com/geocaml/ocaml-tiff) and find a function inside `src/`.  
+3. **Experiment:** Try running a small OCaml program using `utop`.  
+4. **Investigate:** Look at the tests and see how the project checks that its functions work.  
+5. **Contribute:** Browse the [open issues](https://github.com/geocaml/ocaml-tiff/issues?q=is%3Aissue+state%3Aopen). Is there something you'd like to explore further?
+
+And remember, your journey doesn't need to stop at this repository\!
+
+Explore the [OCaml community](https://ocaml.org/community), browse the [OCaml GitHub organization](https://github.com/ocaml), or discover more learning resources on [OCaml.org](https://ocaml.org/).
+
+You might find an interesting project, learn a new programming concept, or meet people who are exploring similar questions.
+
+### **One last thought**
+
+When I first started exploring OCaml, I had more questions than answers. And I still have plenty of questions\!
+
+But every question has helped me discover something new, whether about the language, the repository, or the people contributing to it.
+
+**You don't have to understand everything to get started. Start small, stay curious, and share what you learn along the way.**
+
+So, where will your next camel ride take you?
+
+Happy exploring\! 🐪📚
+
+
+## Get In Touch:
+
+**Email:** [bhogaljyoti1@gmail.com](mailto:bhogaljyoti1@gmail.com)   
+**LinkedIn:** [jyoti-bhogal](http://www.linkedin.com/in/jyoti-bhogal)  
+**GitHub:** [jyoti-bhogal](https://github.com/jyoti-bhogal)   
+**Mastodon:** [jyoti_bhogal](https://mastodon.social/@jyoti_bhogal)
+
+**Bluesky:** [jyoti-bhogal.bsky.social](https://bsky.app/profile/jyoti-bhogal.bsky.social)
+
+**Website:** https://jyoti-bhogal.github.io/about-me/index.html
+
