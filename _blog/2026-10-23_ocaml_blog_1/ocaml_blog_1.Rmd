@@ -191,7 +191,8 @@ When I first started exploring OCaml, I had more questions than answers. And I s
 
 But every question has helped me discover something new, whether about the language, the repository, or the people contributing to it.
 
-**You don't have to understand everything to get started. Start small, stay curious, and share what you learn along the way.**
+
+> You don't have to understand everything to get started. Start small, stay curious, and share what you learn along the way.
 
 So, where will your next camel ride take you?
 
