@@ -7,7 +7,7 @@ author:
   - name: Jyoti Bhogal
     url: https://jyoti-bhogal.github.io/about-me/
 url: https://jyoti-bhogal.github.io/about-me/
-preview: hongbin-heNpLRaLDNw-unsplash.jpg
+preview: image_404_not_found.png
 date:  11-05-2026
 base_url: https://jyoti-bhogal.github.io/about-me/
 twitter:
