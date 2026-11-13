@@ -40,7 +40,7 @@ One particular [Tagged Image File Format (TIFF)](https://www.loc.gov/preservatio
 
 ![Image: Photo by [Halil Cihat Darıcıoğlu](pexels-halil-cihat-daricioglu-229755410-32853632.jpg){target="_blank"}](pexels-halil-cihat-daricioglu-229755410-32853632.jpg)
 
-P.S.: OCaml stands for [Objective Categorical Abstract Machine Language](https://ocaml.org/history).{target = "_blank"}
+P.S.: OCaml stands for [Objective Categorical Abstract Machine Language](https://ocaml.org/history){target="_blank"}.
 
 ## **A TIFF file with an unexpected error**
 
@@ -131,7 +131,7 @@ I bookmarked resources, and I think these might be really good for folks to look
 
 What worked for me was learning through a concrete problem rather than trying to understand the entire codebase at once. Each investigation gave me a clearer picture of how different components worked together.
 
-It also sparked a new idea !
+> It also sparked a new idea !
 
 After examining TIFF metadata through code and terminal output, I became curious about how these structures could be explored visually.
 
