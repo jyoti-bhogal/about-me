@@ -2585,8 +2585,8 @@ distill-header .nav a {
 <p>P.S.: OCaml stands for <a href="https://ocaml.org/history" target="_blank">Objective Categorical Abstract Machine Language</a>.</p>
 <h2 id="a-tiff-file-with-an-unexpected-error"><strong>A TIFF file with an unexpected error</strong></h2>
 <p>While exploring how OCaml-TIFF reads image metadata, I investigated an issue involving a file called <code>jello-gray.tiff</code>.</p>
-<p>The file’s <code>BitsPerSample</code> metadata should have contained two values, as verified by other validators like LibTiff’s `tiffinfo`:</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">[8</span><span class="kw">;</span> <span class="ex">8]</span></span></code></pre></div>
+<p>The file’s <code>BitsPerSample</code> metadata should have contained two values, as confirmed using tools such as LibTiff’s `tiffinfo`:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode ocaml"><code class="sourceCode ocaml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>[<span class="dv">8</span>; <span class="dv">8</span>]</span></code></pre></div>
 <p>Instead, the library encountered an <code>End_of_file</code> exception when attempting to read them.</p>
 <p>The problem, documented in <a href="https://github.com/geocaml/ocaml-tiff/issues/138" target="_blank">Issue #138</a>, led me to investigate how TIFF files store metadata and how the library interprets it.</p>
 <figure>
@@ -2605,23 +2605,23 @@ distill-header .nav a {
 <p>My initial investigation focused on correcting how the reader handled multiple inline <code>SHORT</code> values.</p>
 <p>But solving the immediate problem raised another question: what happens when OCaml-TIFF writes these values?</p>
 <p>A reader decodes or interprets metadata already present in a file, while a writer must encode that metadata correctly. Both need to follow the same storage rules.</p>
-<p>I looked beyond the original failing example and examined the reader and writer together, and tested any changes in them via test fixture TIFF files I generated using Python’s <code>tifffile</code> and <code>numpy</code> libraries.</p>
+<p>I examined both the reader and writer, using TIFF test fixtures generated with Python’s <code>tifffile</code> and <code>numpy</code> libraries to test my changes.</p>
 <p>The implementation involved using <code>Cstruct</code>, an OCaml library for working with binary data, to handle multiple <code>SHORT</code> values correctly.</p>
 <p>I also explored <strong>byte order</strong>, or <strong>endianness</strong>, which determines how multi-byte values are represented.</p>
 <p>For example, the hexadecimal value <code>0x1234</code> is stored differently depending on byte order:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">Little-endian:</span> 34 12</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="ex">Big-endian:</span>    12 34</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode ocaml"><code class="sourceCode ocaml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>Little-endian: <span class="dv">34</span> <span class="dv">12</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>Big-endian:    <span class="dv">12</span> <span class="dv">34</span></span></code></pre></div>
 <p>Both represent the same value, but the bytes appear in a different order.</p>
 <p>This matters because TIFF files can use either representation. A correct implementation must interpret and write values according to the file’s byte order.</p>
 <p>Another consideration was BigTIFF, which extends the available inline storage from four to eight bytes. This means more <code>SHORT</code> values can fit directly within an entry.</p>
 <p>Testing therefore became an important part of the work. I added and refined regression tests covering multiple inline values, Classic TIFF and BigTIFF, both byte orders, and reading and writing.</p>
-<p>These tests helped check that the solution addressed issues beyond what came up in the original TIFF.</p>
+<p>These tests helped check that the solution covered cases beyond the original TIFF file</p>
 <p>The review process also highlighted the difference between fixing a specific case and developing a general solution. Related questions about broader inline-storage for different fields handling remain part of the follow-up work.</p>
 <p>What I appreciated most was how a relatively simple issue revealed connections between the file-format specification, binary representation, implementation choices and testing.</p>
 <h2 id="asking-questions-and-exploring-new-ideas">Asking questions and exploring new ideas</h2>
 <p>During an earlier project, I encountered a simple strategy:</p>
 <blockquote>
-<p>“When you start a project, ask as many questions as you can questions.”</p>
+<p>“When you start a project, ask as many questions as you can!”</p>
 </blockquote>
 <p>I found this particularly useful while exploring OCaml-TIFF.</p>
 <p>I started with manageable issues, read the relevant code, experimented with examples and returned to documentation whenever I encountered unfamiliar concepts.</p>
@@ -2638,7 +2638,7 @@ distill-header .nav a {
 </ul>
 <p>What worked for me was learning through a concrete problem rather than trying to understand the entire codebase at once. Each investigation gave me a clearer picture of how different components worked together.</p>
 <blockquote>
-<p>It also sparked a new idea !</p>
+<p>It also sparked a new idea!</p>
 </blockquote>
 <p>After examining TIFF metadata through code and terminal output, I became curious about how these structures could be explored visually.</p>
 <p>That curiosity led me to experiment with <a href="https://jyoti-bhogal.github.io/tiffscope/" target="_blank">TIFFscope</a>, a simple visual exploration project for TIFF and GeoTIFF structures.</p>
@@ -2653,8 +2653,8 @@ distill-header .nav a {
 <p>For now, it reflects something I enjoy about research and software engineering: investigating one problem can lead to ideas for making complex systems more accessible to others.</p>
 <p>After a month with OCaml-TIFF, I have developed a deeper understanding of binary image formats, the library’s internal structure and the value of collaborative review.</p>
 <p>And there are still plenty of questions worth exploring!</p>
-<p><strong>Have you ever investigated a one software issue that changed how you understood a larger system? What did you discover?</strong>
-_______________________________________________________________________________</p>
+<p><strong>Have you ever investigated a software issue that changed how you understood a larger system? What did you discover?</strong></p>
+<hr />
 <p><strong>Related work and further reading:</strong></p>
 <ul>
 <li><a href="https://dev.realworldocaml.org/" target="_blank">Real World OCaml</a>,<br />

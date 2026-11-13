@@ -46,9 +46,9 @@ P.S.: OCaml stands for [Objective Categorical Abstract Machine Language](https:/
 
 While exploring how OCaml-TIFF reads image metadata, I investigated an issue involving a file called `jello-gray.tiff`.
 
-The file's `BitsPerSample` metadata should have contained two values, as verified by other validators like LibTiff’s \`tiffinfo\`:
+The file's `BitsPerSample` metadata should have contained two values, as confirmed using tools such as LibTiff’s \`tiffinfo\`:
 
-```bash
+```ocaml
 [8; 8]
 ```
 
@@ -69,7 +69,7 @@ In Classic TIFF, an IFD entry has four bytes available for storing either a valu
 
 This is called **inline** or **immediate** storage.
 
-The `BitsPerSample` tag uses the `SHORT` data field, which represents an unsigned 16-bit integer occupying two bytes. Since the file contained two such values, they occupied exactly four bytes and could be stored **inline**.
+The `BitsPerSample` tag uses the `SHORT`field type, which represents an unsigned 16-bit integer occupying two bytes. Since the file contained two such values, they occupied exactly four bytes and could be stored **inline**.
 
 However, the library incorrectly interpreted these bytes as an offset rather than two separate values.
 
@@ -83,7 +83,7 @@ But solving the immediate problem raised another question: what happens when OCa
 
 A reader decodes or interprets metadata already present in a file, while a writer must encode that metadata correctly. Both need to follow the same storage rules.
 
-I looked beyond the original failing example and examined the reader and writer together, and tested any changes in them via test fixture TIFF files I generated using Python’s `tifffile` and `numpy` libraries.
+I examined both the reader and writer, using TIFF test fixtures generated with Python's `tifffile` and `numpy` libraries to test my changes.
 
 The implementation involved using `Cstruct`, an OCaml library for working with binary data, to handle multiple `SHORT` values correctly.
 
@@ -91,7 +91,7 @@ I also explored **byte order**, or **endianness**, which determines how multi-by
 
 For example, the hexadecimal value `0x1234` is stored differently depending on byte order:
 
-```bash
+```ocaml
 Little-endian: 34 12
 Big-endian:    12 34
 ```
@@ -104,7 +104,7 @@ Another consideration was BigTIFF, which extends the available inline storage fr
 
 Testing therefore became an important part of the work. I added and refined regression tests covering multiple inline values, Classic TIFF and BigTIFF, both byte orders, and reading and writing.
 
-These tests helped check that the solution addressed issues beyond what came up in the original TIFF.
+These tests helped check that the solution covered cases beyond the original TIFF file
 
 The review process also highlighted the difference between fixing a specific case and developing a general solution. Related questions about broader inline-storage for different fields handling remain part of the follow-up work.
 
@@ -114,7 +114,7 @@ What I appreciated most was how a relatively simple issue revealed connections b
 
 During an earlier project, I encountered a simple strategy:
 
->"When you start a project, ask as many questions as you can questions."
+>"When you start a project, ask as many questions as you can!"
 
 I found this particularly useful while exploring OCaml-TIFF.
 
@@ -131,7 +131,7 @@ I bookmarked resources, and I think these might be really good for folks to look
 
 What worked for me was learning through a concrete problem rather than trying to understand the entire codebase at once. Each investigation gave me a clearer picture of how different components worked together.
 
-> It also sparked a new idea !
+> It also sparked a new idea!
 
 After examining TIFF metadata through code and terminal output, I became curious about how these structures could be explored visually.
 
@@ -163,8 +163,9 @@ After a month with OCaml-TIFF, I have developed a deeper understanding of binary
 
 And there are still plenty of questions worth exploring\!
 
-**Have you ever investigated a one software issue that changed how you understood a larger system? What did you discover?**
-_______________________________________________________________________________
+**Have you ever investigated a software issue that changed how you understood a larger system? What did you discover?**
+
+---
 
 **Related work and further reading:**
 
