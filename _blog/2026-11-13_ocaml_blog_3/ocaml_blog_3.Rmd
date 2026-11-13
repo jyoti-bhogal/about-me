@@ -1,0 +1,187 @@
+---
+title: "Beyond the Pixels: What a TIFF File Taught Me About Code"
+subtitle: Pixels, Puzzles and Possibilities.
+description: 
+ In this blog post, I share my continued journey contributing to OCaml-TIFF, exploring how TIFF files store metadata, understanding binary data and byte order, and developing solutions through code and testing. I also introduce TIFFscope, a small visual exploration project inspired by my learning.
+author:
+  - name: Jyoti Bhogal
+    url: https://jyoti-bhogal.github.io/about-me/
+url: https://jyoti-bhogal.github.io/about-me/
+preview: pexels-halil-cihat-daricioglu-229755410-32853632.jpg
+date:  11-13-2026
+base_url: https://jyoti-bhogal.github.io/about-me/
+twitter:
+  creator: "@Jyoti_Bhogal1"
+categories: [OCaml, TIFF, byte, bits, pixel, image, data, opam, dune, Open Source Software, Open Data, Open Science, Free Software, Software, Functional Programming, Geospatial, Research Software, Meta data] 
+output:
+  distill::distill_article:
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      out.width = "100%",
+                      out.extra="style='border:1px solid black;'")
+
+```
+
+```{r klippy, echo=FALSE, include=TRUE}
+klippy::klippy(
+  position = c("top", "right"),
+  tooltip_message = "Copy code",
+  tooltip_success = "Copied!"
+)
+```
+
+Working with a new codebase often means connecting what you already know with concepts you have yet to explore. My experience with Python, R and research software helped me approach OCaml-TIFF with curiosity, but working with binary image formats introduced a different set of questions.
+
+After nearly a month of contributing to [OCaml-TIFF](https://github.com/geocaml/ocaml-tiff){target="_blank"}, I could see how individual discoveries were gradually connecting into a broader understanding of the library. What kept me interested was the creativity involved in investigating problems, experimenting with solutions and learning through code review.
+
+One particular [Tagged Image File Format (TIFF)](https://www.loc.gov/preservation/digital/formats/fdd/fdd000022.shtml#identification){target="_blank"} file brought several of these ideas together.
+
+![Image: Photo by [Halil Cihat Darıcıoğlu](pexels-halil-cihat-daricioglu-229755410-32853632.jpg){target="_blank"}](pexels-halil-cihat-daricioglu-229755410-32853632.jpg)
+
+P.S.: OCaml stands for [Objective Categorical Abstract Machine Language](https://ocaml.org/history).{target = "_blank"}
+
+## **A TIFF file with an unexpected error**
+
+While exploring how OCaml-TIFF reads image metadata, I investigated an issue involving a file called `jello-gray.tiff`.
+
+The file's `BitsPerSample` metadata should have contained two values, as verified by other validators like LibTiff’s \`tiffinfo\`:
+
+```bash
+[8; 8]
+```
+
+Instead, the library encountered an `End_of_file` exception when attempting to read them.
+
+The problem, documented in [Issue \#138](https://github.com/geocaml/ocaml-tiff/issues/138){target="_blank"}, led me to investigate how TIFF files store metadata and how the library interprets it.
+
+![Image: The TIFF fixture used to investigate how multiple `BitsPerSample` values are read. Source: [OCaml-Tiff GitHub repository](https://github.com/geocaml/ocaml-tiff/blob/main/test/data/jello-gray.tiff){target="_blank"}](jello-gray.png)
+
+
+A TIFF file contains more than image pixels. It also stores metadata describing properties such as image dimensions, compression and sample depths. GeoTIFF extends this format with geospatial information.
+
+Much of this information is organised in an **Image File Directory (IFD)**, which contains entries called **tags**. Each entry identifies a property, its data type, the number of values and where those values are stored.
+
+The interesting part was discovering that values do not always need a separate location in the file.
+
+In Classic TIFF, an IFD entry has four bytes available for storing either a value or an offset. If the data fits within those four bytes, it is stored directly in the entry. Otherwise, the entry points to another location in the file, i.e. the offset.
+
+This is called **inline** or **immediate** storage.
+
+The `BitsPerSample` tag uses the `SHORT` data field, which represents an unsigned 16-bit integer occupying two bytes. Since the file contained two such values, they occupied exactly four bytes and could be stored **inline**.
+
+However, the library incorrectly interpreted these bytes as an offset rather than two separate values.
+
+Understanding that distinction helped me identify the problem. I found the [TIFF 6.0 specification](https://pdfa.org/wp-content/uploads/2020/07/TIFF6.pdf){target="_blank"} to be particularly useful here, specifically its explanation of IFD entries and value storage.
+
+## Exploring the Problem Through Code and Tests
+
+My initial investigation focused on correcting how the reader handled multiple inline `SHORT` values.
+
+But solving the immediate problem raised another question: what happens when OCaml-TIFF writes these values?
+
+A reader decodes or interprets metadata already present in a file, while a writer must encode that metadata correctly. Both need to follow the same storage rules.
+
+I looked beyond the original failing example and examined the reader and writer together, and tested any changes in them via test fixture TIFF files I generated using Python’s `tifffile` and `numpy` libraries.
+
+The implementation involved using `Cstruct`, an OCaml library for working with binary data, to handle multiple `SHORT` values correctly.
+
+I also explored **byte order**, or **endianness**, which determines how multi-byte values are represented.
+
+For example, the hexadecimal value `0x1234` is stored differently depending on byte order:
+
+```bash
+Little-endian: 34 12
+Big-endian:    12 34
+```
+
+Both represent the same value, but the bytes appear in a different order.
+
+This matters because TIFF files can use either representation. A correct implementation must interpret and write values according to the file's byte order.
+
+Another consideration was BigTIFF, which extends the available inline storage from four to eight bytes. This means more `SHORT` values can fit directly within an entry.
+
+Testing therefore became an important part of the work. I added and refined regression tests covering multiple inline values, Classic TIFF and BigTIFF, both byte orders, and reading and writing.
+
+These tests helped check that the solution addressed issues beyond what came up in the original TIFF.
+
+The review process also highlighted the difference between fixing a specific case and developing a general solution. Related questions about broader inline-storage for different fields handling remain part of the follow-up work.
+
+What I appreciated most was how a relatively simple issue revealed connections between the file-format specification, binary representation, implementation choices and testing.
+
+## Asking questions and exploring new ideas
+
+During an earlier project, I encountered a simple strategy:
+
+>"When you start a project, ask as many questions as you can questions."
+
+I found this particularly useful while exploring OCaml-TIFF.
+
+I started with manageable issues, read the relevant code, experimented with examples and returned to documentation whenever I encountered unfamiliar concepts.
+
+Some questions concerned OCaml itself. Others were about TIFF metadata, binary representations or the reasoning behind particular implementation decisions.
+
+I bookmarked resources, and I think these might be really good for folks to look at. Some of these are:
+
+* [Real World OCaml](https://dev.realworldocaml.org/){target="_blank"},   
+* the [official OCaml documentation](https://ocaml.org/){target="_blank"},   
+* the [OCaml programming course](https://youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU){target="_blank"} to revisit as needed, and  
+* the [GDAL GeoTIFF documentation](https://gdal.org/en/stable/drivers/raster/gtiff.html){target="_blank"} for exploring geospatial image formats.
+
+What worked for me was learning through a concrete problem rather than trying to understand the entire codebase at once. Each investigation gave me a clearer picture of how different components worked together.
+
+It also sparked a new idea !
+
+After examining TIFF metadata through code and terminal output, I became curious about how these structures could be explored visually.
+
+That curiosity led me to experiment with [TIFFscope](https://jyoti-bhogal.github.io/tiffscope/){target="_blank"}, a simple visual exploration project for TIFF and GeoTIFF structures.
+
+You can explore the prototype below or [open TIFFscope in a separate tab](https://jyoti-bhogal.github.io/tiffscope/){target="_blank"}.
+
+<div style="width:100%; margin:20px 0;">
+  <iframe
+    src="https://jyoti-bhogal.github.io/tiffscope/"
+    title="TIFFscope - Interactive TIFF metadata explorer"
+    width="100%"
+    height="550"
+    style="border:1px solid #ddd; border-radius:8px;"
+    loading="lazy">
+  </iframe>
+</div>
+
+
+*Image: Exploring TIFF structure and metadata through visualisation.*
+
+TIFFscope is still evolving. I am particularly interested in making concepts such as IFDs, offsets, strips and tiles easier to understand visually. A possible future extension is to visualise metadata supplied in JSON format, including output from OCaml-TIFF or other parsers.
+
+I hope to share more about TIFFscope in a separate post.
+
+For now, it reflects something I enjoy about research and software engineering: investigating one problem can lead to ideas for making complex systems more accessible to others.
+
+After a month with OCaml-TIFF, I have developed a deeper understanding of binary image formats, the library's internal structure and the value of collaborative review.
+
+And there are still plenty of questions worth exploring\!
+
+**Have you ever investigated a one software issue that changed how you understood a larger system? What did you discover?**
+_______________________________________________________________________________
+
+**Related work and further reading:**
+
+* [Real World OCaml](https://dev.realworldocaml.org/){target="_blank"},   
+* the [official OCaml documentation](https://ocaml.org/){target="_blank"},   
+* the [OCaml programming course](https://youtube.com/playlist?list=PLre5AT9JnKShBOPeuiD9b-I4XROIJhkIU){target="_blank"} to revisit as needed, and  
+* the [GDAL GeoTIFF documentation](https://gdal.org/en/stable/drivers/raster/gtiff.html){target="_blank"} for exploring geospatial image formats.
+
+
+## Get In Touch:
+
+**Email:** [bhogaljyoti1@gmail.com](mailto:bhogaljyoti1@gmail.com)   
+**LinkedIn:** [jyoti-bhogal](http://www.linkedin.com/in/jyoti-bhogal)  
+**GitHub:** [jyoti-bhogal](https://github.com/jyoti-bhogal)   
+**Mastodon:** [jyoti_bhogal](https://mastodon.social/@jyoti_bhogal)
+
+**Bluesky:** [jyoti-bhogal.bsky.social](https://bsky.app/profile/jyoti-bhogal.bsky.social)
+
+**Website:** https://jyoti-bhogal.github.io/about-me/index.html
+
